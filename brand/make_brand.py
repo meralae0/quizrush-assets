@@ -35,3 +35,10 @@ f2=ImageFont.truetype('fonts/Poppins-Medium.ttf',62)
 s='Can you beat the clock?  New quizzes every week'
 d.text((1280-d.textlength(s,font=f2)/2,y+250),s,font=f2,fill=(200,210,235))
 B.save('brand/banner_quizrush.png')
+# facebook cover 1640x624
+C=bg(1640,624); d=ImageDraw.Draw(C)
+f=mont(130); w1=d.textlength('QUIZ',font=f); w2=d.textlength(' RUSH',font=f); x=820-(w1+w2)/2-40; y=200
+d.text((x,y),'QUIZ',font=f,fill=WHITE); d.text((x+w1,y),' RUSH',font=f,fill=YEL); bolt(d,x+w1+w2+55,y+72,65,PINK)
+f2=ImageFont.truetype('fonts/Poppins-Medium.ttf',40); s='Can you beat the clock?  New quizzes every week'
+d.text((820-d.textlength(s,font=f2)/2,y+175),s,font=f2,fill=(200,210,235))
+C.save('brand/fbcover_quizrush.png')
