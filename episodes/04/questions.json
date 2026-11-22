@@ -1,0 +1,562 @@
+[
+ {
+  "lvl": "EASY",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Japan",
+   "China",
+   "South Korea",
+   "Bangladesh"
+  ],
+  "a": 0,
+  "f": "The red disc stands for the sun. The flag is called Hinomaru, the circle of the sun.",
+  "wiki": "Flag of Japan",
+  "contain": true
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "United States",
+   "Peru",
+   "Canada",
+   "Denmark"
+  ],
+  "a": 2,
+  "f": "The maple leaf flag was adopted in 1965.",
+  "wiki": "Flag of Canada",
+  "contain": true
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Argentina",
+   "Brazil",
+   "Portugal",
+   "Colombia"
+  ],
+  "a": 1,
+  "f": "The blue globe shows the night sky over Rio de Janeiro.",
+  "wiki": "Flag of Brazil",
+  "contain": true
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Norway",
+   "Australia",
+   "United Kingdom",
+   "New Zealand"
+  ],
+  "a": 2,
+  "f": "The Union Jack combines the crosses of England, Scotland and Ireland.",
+  "wiki": "Flag of the United Kingdom",
+  "contain": true
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Mexico",
+   "Ireland",
+   "Italy",
+   "Hungary"
+  ],
+  "a": 2,
+  "f": "Italians call their green, white and red flag Il Tricolore.",
+  "wiki": "Flag of Italy",
+  "contain": true
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Germany",
+   "Belgium",
+   "Netherlands",
+   "Spain"
+  ],
+  "a": 0,
+  "f": "Its black, red and gold colours date back to the 19th century.",
+  "wiki": "Flag of Germany",
+  "contain": true
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Niger",
+   "Pakistan",
+   "Ireland",
+   "India"
+  ],
+  "a": 3,
+  "f": "The blue wheel in the centre is the Ashoka Chakra, with 24 spokes.",
+  "wiki": "Flag of India",
+  "contain": true
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Italy",
+   "Iran",
+   "Ireland",
+   "Mexico"
+  ],
+  "a": 3,
+  "f": "The eagle on a cactus eating a snake comes from an Aztec legend.",
+  "wiki": "Flag of Mexico",
+  "contain": true
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "United Kingdom",
+   "Australia",
+   "Fiji",
+   "New Zealand"
+  ],
+  "a": 1,
+  "f": "The big seven-pointed star is called the Commonwealth Star.",
+  "wiki": "Flag of Australia",
+  "contain": true
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "South Korea",
+   "Taiwan",
+   "Japan",
+   "Mongolia"
+  ],
+  "a": 0,
+  "f": "The red and blue circle in the middle is a symbol of balance.",
+  "wiki": "Flag of South Korea",
+  "contain": true
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Turkey",
+   "Azerbaijan",
+   "Pakistan",
+   "Tunisia"
+  ],
+  "a": 0,
+  "f": "A white crescent and star on a red field.",
+  "wiki": "Flag of Turkey",
+  "contain": true
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Finland",
+   "Uruguay",
+   "Argentina",
+   "Greece"
+  ],
+  "a": 3,
+  "f": "Its nine stripes are said to match the syllables of the motto Freedom or Death.",
+  "wiki": "Flag of Greece",
+  "contain": true
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Sweden",
+   "Finland",
+   "Denmark",
+   "Norway"
+  ],
+  "a": 0,
+  "f": "The blue and gold Nordic cross is centuries old.",
+  "wiki": "Flag of Sweden",
+  "contain": true
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Georgia",
+   "Switzerland",
+   "Denmark",
+   "Austria"
+  ],
+  "a": 1,
+  "f": "It is one of only two square national flags. The other belongs to Vatican City.",
+  "wiki": "Flag of Switzerland",
+  "contain": true
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Honduras",
+   "Argentina",
+   "Uruguay",
+   "Guatemala"
+  ],
+  "a": 1,
+  "f": "The golden Sun of May sits between two light blue stripes.",
+  "wiki": "Flag of Argentina",
+  "contain": true
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Mozambique",
+   "Spain",
+   "Brazil",
+   "Portugal"
+  ],
+  "a": 3,
+  "f": "The golden armillary sphere recalls Portugal's age of sea exploration.",
+  "wiki": "Flag of Portugal",
+  "contain": true
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Zimbabwe",
+   "Jamaica",
+   "Guyana",
+   "South Africa"
+  ],
+  "a": 3,
+  "f": "Adopted in 1994, it uses six colours.",
+  "wiki": "Flag of South Africa",
+  "contain": true
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "South Africa",
+   "Jamaica",
+   "Tanzania",
+   "Barbados"
+  ],
+  "a": 1,
+  "f": "It is the only national flag with no red, white or blue.",
+  "wiki": "Flag of Jamaica",
+  "contain": true
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Iceland",
+   "Sweden",
+   "Norway",
+   "Denmark"
+  ],
+  "a": 2,
+  "f": "Its red flag with a blue Nordic cross was adopted in 1821.",
+  "wiki": "Flag of Norway",
+  "contain": true
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Italy",
+   "India",
+   "Ireland",
+   "Ivory Coast"
+  ],
+  "a": 2,
+  "f": "Ivory Coast uses the same three colours, in reverse order.",
+  "wiki": "Flag of Ireland",
+  "contain": true
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Nepal",
+   "Myanmar",
+   "Sri Lanka",
+   "Bhutan"
+  ],
+  "a": 0,
+  "f": "It is the only national flag that is not a rectangle.",
+  "wiki": "Flag of Nepal",
+  "contain": true
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Malawi",
+   "Tanzania",
+   "Kenya",
+   "Uganda"
+  ],
+  "a": 2,
+  "f": "A Maasai shield and two spears stand for the defence of freedom.",
+  "wiki": "Flag of Kenya",
+  "contain": true
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Malta",
+   "Cyprus",
+   "Kosovo",
+   "Greece"
+  ],
+  "a": 1,
+  "f": "It is one of the very few flags that show a map of the country.",
+  "wiki": "Flag of Cyprus",
+  "contain": true
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Bhutan",
+   "Sri Lanka",
+   "Nepal",
+   "Mongolia"
+  ],
+  "a": 0,
+  "f": "The white dragon is Druk, the Thunder Dragon.",
+  "wiki": "Flag of Bhutan",
+  "contain": true
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Kazakhstan",
+   "Kyrgyzstan",
+   "Mongolia",
+   "Uzbekistan"
+  ],
+  "a": 0,
+  "f": "A golden sun and a steppe eagle fly on a sky blue field.",
+  "wiki": "Flag of Kazakhstan",
+  "contain": true
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Panama",
+   "Liberia",
+   "Chile",
+   "Cuba"
+  ],
+  "a": 2,
+  "f": "Its single white star is known as the Lone Star.",
+  "wiki": "Flag of Chile",
+  "contain": true
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Sweden",
+   "Iceland",
+   "Finland",
+   "Estonia"
+  ],
+  "a": 2,
+  "f": "The blue cross on white is often linked to the country's lakes and snow.",
+  "wiki": "Flag of Finland",
+  "contain": true
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Fiji",
+   "Tuvalu",
+   "Australia",
+   "New Zealand"
+  ],
+  "a": 3,
+  "f": "The four red stars show the Southern Cross.",
+  "wiki": "Flag of New Zealand",
+  "contain": true
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Nepal",
+   "Brunei",
+   "Bhutan",
+   "Sri Lanka"
+  ],
+  "a": 3,
+  "f": "A golden lion holds a sword, with leaves in each corner.",
+  "wiki": "Flag of Sri Lanka",
+  "contain": true
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Bolivia",
+   "Colombia",
+   "Ecuador",
+   "Venezuela"
+  ],
+  "a": 1,
+  "f": "Yellow fills the top half, while blue and red share the bottom half.",
+  "wiki": "Flag of Colombia",
+  "contain": true
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Kiribati",
+   "Tuvalu",
+   "Nauru",
+   "Samoa"
+  ],
+  "a": 0,
+  "f": "A frigatebird flies over a rising sun and Pacific waves.",
+  "wiki": "Flag of Kiribati",
+  "contain": true
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Mozambique",
+   "Zambia",
+   "Angola",
+   "Zimbabwe"
+  ],
+  "a": 0,
+  "f": "Its emblem shows a book, a hoe and a rifle on a yellow star.",
+  "wiki": "Flag of Mozambique",
+  "contain": true
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Comoros",
+   "Mauritius",
+   "Madagascar",
+   "Seychelles"
+  ],
+  "a": 3,
+  "f": "Five bands fan out from the bottom left corner.",
+  "wiki": "Flag of Seychelles",
+  "contain": true
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Malawi",
+   "Botswana",
+   "Lesotho",
+   "Eswatini"
+  ],
+  "a": 3,
+  "f": "A shield and two spears lie across the middle stripe.",
+  "wiki": "Flag of Eswatini",
+  "contain": true
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Honduras",
+   "Nicaragua",
+   "Belize",
+   "Guatemala"
+  ],
+  "a": 2,
+  "f": "Its coat of arms shows two woodcutters beside a mahogany tree.",
+  "wiki": "Flag of Belize",
+  "contain": true
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Vanuatu",
+   "Papua New Guinea",
+   "Fiji",
+   "Solomon Islands"
+  ],
+  "a": 1,
+  "f": "A bird of paradise and the Southern Cross on red and black.",
+  "wiki": "Flag of Papua New Guinea",
+  "contain": true
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Seychelles",
+   "Mauritius",
+   "Comoros",
+   "Gabon"
+  ],
+  "a": 1,
+  "f": "Four horizontal stripes: red, blue, yellow and green.",
+  "wiki": "Flag of Mauritius",
+  "contain": true
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Tajikistan",
+   "Kyrgyzstan",
+   "Kazakhstan",
+   "Turkmenistan"
+  ],
+  "a": 1,
+  "f": "The sun has 40 rays, one for each of the 40 legendary Kyrgyz tribes.",
+  "wiki": "Flag of Kyrgyzstan",
+  "contain": true
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Montenegro",
+   "Kosovo",
+   "Bosnia and Herzegovina",
+   "Slovenia"
+  ],
+  "a": 2,
+  "f": "The yellow triangle echoes the shape of the country.",
+  "wiki": "Flag of Bosnia and Herzegovina",
+  "contain": true
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which country does this flag belong to?",
+  "o": [
+   "Greece",
+   "Argentina",
+   "Paraguay",
+   "Uruguay"
+  ],
+  "a": 3,
+  "f": "The Sun of May shines beside nine blue and white stripes.",
+  "wiki": "Flag of Uruguay",
+  "contain": true
+ }
+]

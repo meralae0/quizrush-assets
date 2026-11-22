@@ -1,0 +1,522 @@
+[
+ {
+  "lvl": "EASY",
+  "q": "Which city is this, by night?",
+  "o": [
+   "New York",
+   "Toronto",
+   "Chicago",
+   "Boston"
+  ],
+  "a": 0,
+  "f": "Manhattan's skyline has more than a hundred skyscrapers.",
+  "wiki": "New York City"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Brussels",
+   "Vienna",
+   "Paris",
+   "Lyon"
+  ],
+  "a": 2,
+  "f": "The Eiffel Tower sparkles for five minutes every hour after dark.",
+  "wiki": "Paris"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Edinburgh",
+   "Manchester",
+   "Dublin",
+   "London"
+  ],
+  "a": 3,
+  "f": "The Thames runs right through the heart of the city.",
+  "wiki": "London"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Dubai",
+   "Riyadh",
+   "Doha",
+   "Abu Dhabi"
+  ],
+  "a": 0,
+  "f": "Home of the Burj Khalifa, the tallest building in the world.",
+  "wiki": "Dubai"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Tokyo",
+   "Osaka",
+   "Seoul",
+   "Shanghai"
+  ],
+  "a": 0,
+  "f": "Greater Tokyo is the most populated metropolitan area in the world.",
+  "wiki": "Tokyo"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Singapore",
+   "Shanghai",
+   "Hong Kong",
+   "Taipei"
+  ],
+  "a": 2,
+  "f": "It has more skyscrapers than any other city.",
+  "wiki": "Hong Kong"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Melbourne",
+   "Sydney",
+   "Auckland",
+   "Brisbane"
+  ],
+  "a": 1,
+  "f": "The Opera House and the Harbour Bridge light up the harbour.",
+  "wiki": "Sydney"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Atlantic City",
+   "Las Vegas",
+   "Reno",
+   "Los Angeles"
+  ],
+  "a": 1,
+  "f": "The Strip is one of the brightest places on Earth seen from space.",
+  "wiki": "Las Vegas"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Florence",
+   "Amsterdam",
+   "Bruges",
+   "Venice"
+  ],
+  "a": 3,
+  "f": "The city is built on more than a hundred small islands.",
+  "wiki": "Venice"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Kuala Lumpur",
+   "Jakarta",
+   "Singapore",
+   "Hong Kong"
+  ],
+  "a": 2,
+  "f": "Marina Bay Sands has a huge infinity pool on its roof.",
+  "wiki": "Singapore"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Beijing",
+   "Shanghai",
+   "Shenzhen",
+   "Hong Kong"
+  ],
+  "a": 1,
+  "f": "The Oriental Pearl Tower stands out on the city's skyline.",
+  "wiki": "Shanghai"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which city is this, by night?",
+  "o": [
+   "New York",
+   "Chicago",
+   "Detroit",
+   "Toronto"
+  ],
+  "a": 1,
+  "f": "The world's first skyscraper was built here in 1885.",
+  "wiki": "Chicago"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Athens",
+   "Cairo",
+   "Istanbul",
+   "Baku"
+  ],
+  "a": 2,
+  "f": "The city spreads across two continents, Europe and Asia.",
+  "wiki": "Istanbul"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Sao Paulo",
+   "Lima",
+   "Buenos Aires",
+   "Rio de Janeiro"
+  ],
+  "a": 3,
+  "f": "Christ the Redeemer overlooks the city from Corcovado mountain.",
+  "wiki": "Rio de Janeiro"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Toronto",
+   "Montreal",
+   "Vancouver",
+   "Chicago"
+  ],
+  "a": 0,
+  "f": "The CN Tower was the world's tallest free-standing structure for over 30 years.",
+  "wiki": "Toronto"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Seattle",
+   "San Diego",
+   "Los Angeles",
+   "San Francisco"
+  ],
+  "a": 3,
+  "f": "The Golden Gate Bridge opened in 1937.",
+  "wiki": "San Francisco"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Kyiv",
+   "Moscow",
+   "Minsk",
+   "Saint Petersburg"
+  ],
+  "a": 1,
+  "f": "Red Square and the Kremlin are at the heart of the city.",
+  "wiki": "Moscow"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Valencia",
+   "Madrid",
+   "Barcelona",
+   "Lisbon"
+  ],
+  "a": 2,
+  "f": "Its famous Sagrada Familia has been under construction since 1882.",
+  "wiki": "Barcelona"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Tokyo",
+   "Busan",
+   "Taipei",
+   "Seoul"
+  ],
+  "a": 3,
+  "f": "Around half of South Korea's population lives in the Seoul area.",
+  "wiki": "Seoul"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Kuala Lumpur",
+   "Bangkok",
+   "Jakarta",
+   "Singapore"
+  ],
+  "a": 0,
+  "f": "The Petronas Towers were the tallest buildings in the world from 1998 to 2004.",
+  "wiki": "Kuala Lumpur"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Prague",
+   "Vienna",
+   "Budapest",
+   "Bucharest"
+  ],
+  "a": 2,
+  "f": "The Parliament building glows over the Danube river.",
+  "wiki": "Budapest"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Prague",
+   "Vienna",
+   "Budapest",
+   "Krakow"
+  ],
+  "a": 0,
+  "f": "Its Charles Bridge dates back to the 14th century.",
+  "wiki": "Prague"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Kuwait City",
+   "Dubai",
+   "Manama",
+   "Doha"
+  ],
+  "a": 3,
+  "f": "Qatar's capital hosted the 2022 World Cup final nearby.",
+  "wiki": "Doha"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Phnom Penh",
+   "Manila",
+   "Bangkok",
+   "Hanoi"
+  ],
+  "a": 2,
+  "f": "Its full ceremonial name is one of the longest place names in the world.",
+  "wiki": "Bangkok"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Durban",
+   "Johannesburg",
+   "Cape Town",
+   "Sydney"
+  ],
+  "a": 2,
+  "f": "Table Mountain rises right behind the city.",
+  "wiki": "Cape Town"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Seattle",
+   "Vancouver",
+   "Portland",
+   "Toronto"
+  ],
+  "a": 1,
+  "f": "The city sits between the mountains and the Pacific Ocean.",
+  "wiki": "Vancouver"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Lisbon",
+   "San Francisco",
+   "Porto",
+   "Seville"
+  ],
+  "a": 0,
+  "f": "Its red suspension bridge looks a lot like the Golden Gate.",
+  "wiki": "Lisbon"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Hong Kong",
+   "Taipei",
+   "Shanghai",
+   "Seoul"
+  ],
+  "a": 1,
+  "f": "Taipei 101 was the world's tallest building from 2004 to 2010.",
+  "wiki": "Taipei"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Lima",
+   "Buenos Aires",
+   "Bogota",
+   "Mexico City"
+  ],
+  "a": 3,
+  "f": "The city was built on the ruins of the Aztec capital Tenochtitlan.",
+  "wiki": "Mexico City"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Buenos Aires",
+   "Sao Paulo",
+   "Montevideo",
+   "Santiago"
+  ],
+  "a": 0,
+  "f": "Its tall white Obelisk stands on one of the widest avenues in the world.",
+  "wiki": "Buenos Aires"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Tehran",
+   "Tbilisi",
+   "Baku",
+   "Almaty"
+  ],
+  "a": 2,
+  "f": "Its three Flame Towers light up like giant flames at night.",
+  "wiki": "Baku"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Zagreb",
+   "Bratislava",
+   "Graz",
+   "Ljubljana"
+  ],
+  "a": 3,
+  "f": "Its castle sits on a hill above the old town.",
+  "wiki": "Ljubljana"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Palermo",
+   "Dubrovnik",
+   "Nicosia",
+   "Valletta"
+  ],
+  "a": 3,
+  "f": "Malta's capital is one of the smallest capitals in Europe.",
+  "wiki": "Valletta"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Yerevan",
+   "Tbilisi",
+   "Sofia",
+   "Baku"
+  ],
+  "a": 1,
+  "f": "The glass Bridge of Peace crosses the Kura river.",
+  "wiki": "Tbilisi"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Bishkek",
+   "Almaty",
+   "Astana",
+   "Tashkent"
+  ],
+  "a": 1,
+  "f": "Kazakhstan's biggest city sits below snowy mountains.",
+  "wiki": "Almaty"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which city is this, by night?",
+  "o": [
+   "San Jose",
+   "Panama City",
+   "Miami",
+   "Cartagena"
+  ],
+  "a": 1,
+  "f": "It is one of the few capital cities with a rainforest inside its limits.",
+  "wiki": "Panama City"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Manama",
+   "Muscat",
+   "Kuwait City",
+   "Doha"
+  ],
+  "a": 2,
+  "f": "The Kuwait Towers are the symbol of the city.",
+  "wiki": "Kuwait City"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Brisbane",
+   "Sydney",
+   "Adelaide",
+   "Perth"
+  ],
+  "a": 0,
+  "f": "The Story Bridge lights up over the Brisbane River.",
+  "wiki": "Brisbane"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Frankfurt",
+   "Hamburg",
+   "Munich",
+   "Berlin"
+  ],
+  "a": 0,
+  "f": "Its skyline earned it the nickname Mainhattan.",
+  "wiki": "Frankfurt"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which city is this, by night?",
+  "o": [
+   "Buenos Aires",
+   "Asuncion",
+   "Porto Alegre",
+   "Montevideo"
+  ],
+  "a": 3,
+  "f": "Uruguay's capital is home to nearly half the country's people.",
+  "wiki": "Montevideo"
+ }
+]

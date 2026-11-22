@@ -54,12 +54,21 @@ def fit_text(d, text, maxw, maxlines, start, minsize, fontf):
     f = fontf(minsize); return f, wrap(d, text, f, maxw)
 
 
-def rounded_photo(path, w, h, r, hide=None, tiles=None):
+def rounded_photo(path, w, h, r, hide=None, tiles=None, contain=False):
     im = Image.open(path).convert('RGB')
     for (a, b, c, e) in (hide or []):  # floute logos / noms qui donneraient la réponse
         W0, H0 = im.size; box = (int(a * W0), int(b * H0), int(c * W0), int(e * H0))
         im.paste(im.crop(box).filter(ImageFilter.GaussianBlur(max(12, W0 // 90))), box[:2])
-    im = ImageOps.fit(im, (w, h), Image.LANCZOS, centering=(0.5, 0.45))
+    if isinstance(tiles, tuple) and tiles and tiles[0] == 'zoom':  # zoom avant : ('zoom', facteur, fx, fy)
+        _, z, fx, fy = tiles; W0, H0 = im.size
+        tw, th = W0 / z, H0 / z
+        x0 = min(max(fx * W0 - tw / 2, 0), W0 - tw); y0 = min(max(fy * H0 - th / 2, 0), H0 - th)
+        im = im.crop((int(x0), int(y0), int(x0 + tw), int(y0 + th))); tiles = None
+    if contain:  # drapeaux : image entière sur fond sombre
+        bgc = Image.new('RGB', (w, h), (18, 24, 52)); c = im.copy(); c.thumbnail((int(w * 0.9), int(h * 0.86)), Image.LANCZOS)
+        bgc.paste(c, ((w - c.width) // 2, (h - c.height) // 2)); im = bgc
+    else:
+        im = ImageOps.fit(im, (w, h), Image.LANCZOS, centering=(0.5, 0.45))
     if tiles is not None: im = apply_tiles(im, tiles)
     m = Image.new('L', (w, h), 0); ImageDraw.Draw(m).rounded_rectangle([0, 0, w - 1, h - 1], r, fill=255)
     return im, m
@@ -118,7 +127,7 @@ def card_169(q, n, total, photo, state, tiles=None):
     d.text((W - 60 - d.textlength(s, font=f2), 44), s, font=f2, fill=WHITE)
     # photo
     pw, ph = PH[2] - PH[0], PH[3] - PH[1]
-    p, m = rounded_photo(photo, pw, ph, 36, q.get('hide'), tiles if state == 'q' else None)
+    p, m = rounded_photo(photo, pw, ph, 36, q.get('hide'), tiles if state == 'q' else None, q.get('contain', False))
     sh = Image.new('L', (W, H), 0); ImageDraw.Draw(sh).rounded_rectangle([PH[0] + 10, PH[1] + 16, PH[2] + 10, PH[3] + 16], 36, fill=150)
     im.paste((0, 0, 0), (0, 0), sh.filter(ImageFilter.GaussianBlur(18)))
     im.paste(p, (PH[0], PH[1]), m); d = ImageDraw.Draw(im)
@@ -174,7 +183,7 @@ def card_916(q, n, total, photo, state, hook=None, tiles=None):
         for l in hl:
             d.text(((VW - d.textlength(l, font=fh)) / 2, y), l, font=fh, fill=YEL); y += int(fh.size * 1.12)
     px0, py0, px1, py1 = 60, 385, VW - 60, 845
-    p, m = rounded_photo(photo, px1 - px0, py1 - py0, 34, q.get('hide'), tiles if state == 'q' else None)
+    p, m = rounded_photo(photo, px1 - px0, py1 - py0, 34, q.get('hide'), tiles if state == 'q' else None, q.get('contain', False))
     im.paste(p, (px0, py0), m); d = ImageDraw.Draw(im)
     s = f'{n}/{total}'; f2 = mont(40); tw = d.textlength(s, font=f2)
     d.rounded_rectangle([px0 + 22, py0 + 22, px0 + 58 + tw, py0 + 86], 22, fill=NAVY, outline=YEL, width=4)

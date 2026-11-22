@@ -1,0 +1,522 @@
+[
+ {
+  "lvl": "EASY",
+  "q": "Which animal is this?",
+  "o": [
+   "Giraffe",
+   "Okapi",
+   "Zebra",
+   "Camel"
+  ],
+  "a": 0,
+  "f": "Giraffes are the tallest animals on Earth.",
+  "wiki": "Giraffe"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which animal is this?",
+  "o": [
+   "Okapi",
+   "Donkey",
+   "Zebra",
+   "Tapir"
+  ],
+  "a": 2,
+  "f": "Every zebra has its own unique stripe pattern.",
+  "wiki": "Zebra"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which animal is this?",
+  "o": [
+   "Tiger",
+   "Jaguar",
+   "Lion",
+   "Leopard"
+  ],
+  "a": 0,
+  "f": "The tiger is the largest wild cat in the world.",
+  "wiki": "Tiger"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which animal is this?",
+  "o": [
+   "Cougar",
+   "Lynx",
+   "Tiger",
+   "Lion"
+  ],
+  "a": 3,
+  "f": "A lion's roar can be heard up to eight kilometres away.",
+  "wiki": "Lion"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which animal is this?",
+  "o": [
+   "Mammoth",
+   "Hippo",
+   "Elephant",
+   "Rhino"
+  ],
+  "a": 2,
+  "f": "Elephants are the largest land animals alive today.",
+  "wiki": "African bush elephant"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which animal is this?",
+  "o": [
+   "Seagull",
+   "Puffin",
+   "Albatross",
+   "Penguin"
+  ],
+  "a": 3,
+  "f": "Emperor penguins can dive more than 500 metres deep.",
+  "wiki": "Emperor penguin"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which animal is this?",
+  "o": [
+   "Panda",
+   "Koala",
+   "Polar bear",
+   "Sloth bear"
+  ],
+  "a": 0,
+  "f": "Giant pandas spend up to 14 hours a day eating bamboo.",
+  "wiki": "Giant panda"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which animal is this?",
+  "o": [
+   "Panda",
+   "Koala",
+   "Sloth",
+   "Wombat"
+  ],
+  "a": 1,
+  "f": "Koalas sleep up to 20 hours a day.",
+  "wiki": "Koala"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which animal is this?",
+  "o": [
+   "Deer",
+   "Wallaby",
+   "Kangaroo",
+   "Rabbit"
+  ],
+  "a": 2,
+  "f": "Kangaroos can't walk backwards.",
+  "wiki": "Red kangaroo"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which animal is this?",
+  "o": [
+   "Brown bear",
+   "Polar bear",
+   "Arctic fox",
+   "Panda"
+  ],
+  "a": 1,
+  "f": "Under its white fur, a polar bear has black skin.",
+  "wiki": "Polar bear"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which animal is this?",
+  "o": [
+   "Spoonbill",
+   "Flamingo",
+   "Heron",
+   "Ibis"
+  ],
+  "a": 1,
+  "f": "Flamingos get their pink colour from the food they eat.",
+  "wiki": "American flamingo"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which animal is this?",
+  "o": [
+   "Cheetah",
+   "Leopard",
+   "Jaguar",
+   "Serval"
+  ],
+  "a": 0,
+  "f": "The cheetah is the fastest land animal.",
+  "wiki": "Cheetah"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which animal is this?",
+  "o": [
+   "Parrot",
+   "Peacock",
+   "Pheasant",
+   "Turkey"
+  ],
+  "a": 1,
+  "f": "Only male peafowl have the spectacular tail.",
+  "wiki": "Indian peafowl"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which animal is this?",
+  "o": [
+   "Walrus",
+   "Manatee",
+   "Rhino",
+   "Hippopotamus"
+  ],
+  "a": 3,
+  "f": "Hippos can't really swim. They walk along the river bottom.",
+  "wiki": "Hippopotamus"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which animal is this?",
+  "o": [
+   "Frog",
+   "Iguana",
+   "Gecko",
+   "Chameleon"
+  ],
+  "a": 3,
+  "f": "Chameleons can move each eye on its own.",
+  "wiki": "Panther chameleon"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which animal is this?",
+  "o": [
+   "Jellyfish",
+   "Cuttlefish",
+   "Octopus",
+   "Squid"
+  ],
+  "a": 2,
+  "f": "An octopus has three hearts and blue blood.",
+  "wiki": "Common octopus"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which animal is this?",
+  "o": [
+   "Parrot",
+   "Hornbill",
+   "Toucan",
+   "Puffin"
+  ],
+  "a": 2,
+  "f": "Its huge beak is surprisingly light.",
+  "wiki": "Toco toucan"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which animal is this?",
+  "o": [
+   "Sloth",
+   "Lemur",
+   "Koala",
+   "Monkey"
+  ],
+  "a": 0,
+  "f": "Sloths can take weeks to digest a single meal.",
+  "wiki": "Brown-throated sloth"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which animal is this?",
+  "o": [
+   "Lemur",
+   "Fox",
+   "Raccoon",
+   "Red panda"
+  ],
+  "a": 3,
+  "f": "Red pandas spend most of their life in trees.",
+  "wiki": "Red panda"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which animal is this?",
+  "o": [
+   "Mongoose",
+   "Meerkat",
+   "Prairie dog",
+   "Ferret"
+  ],
+  "a": 1,
+  "f": "Meerkats take turns standing guard for the group.",
+  "wiki": "Meerkat"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which animal is this?",
+  "o": [
+   "Giraffe",
+   "Zebra",
+   "Tapir",
+   "Okapi"
+  ],
+  "a": 3,
+  "f": "Despite its stripes, its closest relative is the giraffe.",
+  "wiki": "Okapi"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which animal is this?",
+  "o": [
+   "Axolotl",
+   "Gecko",
+   "Tadpole",
+   "Newt"
+  ],
+  "a": 0,
+  "f": "Axolotls can regrow lost limbs.",
+  "wiki": "Axolotl"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which animal is this?",
+  "o": [
+   "Pangolin",
+   "Armadillo",
+   "Hedgehog",
+   "Anteater"
+  ],
+  "a": 0,
+  "f": "It is covered in scales and rolls into a ball when threatened.",
+  "wiki": "Pangolin"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which animal is this?",
+  "o": [
+   "Wombat",
+   "Guinea pig",
+   "Beaver",
+   "Capybara"
+  ],
+  "a": 3,
+  "f": "It is the largest rodent in the world.",
+  "wiki": "Capybara"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which animal is this?",
+  "o": [
+   "Okapi",
+   "Anteater",
+   "Tapir",
+   "Pig"
+  ],
+  "a": 2,
+  "f": "Tapirs use their short trunk to grab leaves.",
+  "wiki": "Malayan tapir"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which animal is this?",
+  "o": [
+   "Macaque",
+   "Mandrill",
+   "Baboon",
+   "Gorilla"
+  ],
+  "a": 1,
+  "f": "Mandrills are the largest monkeys in the world.",
+  "wiki": "Mandrill"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which animal is this?",
+  "o": [
+   "Clouded leopard",
+   "Lynx",
+   "Snow leopard",
+   "Cheetah"
+  ],
+  "a": 2,
+  "f": "It uses its long thick tail as a scarf in the cold.",
+  "wiki": "Snow leopard"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which animal is this?",
+  "o": [
+   "Beaver",
+   "Platypus",
+   "Otter",
+   "Duck"
+  ],
+  "a": 1,
+  "f": "It is a mammal that lays eggs.",
+  "wiki": "Platypus"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which animal is this?",
+  "o": [
+   "Lemur",
+   "Raccoon",
+   "Monkey",
+   "Meerkat"
+  ],
+  "a": 0,
+  "f": "Wild lemurs live only on the island of Madagascar.",
+  "wiki": "Ring-tailed lemur"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which animal is this?",
+  "o": [
+   "Dolphin",
+   "Beluga",
+   "Narwhal",
+   "Walrus"
+  ],
+  "a": 2,
+  "f": "Its long tusk is actually a tooth.",
+  "wiki": "Narwhal"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which animal is this?",
+  "o": [
+   "Possum",
+   "Bat",
+   "Lemur",
+   "Aye-aye"
+  ],
+  "a": 3,
+  "f": "It taps on trees with a long thin finger to find insects.",
+  "wiki": "Aye-aye"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which animal is this?",
+  "o": [
+   "Heron",
+   "Pelican",
+   "Stork",
+   "Shoebill"
+  ],
+  "a": 3,
+  "f": "This giant bird has a huge bill shaped like a shoe.",
+  "wiki": "Shoebill"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which animal is this?",
+  "o": [
+   "Puma",
+   "Civet",
+   "Mongoose",
+   "Fossa"
+  ],
+  "a": 3,
+  "f": "The biggest predator of Madagascar.",
+  "wiki": "Fossa (animal)"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which animal is this?",
+  "o": [
+   "Rabbit",
+   "Quokka",
+   "Wallaby",
+   "Rat"
+  ],
+  "a": 1,
+  "f": "Often called the happiest animal in the world because it looks like it's smiling.",
+  "wiki": "Quokka"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which animal is this?",
+  "o": [
+   "Gazelle",
+   "Saiga antelope",
+   "Ibex",
+   "Chamois"
+  ],
+  "a": 1,
+  "f": "Its large flexible nose helps it filter dust and cold air.",
+  "wiki": "Saiga antelope"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which animal is this?",
+  "o": [
+   "Vole",
+   "Shrew",
+   "Star-nosed mole",
+   "Rat"
+  ],
+  "a": 2,
+  "f": "It has 22 tentacles on its nose.",
+  "wiki": "Star-nosed mole"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which animal is this?",
+  "o": [
+   "Orangutan",
+   "Proboscis monkey",
+   "Mandrill",
+   "Baboon"
+  ],
+  "a": 1,
+  "f": "Males have a very large nose.",
+  "wiki": "Proboscis monkey"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which animal is this?",
+  "o": [
+   "Caiman",
+   "Crocodile",
+   "Gharial",
+   "Alligator"
+  ],
+  "a": 2,
+  "f": "Its long thin snout is perfect for catching fish.",
+  "wiki": "Gharial"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which animal is this?",
+  "o": [
+   "Kakapo",
+   "Kiwi",
+   "Kea",
+   "Owl"
+  ],
+  "a": 0,
+  "f": "The world's only flightless parrot, from New Zealand.",
+  "wiki": "Kākāpō"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which animal is this?",
+  "o": [
+   "Maned wolf",
+   "Red fox",
+   "Jackal",
+   "Coyote"
+  ],
+  "a": 0,
+  "f": "It looks like a fox on stilts, but it's neither a fox nor a wolf.",
+  "wiki": "Maned wolf"
+ }
+]

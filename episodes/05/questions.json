@@ -1,0 +1,522 @@
+[
+ {
+  "lvl": "EASY",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Golden Retriever",
+   "Beagle",
+   "Labrador Retriever",
+   "Boxer"
+  ],
+  "a": 2,
+  "f": "It is one of the most popular family dogs in the world.",
+  "wiki": "Labrador Retriever"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which dog breed is this?",
+  "o": [
+   "German Shepherd",
+   "Doberman",
+   "Husky",
+   "Belgian Malinois"
+  ],
+  "a": 0,
+  "f": "It is famous as a police and service dog.",
+  "wiki": "German Shepherd"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Golden Retriever",
+   "Irish Setter",
+   "Labrador Retriever",
+   "Cocker Spaniel"
+  ],
+  "a": 0,
+  "f": "The breed was developed in Scotland in the 1800s.",
+  "wiki": "Golden Retriever"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Samoyed",
+   "Akita",
+   "Alaskan Malamute",
+   "Siberian Husky"
+  ],
+  "a": 3,
+  "f": "Huskies were bred to pull sleds over long distances.",
+  "wiki": "Siberian Husky"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Great Dane",
+   "Dalmatian",
+   "Pointer",
+   "Bull Terrier"
+  ],
+  "a": 1,
+  "f": "Dalmatian puppies are born completely white. The spots come later.",
+  "wiki": "Dalmatian (dog)"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Maltese",
+   "Shih Tzu",
+   "Poodle",
+   "Bichon Frise"
+  ],
+  "a": 2,
+  "f": "Poodles are among the smartest dog breeds.",
+  "wiki": "Poodle"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Beagle",
+   "Basset Hound",
+   "Foxhound",
+   "Jack Russell"
+  ],
+  "a": 0,
+  "f": "Beagles have an amazing sense of smell and are used to sniff out food at airports.",
+  "wiki": "Beagle"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Boxer",
+   "Bull Terrier",
+   "Bulldog",
+   "Pug"
+  ],
+  "a": 2,
+  "f": "The Bulldog is a national symbol of Britain.",
+  "wiki": "Bulldog"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Pomeranian",
+   "Chihuahua",
+   "Pug",
+   "Papillon"
+  ],
+  "a": 1,
+  "f": "It is one of the smallest dog breeds in the world, named after a Mexican state.",
+  "wiki": "Chihuahua (dog)"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Shih Tzu",
+   "Boston Terrier",
+   "Bulldog",
+   "Pug"
+  ],
+  "a": 3,
+  "f": "Pugs come from China, where they lived with emperors.",
+  "wiki": "Pug"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Bernese Mountain Dog",
+   "Sheltie",
+   "Border Collie",
+   "Australian Shepherd"
+  ],
+  "a": 2,
+  "f": "Often called the most intelligent dog breed, it was bred to herd sheep.",
+  "wiki": "Border Collie"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Corgi",
+   "Basset Hound",
+   "Beagle",
+   "Dachshund"
+  ],
+  "a": 3,
+  "f": "Its name means badger dog in German.",
+  "wiki": "Dachshund"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Rottweiler",
+   "Great Dane",
+   "Boxer",
+   "Bulldog"
+  ],
+  "a": 2,
+  "f": "Boxers are known for playing with their front paws.",
+  "wiki": "Boxer (dog)"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Rottweiler",
+   "Doberman",
+   "Bernese Mountain Dog",
+   "Beauceron"
+  ],
+  "a": 0,
+  "f": "The breed is named after the German town of Rottweil.",
+  "wiki": "Rottweiler"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Lhasa Apso",
+   "Shih Tzu",
+   "Havanese",
+   "Maltese"
+  ],
+  "a": 1,
+  "f": "Its name means little lion.",
+  "wiki": "Shih Tzu"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Silky Terrier",
+   "Yorkshire Terrier",
+   "Pomeranian",
+   "Cairn Terrier"
+  ],
+  "a": 1,
+  "f": "It was first bred to catch rats in English mills.",
+  "wiki": "Yorkshire Terrier"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Great Dane",
+   "Mastiff",
+   "Boxer",
+   "Irish Wolfhound"
+  ],
+  "a": 0,
+  "f": "Great Danes are among the tallest dogs in the world.",
+  "wiki": "Great Dane"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Miniature Pinscher",
+   "German Shepherd",
+   "Rottweiler",
+   "Dobermann"
+  ],
+  "a": 3,
+  "f": "It was created in Germany by a tax collector named Louis Dobermann.",
+  "wiki": "Dobermann"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Australian Shepherd",
+   "Saint Bernard",
+   "Border Collie",
+   "Bernese Mountain Dog"
+  ],
+  "a": 3,
+  "f": "It was bred to pull carts on Swiss farms.",
+  "wiki": "Bernese Mountain Dog"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Shih Tzu",
+   "Pomeranian",
+   "Papillon",
+   "Chihuahua"
+  ],
+  "a": 1,
+  "f": "Pomeranians descend from much larger sled dogs.",
+  "wiki": "Pomeranian (dog)"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Shiba Inu",
+   "Akita",
+   "Husky",
+   "Basenji"
+  ],
+  "a": 0,
+  "f": "It is one of the oldest dog breeds from Japan.",
+  "wiki": "Shiba Inu"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Alaskan Malamute",
+   "Chow Chow",
+   "Akita",
+   "Shiba Inu"
+  ],
+  "a": 2,
+  "f": "The famous loyal dog Hachiko was an Akita.",
+  "wiki": "Akita (dog)"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Whippet",
+   "Pharaoh Hound",
+   "Shiba Inu",
+   "Basenji"
+  ],
+  "a": 3,
+  "f": "Known as the barkless dog, it yodels instead of barking.",
+  "wiki": "Basenji"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Weimaraner",
+   "Vizsla",
+   "Great Dane",
+   "Pointer"
+  ],
+  "a": 0,
+  "f": "Its silver grey coat earned it the nickname the Grey Ghost.",
+  "wiki": "Weimaraner"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dog breed is this?",
+  "o": [
+   "American Eskimo Dog",
+   "Husky",
+   "Samoyed",
+   "Spitz"
+  ],
+  "a": 2,
+  "f": "Its upturned mouth gives it the famous Samoyed smile.",
+  "wiki": "Samoyed (dog)"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Bernese Mountain Dog",
+   "Newfoundland",
+   "Saint Bernard",
+   "Mastiff"
+  ],
+  "a": 2,
+  "f": "These dogs were bred to rescue travellers in the Swiss Alps.",
+  "wiki": "Saint Bernard (dog)"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Saluki",
+   "Borzoi",
+   "Greyhound",
+   "Afghan Hound"
+  ],
+  "a": 3,
+  "f": "Its long silky coat makes it one of the most glamorous breeds.",
+  "wiki": "Afghan Hound"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Boxer",
+   "Bull Terrier",
+   "Bulldog",
+   "Staffordshire Terrier"
+  ],
+  "a": 1,
+  "f": "It is known for its unique egg-shaped head.",
+  "wiki": "Bull Terrier"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Saluki",
+   "Whippet",
+   "Greyhound",
+   "Italian Greyhound"
+  ],
+  "a": 1,
+  "f": "Whippets can run faster than 50 kilometres per hour.",
+  "wiki": "Whippet"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Newfoundland",
+   "Leonberger",
+   "Saint Bernard",
+   "Bernese Mountain Dog"
+  ],
+  "a": 0,
+  "f": "These giant dogs are excellent swimmers, with webbed feet.",
+  "wiki": "Newfoundland dog"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Bergamasco",
+   "Komondor",
+   "Puli",
+   "Old English Sheepdog"
+  ],
+  "a": 1,
+  "f": "Its corded white coat looks like a mop.",
+  "wiki": "Komondor"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Chinese Crested",
+   "Peruvian Hairless",
+   "Pharaoh Hound",
+   "Xoloitzcuintle"
+  ],
+  "a": 3,
+  "f": "This hairless dog from Mexico has a history going back thousands of years.",
+  "wiki": "Xoloitzcuintle"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Briard",
+   "Puli",
+   "Komondor",
+   "Bergamasco"
+  ],
+  "a": 1,
+  "f": "This Hungarian herding dog has a black corded coat.",
+  "wiki": "Puli (dog)"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Greyhound",
+   "Saluki",
+   "Afghan Hound",
+   "Borzoi"
+  ],
+  "a": 3,
+  "f": "It was bred in Russia to hunt wolves.",
+  "wiki": "Borzoi"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Bedlington Terrier",
+   "Kerry Blue Terrier",
+   "Poodle",
+   "Bichon Frise"
+  ],
+  "a": 0,
+  "f": "It looks like a little lamb.",
+  "wiki": "Bedlington Terrier"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Bulldog",
+   "Mastiff",
+   "Shar Pei",
+   "Chow Chow"
+  ],
+  "a": 2,
+  "f": "Famous for its deep wrinkles and blue-black tongue.",
+  "wiki": "Shar Pei"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Italian Greyhound",
+   "Xoloitzcuintle",
+   "Chinese Crested",
+   "Papillon"
+  ],
+  "a": 2,
+  "f": "It is mostly hairless, with silky hair on its head, tail and feet.",
+  "wiki": "Chinese Crested Dog"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Whippet",
+   "Saluki",
+   "Afghan Hound",
+   "Borzoi"
+  ],
+  "a": 1,
+  "f": "It is one of the oldest known dog breeds, from the Middle East.",
+  "wiki": "Saluki"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Leonberger",
+   "Saint Bernard",
+   "Tibetan Mastiff",
+   "Newfoundland"
+  ],
+  "a": 0,
+  "f": "It was bred in Germany to look like a lion.",
+  "wiki": "Leonberger"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dog breed is this?",
+  "o": [
+   "Saluki",
+   "Whippet",
+   "Sloughi",
+   "Azawakh"
+  ],
+  "a": 3,
+  "f": "This slim sighthound comes from the Sahel region of West Africa.",
+  "wiki": "Azawakh"
+ }
+]

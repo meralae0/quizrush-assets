@@ -1,0 +1,522 @@
+[
+ {
+  "lvl": "EASY",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Tomato",
+   "Cherry",
+   "Strawberry",
+   "Raspberry"
+  ],
+  "a": 2,
+  "f": "Its seeds are on the outside. About 200 of them on each berry.",
+  "wiki": "Strawberry"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Mango",
+   "Banana",
+   "Plantain",
+   "Papaya"
+  ],
+  "a": 1,
+  "f": "Bananas grow on giant plants that are not actually trees.",
+  "wiki": "Banana"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Jackfruit",
+   "Pineapple",
+   "Coconut",
+   "Papaya"
+  ],
+  "a": 1,
+  "f": "A pineapple plant takes around two years to produce one fruit.",
+  "wiki": "Pineapple"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Watermelon",
+   "Cucumber",
+   "Pumpkin",
+   "Cantaloupe"
+  ],
+  "a": 0,
+  "f": "Watermelon is about 92 percent water.",
+  "wiki": "Watermelon"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Tangerine",
+   "Grapefruit",
+   "Lemon",
+   "Orange"
+  ],
+  "a": 3,
+  "f": "Brazil is the world's biggest orange producer.",
+  "wiki": "Orange (fruit)"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Apple",
+   "Pear",
+   "Quince",
+   "Peach"
+  ],
+  "a": 0,
+  "f": "There are thousands of apple varieties around the world.",
+  "wiki": "Apple"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Olive",
+   "Blueberry",
+   "Grape",
+   "Cherry"
+  ],
+  "a": 2,
+  "f": "Grapes grow in bunches of up to a hundred or more.",
+  "wiki": "Grape"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Parsnip",
+   "Sweet potato",
+   "Radish",
+   "Carrot"
+  ],
+  "a": 3,
+  "f": "The first cultivated carrots were purple, not orange.",
+  "wiki": "Carrot"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Broccoli",
+   "Cauliflower",
+   "Brussels sprout",
+   "Kale"
+  ],
+  "a": 0,
+  "f": "The part we eat is actually a cluster of flower buds.",
+  "wiki": "Broccoli"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Cherry",
+   "Red pepper",
+   "Tomato",
+   "Persimmon"
+  ],
+  "a": 2,
+  "f": "Botanically, the tomato is a fruit.",
+  "wiki": "Tomato"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Passion fruit",
+   "Kiwi",
+   "Fig",
+   "Guava"
+  ],
+  "a": 1,
+  "f": "It is named after the kiwi bird of New Zealand.",
+  "wiki": "Kiwifruit"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Red apple",
+   "Lychee",
+   "Persimmon",
+   "Pomegranate"
+  ],
+  "a": 3,
+  "f": "A single pomegranate can hold hundreds of seeds.",
+  "wiki": "Pomegranate"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Avocado",
+   "Mango",
+   "Feijoa",
+   "Lime"
+  ],
+  "a": 0,
+  "f": "Avocados ripen only after they are picked.",
+  "wiki": "Avocado"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Peach",
+   "Mango",
+   "Papaya",
+   "Apricot"
+  ],
+  "a": 1,
+  "f": "Mango is the national fruit of India.",
+  "wiki": "Mango"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Kohlrabi",
+   "Artichoke",
+   "Brussels sprout",
+   "Cabbage"
+  ],
+  "a": 1,
+  "f": "The part we eat is a flower bud before it blooms.",
+  "wiki": "Artichoke"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Zucchini",
+   "Plum",
+   "Purple cabbage",
+   "Eggplant"
+  ],
+  "a": 3,
+  "f": "Some early varieties were white and egg-shaped, which gave it its name.",
+  "wiki": "Eggplant"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Walnut",
+   "Kiwi",
+   "Coconut",
+   "Durian"
+  ],
+  "a": 2,
+  "f": "A coconut can float across oceans and still sprout.",
+  "wiki": "Coconut"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Plum",
+   "Date",
+   "Fig",
+   "Passion fruit"
+  ],
+  "a": 2,
+  "f": "Figs are actually inside-out flowers.",
+  "wiki": "Common fig"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Broccoli",
+   "Romanesco",
+   "White cabbage",
+   "Cauliflower"
+  ],
+  "a": 3,
+  "f": "Cauliflower also comes in orange, purple and green.",
+  "wiki": "Cauliflower"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Raspberry",
+   "Mulberry",
+   "Strawberry",
+   "Blackberry"
+  ],
+  "a": 0,
+  "f": "Each raspberry is made of many tiny fruits joined together.",
+  "wiki": "Raspberry"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Pomegranate",
+   "Rambutan",
+   "Lychee",
+   "Dragon fruit"
+  ],
+  "a": 3,
+  "f": "It grows on a climbing cactus.",
+  "wiki": "Pitaya"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Longan",
+   "Strawberry",
+   "Lychee",
+   "Rambutan"
+  ],
+  "a": 2,
+  "f": "Its bumpy red skin hides sweet white flesh.",
+  "wiki": "Lychee"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Pomegranate",
+   "Plum",
+   "Passion fruit",
+   "Fig"
+  ],
+  "a": 2,
+  "f": "Its wrinkly skin means it's ripe.",
+  "wiki": "Passiflora edulis"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Okra",
+   "Green bean",
+   "Zucchini",
+   "Green chili"
+  ],
+  "a": 0,
+  "f": "Okra is sometimes called lady's finger.",
+  "wiki": "Okra"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Papaya",
+   "Yellow pepper",
+   "Starfruit",
+   "Lemon"
+  ],
+  "a": 2,
+  "f": "Cut it into slices and you get perfect stars.",
+  "wiki": "Carambola"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Turnip",
+   "Cabbage",
+   "Radish",
+   "Kohlrabi"
+  ],
+  "a": 3,
+  "f": "Its name means cabbage turnip in German.",
+  "wiki": "Kohlrabi"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Persimmon",
+   "Orange",
+   "Apricot",
+   "Tomato"
+  ],
+  "a": 0,
+  "f": "It is the national fruit of Japan.",
+  "wiki": "Japanese persimmon"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Romanesco",
+   "Cauliflower",
+   "Broccoli",
+   "Artichoke"
+  ],
+  "a": 0,
+  "f": "Its spirals form a natural fractal pattern.",
+  "wiki": "Romanesco broccoli"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Broccoli",
+   "Brussels sprout",
+   "Mini cabbage",
+   "Artichoke"
+  ],
+  "a": 1,
+  "f": "They grow along a tall thick stalk.",
+  "wiki": "Brussels sprout"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Lychee",
+   "Physalis",
+   "Gooseberry",
+   "Kumquat"
+  ],
+  "a": 1,
+  "f": "Each berry grows inside a papery husk.",
+  "wiki": "Physalis peruviana"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Lychee",
+   "Dragon fruit",
+   "Durian",
+   "Rambutan"
+  ],
+  "a": 3,
+  "f": "Its name comes from the Malay word for hair.",
+  "wiki": "Rambutan"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Breadfruit",
+   "Durian",
+   "Jackfruit",
+   "Pineapple"
+  ],
+  "a": 1,
+  "f": "Known as the king of fruits, it's famous for its powerful smell.",
+  "wiki": "Durian"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Pomegranate",
+   "Mangosteen",
+   "Passion fruit",
+   "Plum"
+  ],
+  "a": 1,
+  "f": "Often called the queen of fruits.",
+  "wiki": "Purple mangosteen"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Dragon fruit",
+   "Kiwano",
+   "Passion fruit",
+   "Papaya"
+  ],
+  "a": 1,
+  "f": "Also called horned melon, its flesh is green and jelly-like.",
+  "wiki": "Kiwano"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Lychee",
+   "Mangosteen",
+   "Salak",
+   "Rambutan"
+  ],
+  "a": 2,
+  "f": "Its scaly skin gives it the name snake fruit.",
+  "wiki": "Salak"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Durian",
+   "Pineapple",
+   "Breadfruit",
+   "Jackfruit"
+  ],
+  "a": 3,
+  "f": "It is the largest tree fruit in the world.",
+  "wiki": "Jackfruit"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Avocado",
+   "Custard apple",
+   "Soursop",
+   "Cherimoya"
+  ],
+  "a": 3,
+  "f": "Mark Twain called it the most delicious fruit known to men.",
+  "wiki": "Cherimoya"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Buddha's hand",
+   "Citron",
+   "Lemon",
+   "Ginger"
+  ],
+  "a": 0,
+  "f": "This citrus fruit is split into finger-like sections.",
+  "wiki": "Buddha's hand"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Grape",
+   "Olive",
+   "Jabuticaba",
+   "Blueberry"
+  ],
+  "a": 2,
+  "f": "Its fruits grow directly on the tree trunk.",
+  "wiki": "Plinia cauliflora"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which fruit or vegetable is this?",
+  "o": [
+   "Feijoa",
+   "Avocado",
+   "Guava",
+   "Lime"
+  ],
+  "a": 0,
+  "f": "Also called pineapple guava, it's very popular in New Zealand.",
+  "wiki": "Acca sellowiana"
+ }
+]

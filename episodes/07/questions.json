@@ -1,0 +1,522 @@
+[
+ {
+  "lvl": "EASY",
+  "q": "Which dish is this?",
+  "o": [
+   "Quiche",
+   "Lasagne",
+   "Pizza",
+   "Flatbread"
+  ],
+  "a": 2,
+  "f": "Pizza Margherita is said to be named after Queen Margherita of Italy.",
+  "wiki": "Pizza"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which dish is this?",
+  "o": [
+   "Sushi",
+   "Onigiri",
+   "Spring rolls",
+   "Dim sum"
+  ],
+  "a": 0,
+  "f": "Sushi comes from Japan, and the word refers to the vinegared rice.",
+  "wiki": "Sushi"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which dish is this?",
+  "o": [
+   "Hot dog",
+   "Sandwich",
+   "Kebab",
+   "Hamburger"
+  ],
+  "a": 3,
+  "f": "It is named after the German city of Hamburg.",
+  "wiki": "Hamburger"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which dish is this?",
+  "o": [
+   "Quesadillas",
+   "Tacos",
+   "Fajitas",
+   "Burritos"
+  ],
+  "a": 1,
+  "f": "Tacos come from Mexico and are made with corn tortillas.",
+  "wiki": "Taco"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which dish is this?",
+  "o": [
+   "Pretzel",
+   "Bagel",
+   "Brioche",
+   "Croissant"
+  ],
+  "a": 3,
+  "f": "Its name means crescent in French.",
+  "wiki": "Croissant"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which dish is this?",
+  "o": [
+   "Paella",
+   "Jambalaya",
+   "Biryani",
+   "Risotto"
+  ],
+  "a": 0,
+  "f": "This rice dish comes from Valencia in Spain.",
+  "wiki": "Paella"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which dish is this?",
+  "o": [
+   "Spaghetti",
+   "Udon",
+   "Ramen",
+   "Tagliatelle"
+  ],
+  "a": 0,
+  "f": "Its name means little strings in Italian.",
+  "wiki": "Spaghetti"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which dish is this?",
+  "o": [
+   "Waffles",
+   "Crepes",
+   "Pancakes",
+   "French toast"
+  ],
+  "a": 2,
+  "f": "Pancakes are one of the oldest foods in the world.",
+  "wiki": "Pancake"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which dish is this?",
+  "o": [
+   "Hamburger",
+   "Hot dog",
+   "Bratwurst",
+   "Corn dog"
+  ],
+  "a": 1,
+  "f": "Americans eat billions of hot dogs every year.",
+  "wiki": "Hot dog"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which dish is this?",
+  "o": [
+   "Fried chicken",
+   "Calamari",
+   "Fish and chips",
+   "Schnitzel"
+  ],
+  "a": 2,
+  "f": "Britain's famous takeaway since the 1800s.",
+  "wiki": "Fish and chips"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dish is this?",
+  "o": [
+   "Udon",
+   "Laksa",
+   "Ramen",
+   "Pho"
+  ],
+  "a": 2,
+  "f": "This noodle soup is one of Japan's most loved dishes.",
+  "wiki": "Ramen"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dish is this?",
+  "o": [
+   "Falafel",
+   "Meatballs",
+   "Croquettes",
+   "Arancini"
+  ],
+  "a": 0,
+  "f": "Falafel balls are made from chickpeas or fava beans.",
+  "wiki": "Falafel"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dish is this?",
+  "o": [
+   "Chow mein",
+   "Lo mein",
+   "Yakisoba",
+   "Pad thai"
+  ],
+  "a": 3,
+  "f": "Thailand's famous stir-fried rice noodles.",
+  "wiki": "Pad thai"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dish is this?",
+  "o": [
+   "Cannelloni",
+   "Lasagne",
+   "Moussaka",
+   "Pastitsio"
+  ],
+  "a": 1,
+  "f": "Layers of pasta, sauce and cheese from Italy.",
+  "wiki": "Lasagne"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dish is this?",
+  "o": [
+   "Donuts",
+   "Churros",
+   "Eclairs",
+   "Pretzels"
+  ],
+  "a": 1,
+  "f": "These fried dough sticks are often dipped in chocolate in Spain.",
+  "wiki": "Churro"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dish is this?",
+  "o": [
+   "Spring rolls",
+   "Sushi",
+   "Dim sum",
+   "Gyoza"
+  ],
+  "a": 2,
+  "f": "These small bites are often served in bamboo steamers.",
+  "wiki": "Dim sum"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dish is this?",
+  "o": [
+   "Taco",
+   "Burrito",
+   "Enchilada",
+   "Wrap"
+  ],
+  "a": 1,
+  "f": "Its name means little donkey in Spanish.",
+  "wiki": "Burrito"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dish is this?",
+  "o": [
+   "Udon",
+   "Ramen",
+   "Laksa",
+   "Pho"
+  ],
+  "a": 3,
+  "f": "Vietnam's famous noodle soup, often eaten for breakfast.",
+  "wiki": "Pho"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dish is this?",
+  "o": [
+   "Baba ganoush",
+   "Guacamole",
+   "Tzatziki",
+   "Hummus"
+  ],
+  "a": 3,
+  "f": "A creamy dip made from chickpeas, tahini, lemon and garlic.",
+  "wiki": "Hummus"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dish is this?",
+  "o": [
+   "Gyros",
+   "Souvlaki",
+   "Doner kebab",
+   "Shawarma"
+  ],
+  "a": 0,
+  "f": "Greek meat cooked on a vertical rotisserie.",
+  "wiki": "Gyros"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dish is this?",
+  "o": [
+   "Shepherd's pie",
+   "Gratin",
+   "Moussaka",
+   "Lasagne"
+  ],
+  "a": 2,
+  "f": "Layers of eggplant, meat and creamy sauce, famous in Greece.",
+  "wiki": "Moussaka"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dish is this?",
+  "o": [
+   "Fried rice",
+   "Bibimbap",
+   "Poke bowl",
+   "Donburi"
+  ],
+  "a": 1,
+  "f": "Its name means mixed rice in Korean.",
+  "wiki": "Bibimbap"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dish is this?",
+  "o": [
+   "Dumplings",
+   "Pierogi",
+   "Ravioli",
+   "Empanadas"
+  ],
+  "a": 1,
+  "f": "These filled dumplings are a favourite in Poland.",
+  "wiki": "Pierogi"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dish is this?",
+  "o": [
+   "Goulash",
+   "Beef stew",
+   "Borscht",
+   "Chili con carne"
+  ],
+  "a": 0,
+  "f": "A paprika-rich stew from Hungary.",
+  "wiki": "Goulash"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dish is this?",
+  "o": [
+   "Poutine",
+   "Cheese fries",
+   "Chili fries",
+   "Gravy fries"
+  ],
+  "a": 0,
+  "f": "Fries, cheese curds and gravy, from Quebec in Canada.",
+  "wiki": "Poutine"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dish is this?",
+  "o": [
+   "Ceviche",
+   "Poke",
+   "Sashimi",
+   "Tartare"
+  ],
+  "a": 0,
+  "f": "Raw fish cured in lime juice, a national dish of Peru.",
+  "wiki": "Ceviche"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dish is this?",
+  "o": [
+   "Cannoli",
+   "Kunafa",
+   "Baklava",
+   "Strudel"
+  ],
+  "a": 2,
+  "f": "Layers of thin pastry, nuts and syrup.",
+  "wiki": "Baklava"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dish is this?",
+  "o": [
+   "Frittata",
+   "Menemen",
+   "Shakshuka",
+   "Huevos rancheros"
+  ],
+  "a": 2,
+  "f": "Eggs poached in a spiced tomato and pepper sauce.",
+  "wiki": "Shakshouka"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dish is this?",
+  "o": [
+   "Couscous",
+   "Curry",
+   "Stew",
+   "Tagine"
+  ],
+  "a": 3,
+  "f": "Named after the cone-shaped clay pot it's cooked in, from Morocco.",
+  "wiki": "Tagine"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which dish is this?",
+  "o": [
+   "Gazpacho",
+   "Tomato soup",
+   "Goulash",
+   "Borscht"
+  ],
+  "a": 3,
+  "f": "This bright red soup gets its colour from beetroot.",
+  "wiki": "Borscht"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dish is this?",
+  "o": [
+   "Sausage",
+   "Haggis",
+   "Meatloaf",
+   "Black pudding"
+  ],
+  "a": 1,
+  "f": "Scotland's national dish, traditionally served with neeps and tatties.",
+  "wiki": "Haggis"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dish is this?",
+  "o": [
+   "Chili con carne",
+   "Cassoulet",
+   "Gumbo",
+   "Feijoada"
+  ],
+  "a": 3,
+  "f": "A black bean and pork stew, one of Brazil's national dishes.",
+  "wiki": "Feijoada"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dish is this?",
+  "o": [
+   "Crepes",
+   "Pancakes",
+   "Injera",
+   "Naan"
+  ],
+  "a": 2,
+  "f": "This spongy flatbread from Ethiopia is used as both plate and spoon.",
+  "wiki": "Injera"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dish is this?",
+  "o": [
+   "Pastel de nata",
+   "Creme brulee",
+   "Egg tart",
+   "Custard pie"
+  ],
+  "a": 0,
+  "f": "Portugal's famous custard tart, first made by monks in Lisbon.",
+  "wiki": "Pastel de nata"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dish is this?",
+  "o": [
+   "Khachapuri",
+   "Lahmacun",
+   "Calzone",
+   "Pide"
+  ],
+  "a": 0,
+  "f": "A boat-shaped cheese bread from Georgia, topped with an egg.",
+  "wiki": "Khachapuri"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dish is this?",
+  "o": [
+   "Meringue pie",
+   "Pavlova",
+   "Cheesecake",
+   "Eton mess"
+  ],
+  "a": 1,
+  "f": "Named after the Russian ballerina Anna Pavlova.",
+  "wiki": "Pavlova (cake)"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dish is this?",
+  "o": [
+   "Ramen",
+   "Tom yum",
+   "Laksa",
+   "Pho"
+  ],
+  "a": 2,
+  "f": "A spicy coconut noodle soup from Malaysia and Singapore.",
+  "wiki": "Laksa"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dish is this?",
+  "o": [
+   "Shepherd's pie",
+   "Bobotie",
+   "Moussaka",
+   "Meatloaf"
+  ],
+  "a": 1,
+  "f": "Spiced minced meat with an egg topping, from South Africa.",
+  "wiki": "Bobotie"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dish is this?",
+  "o": [
+   "Beef stew",
+   "Curry",
+   "Tagine",
+   "Rendang"
+  ],
+  "a": 3,
+  "f": "A slow-cooked spicy beef dish from Indonesia.",
+  "wiki": "Rendang"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dish is this?",
+  "o": [
+   "Biryani",
+   "Nasi goreng",
+   "Fried rice",
+   "Nasi lemak"
+  ],
+  "a": 3,
+  "f": "Malaysia's national dish: rice cooked in coconut milk.",
+  "wiki": "Nasi lemak"
+ }
+]
