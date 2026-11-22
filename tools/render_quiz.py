@@ -133,35 +133,45 @@ def card_169(q, n, total, photo, state):
 VW, VH = 1080, 1920
 
 
+# Zone sûre Reels/Shorts (retour Alae 22/11) : rien d'important sous y=1500 ni à droite de x=960 en bas
+# (nom de page, légende, boutons j'aime/partage cachaient l'option D et le chrono).
+V_BAR_Y = 1462
+V_CIRCLE = (948, 448, 58)  # cx, cy, r : compte à rebours dans le coin de la photo
+
+
 def card_916(q, n, total, photo, state, hook=None):
     im = bg(VW, VH); d = ImageDraw.Draw(im)
     if hook:
-        fh, hl = fit_text(d, hook, VW - 120, 2, 64, 44, mont)
-        y = 120
+        fh, hl = fit_text(d, hook, VW - 160, 2, 60, 42, mont)
+        y = 215
         for l in hl:
-            d.text(((VW - d.textlength(l, font=fh)) / 2, y), l, font=fh, fill=YEL); y += int(fh.size * 1.15)
-    s = f'{n}/{total}'; f2 = mont(44)
-    d.text(((VW - d.textlength(s, font=f2)) / 2, 300), s, font=f2, fill=WHITE)
-    px0, py0, px1, py1 = 60, 380, VW - 60, 1000
-    p, m = rounded_photo(photo, px1 - px0, py1 - py0, 36)
+            d.text(((VW - d.textlength(l, font=fh)) / 2, y), l, font=fh, fill=YEL); y += int(fh.size * 1.12)
+    s = f'{n}/{total}'; f2 = mont(40)
+    d.text(((VW - d.textlength(s, font=f2)) / 2, 330), s, font=f2, fill=WHITE)
+    px0, py0, px1, py1 = 60, 385, VW - 60, 845
+    p, m = rounded_photo(photo, px1 - px0, py1 - py0, 34)
     im.paste(p, (px0, py0), m); d = ImageDraw.Draw(im)
-    fq, ls = fit_text(d, q['q'], VW - 120, 3, 58, 40, mont)
-    y = 1040
+    if state == 'q':
+        cx, cy, r = V_CIRCLE
+        d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=NAVY, outline=YEL, width=6)
+    fq, ls = fit_text(d, q['q'], VW - 140, 2, 54, 38, mont)
+    y = 870
     for l in ls:
-        d.text(((VW - d.textlength(l, font=fq)) / 2, y), l, font=fq, fill=WHITE); y += int(fq.size * 1.18)
-    oy = max(y + 24, 1250); oh = 96; gap = 18
+        d.text(((VW - d.textlength(l, font=fq)) / 2, y), l, font=fq, fill=WHITE); y += int(fq.size * 1.15)
+    oh = 84; gap = 14; oy = max(y + 18, 1010)
+    oy = min(oy, V_BAR_Y - 30 - 4 * oh - 3 * gap)
     for i, o in enumerate(q['o']):
         yy = oy + i * (oh + gap); correct = i == q['a']
         if state == 'a' and correct: fill, tc = GRN, NAVY
         elif state == 'a': fill, tc = (40, 46, 72), (120, 128, 155)
         else: fill, tc = (28, 36, 70), WHITE
-        d.rounded_rectangle([60, yy, VW - 60, yy + oh], 24, fill=fill, outline=(CHIP[i] if state == 'q' else fill), width=4)
-        fl = mont(42); L = 'ABCD'[i]
-        d.text((96, yy + 22), L, font=fl, fill=(CHIP[i] if state == 'q' else tc))
-        fo, ol = fit_text(d, o, VW - 260, 1, 44, 30, popb)
-        d.text((160, yy + (oh - fo.size) / 2 - 6), ol[0], font=fo, fill=tc)
+        d.rounded_rectangle([60, yy, VW - 60, yy + oh], 22, fill=fill, outline=(CHIP[i] if state == 'q' else fill), width=4)
+        fl = mont(40); L = 'ABCD'[i]
+        d.text((94, yy + 17), L, font=fl, fill=(CHIP[i] if state == 'q' else tc))
+        fo, ol = fit_text(d, o, VW - 260, 1, 42, 30, popb)
+        d.text((156, yy + (oh - fo.size) / 2 - 6), ol[0], font=fo, fill=tc)
     if state == 'q':
-        d.rounded_rectangle([60, 1760, VW - 60, 1784], 12, fill=(35, 42, 78))
+        d.rounded_rectangle([60, V_BAR_Y, VW - 60, V_BAR_Y + 22], 11, fill=(35, 42, 78))
     return im
 
 
@@ -209,12 +219,12 @@ def make_music(path, dur):
 def run(cmd): subprocess.run(cmd, check=True)
 
 
-def segment(qpng, apng, out, tq, ta, w, h, bar):
+def segment(qpng, apng, out, tq, ta, w, h, bar, txt=None):
     """bar = (x0, y, x1, hgt). Barre jaune qui se vide + compte à rebours."""
     x0, y, x1, bh = bar; L = x1 - x0
     vf = (f"[0:v]split[b0][b1];[b1]crop={x0}:{bh}:0:{y}[mg];"
           f"[b0][2:v]overlay=x='{x0}-{L}*t/{tq}':y={y}:eval=frame[o1];[o1][mg]overlay=0:{y},"
-          f"drawtext=fontfile='{FONT_BB}':text='%{{eif\\:max(1,ceil({tq}-t))\\:d}}':fontsize={int(bh*3.2)}:fontcolor=white:x={x1}-tw:y={y}-{int(bh*3.6)}[q];"
+          f"drawtext=fontfile='{FONT_BB}':text='%{{eif\\:max(1,ceil({tq}-t))\\:d}}':fontsize={txt[2] if txt else int(bh*3.2)}:fontcolor=white:x={txt[0] if txt else str(x1)+'-tw'}:y={txt[1] if txt else str(y)+'-'+str(int(bh*3.6))}[q];"
           f"[1:v]null[a];[q][a]concat=n=2:v=1:a=0,format=yuv420p[v]")
     run(['ffmpeg', '-y', '-v', 'error', '-loop', '1', '-t', str(tq), '-framerate', str(FPS), '-i', qpng,
          '-loop', '1', '-t', str(ta), '-framerate', str(FPS), '-i', apng,
@@ -309,7 +319,7 @@ def shorts(ep, groups, hooks):
             a = f'{build}/vq{si}_{k}.png'; b = f'{build}/va{si}_{k}.png'
             card_916(qs[i], k + 1, len(grp), photo[i], 'q', hook).save(a)
             card_916(qs[i], k + 1, len(grp), photo[i], 'a', hook).save(b)
-            o = f'{build}/vs{si}_{k}.mp4'; segment(a, b, o, TQ, TA, VW, VH, (60, 1760, VW - 60, 24)); segs.append(o)
+            o = f'{build}/vs{si}_{k}.mp4'; segment(a, b, o, TQ, TA, VW, VH, (60, V_BAR_Y, VW - 60, 22), (f'{V_CIRCLE[0]}-tw/2', f'{V_CIRCLE[1]}-th/2', 70)); segs.append(o)
         # end card 3 s
         im = bg(VW, VH); d = ImageDraw.Draw(im)
         f = mont(84)
