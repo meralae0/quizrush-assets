@@ -1,0 +1,21 @@
+{
+ "youtube_long": {
+  "title": "Guess the Stadium Quiz: 40 Famous Football Stadiums (Puzzle Reveal)",
+  "description_file": "description.txt",
+  "thumb": "thumb.jpg"
+ },
+ "shorts": [
+  {
+   "file": "short1.mp4",
+   "title": "Only 3% Name All 6 Stadiums! #football #quiz #soccer"
+  },
+  {
+   "file": "short2.mp4",
+   "title": "Guess the Stadium From the Puzzle! #football #quiz #stadium"
+  },
+  {
+   "file": "short3.mp4",
+   "title": "The Hardest Stadium Quiz! #football #quiz #trivia"
+  }
+ ]
+}

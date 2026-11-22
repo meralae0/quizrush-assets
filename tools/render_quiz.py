@@ -54,11 +54,38 @@ def fit_text(d, text, maxw, maxlines, start, minsize, fontf):
     f = fontf(minsize); return f, wrap(d, text, f, maxw)
 
 
-def rounded_photo(path, w, h, r):
+def rounded_photo(path, w, h, r, hide=None, tiles=None):
     im = Image.open(path).convert('RGB')
+    for (a, b, c, e) in (hide or []):  # floute logos / noms qui donneraient la réponse
+        W0, H0 = im.size; box = (int(a * W0), int(b * H0), int(c * W0), int(e * H0))
+        im.paste(im.crop(box).filter(ImageFilter.GaussianBlur(max(12, W0 // 90))), box[:2])
     im = ImageOps.fit(im, (w, h), Image.LANCZOS, centering=(0.5, 0.45))
+    if tiles is not None: im = apply_tiles(im, tiles)
     m = Image.new('L', (w, h), 0); ImageDraw.Draw(m).rounded_rectangle([0, 0, w - 1, h - 1], r, fill=255)
     return im, m
+
+
+PCOLS, PROWS = 5, 4
+
+
+def apply_tiles(im, revealed):
+    """Puzzle : seules les tuiles de `revealed` montrent la photo, les autres sont des pièces navy '?'."""
+    im = im.copy(); d = ImageDraw.Draw(im); w, h = im.size
+    f = mont(int(min(w / PCOLS, h / PROWS) * 0.5))
+    for k in range(PCOLS * PROWS):
+        if k in revealed: continue
+        c, r_ = k % PCOLS, k // PCOLS
+        x0, y0 = round(c * w / PCOLS), round(r_ * h / PROWS); x1, y1 = round((c + 1) * w / PCOLS), round((r_ + 1) * h / PROWS)
+        d.rectangle([x0, y0, x1, y1], fill=(18, 24, 52))
+        d.rounded_rectangle([x0 + 4, y0 + 4, x1 - 4, y1 - 4], 10, fill=(30, 40, 82), outline=(52, 64, 120), width=2)
+        tw = d.textlength('?', font=f)
+        d.text(((x0 + x1 - tw) / 2, (y0 + y1) / 2 - f.size * 0.62), '?', font=f, fill=(70, 86, 150))
+    return im
+
+
+def tile_order(seed):
+    import random
+    o = list(range(PCOLS * PROWS)); random.Random(seed).shuffle(o); return o
 
 
 def bolt(d, cx, cy, s, fill):
@@ -78,7 +105,7 @@ PH = (60, 150, 1040, 870)  # photo box x0,y0,x1,y1
 TIMER_Y = 1010
 
 
-def card_169(q, n, total, photo, state):
+def card_169(q, n, total, photo, state, tiles=None):
     """state: 'q' (question) or 'a' (answer revealed)."""
     im = bg(W, H); d = ImageDraw.Draw(im)
     # header
@@ -91,7 +118,7 @@ def card_169(q, n, total, photo, state):
     d.text((W - 60 - d.textlength(s, font=f2), 44), s, font=f2, fill=WHITE)
     # photo
     pw, ph = PH[2] - PH[0], PH[3] - PH[1]
-    p, m = rounded_photo(photo, pw, ph, 36)
+    p, m = rounded_photo(photo, pw, ph, 36, q.get('hide'), tiles if state == 'q' else None)
     sh = Image.new('L', (W, H), 0); ImageDraw.Draw(sh).rounded_rectangle([PH[0] + 10, PH[1] + 16, PH[2] + 10, PH[3] + 16], 36, fill=150)
     im.paste((0, 0, 0), (0, 0), sh.filter(ImageFilter.GaussianBlur(18)))
     im.paste(p, (PH[0], PH[1]), m); d = ImageDraw.Draw(im)
@@ -139,7 +166,7 @@ V_BAR_Y = 1462
 V_CIRCLE = (948, 448, 58)  # cx, cy, r : compte à rebours dans le coin de la photo
 
 
-def card_916(q, n, total, photo, state, hook=None):
+def card_916(q, n, total, photo, state, hook=None, tiles=None):
     im = bg(VW, VH); d = ImageDraw.Draw(im)
     if hook:
         fh, hl = fit_text(d, hook, VW - 160, 2, 60, 42, mont)
@@ -147,7 +174,7 @@ def card_916(q, n, total, photo, state, hook=None):
         for l in hl:
             d.text(((VW - d.textlength(l, font=fh)) / 2, y), l, font=fh, fill=YEL); y += int(fh.size * 1.12)
     px0, py0, px1, py1 = 60, 385, VW - 60, 845
-    p, m = rounded_photo(photo, px1 - px0, py1 - py0, 34)
+    p, m = rounded_photo(photo, px1 - px0, py1 - py0, 34, q.get('hide'), tiles if state == 'q' else None)
     im.paste(p, (px0, py0), m); d = ImageDraw.Draw(im)
     s = f'{n}/{total}'; f2 = mont(40); tw = d.textlength(s, font=f2)
     d.rounded_rectangle([px0 + 22, py0 + 22, px0 + 58 + tw, py0 + 86], 22, fill=NAVY, outline=YEL, width=4)
@@ -308,7 +335,7 @@ def main(ep):
     print('long ok', dur)
 
 
-def shorts(ep, groups, hooks):
+def shorts(ep, groups, hooks, puzzle=False):
     qs = json.load(open(f'{ep}/questions.json'))
     media = sorted(f for f in os.listdir(f'{ep}/media') if f[:2].isdigit())
     photo = {int(f[:2]): f'{ep}/media/{f}' for f in media}
@@ -318,9 +345,17 @@ def shorts(ep, groups, hooks):
         segs = []
         for k, i in enumerate(grp):
             a = f'{build}/vq{si}_{k}.png'; b = f'{build}/va{si}_{k}.png'
-            card_916(qs[i], k + 1, len(grp), photo[i], 'q', hook).save(a)
             card_916(qs[i], k + 1, len(grp), photo[i], 'a', hook).save(b)
-            o = f'{build}/vs{si}_{k}.mp4'; segment(a, b, o, TQ, TA, VW, VH, (60, V_BAR_Y, VW - 60, 22), (f'{V_CIRCLE[0]}-tw/2', f'{V_CIRCLE[1]}-th/2', 70)); segs.append(o)
+            o = f'{build}/vs{si}_{k}.mp4'
+            if puzzle:
+                order = tile_order(1000 + i); ps = []
+                for j in range(TQ + 1):
+                    pj = f'{build}/vq{si}_{k}_{j}.png'; card_916(qs[i], k + 1, len(grp), photo[i], 'q', hook, set(order[:2 + 2 * j])).save(pj); ps.append(pj)
+                segment_puz(ps, b, o, 0, TQ, TA, (60, V_BAR_Y, VW - 60, 22), (f'{V_CIRCLE[0]}-tw/2', f'{V_CIRCLE[1]}-th/2', 70))
+            else:
+                card_916(qs[i], k + 1, len(grp), photo[i], 'q', hook).save(a)
+                segment(a, b, o, TQ, TA, VW, VH, (60, V_BAR_Y, VW - 60, 22), (f'{V_CIRCLE[0]}-tw/2', f'{V_CIRCLE[1]}-th/2', 70))
+            segs.append(o)
         # end card 3 s
         im = bg(VW, VH); d = ImageDraw.Draw(im)
         f = mont(84)
@@ -419,7 +454,10 @@ def main_voice(ep, TQ=8):
         for k in range(TQ): ev.append(('tick', t + pre + k, None))
         ev.append(('ding', t + pre + TQ, None)); ev.append(('voice', t + pre + TQ + 0.35, av))
         o = f'{build}/v{i:02d}.mp4'
-        segment_v2(f'{build}/q{i:02d}.png', f'{build}/a{i:02d}.png', o, pre, TQ, ta, (60, TIMER_Y, W - 60, 26))
+        if os.path.exists(f'{build}/q{i:02d}_0.png'):
+            segment_puz([f'{build}/q{i:02d}_{k}.png' for k in range(TQ + 1)], f'{build}/a{i:02d}.png', o, pre, TQ, ta, (60, TIMER_Y, W - 60, 26))
+        else:
+            segment_v2(f'{build}/q{i:02d}.png', f'{build}/a{i:02d}.png', o, pre, TQ, ta, (60, TIMER_Y, W - 60, 26))
         segs.append(o); t += pre + TQ + ta
     chapters.append((t, "What's your score?"))
     d = fr(len(outro_v) / SR + 2.5); ev.append(('voice', t + 0.4, outro_v))
@@ -450,3 +488,36 @@ def main_voice(ep, TQ=8):
          '-af', 'loudnorm=I=-14:TP=-1.5', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-ac', '2', '-shortest', f'{ep}/video.mp4'])
     json.dump([(round(a, 1), b) for a, b in chapters], open(f'{ep}/chapters.json', 'w'))
     print('voice long ok', round(total, 1), chapters)
+
+
+# ================= V3 : révélation puzzle =================
+def segment_puz(qpngs, apng, out, pre, tq, ta, bar, txt=None):
+    """qpngs[0] pendant la pré-voix, puis qpngs[1..] répartis sur tq (une pièce de plus à chaque pas)."""
+    x0, y, x1, bh = bar; L = x1 - x0; tot = pre + tq; n = len(qpngs) - 1; step = tq / n
+    lst = out + '.txt'
+    with open(lst, 'w') as f:
+        if pre > 0: f.write(f"file '{os.path.abspath(qpngs[0])}'\nduration {pre:.4f}\n")
+        for j in range(1, n + 1): f.write(f"file '{os.path.abspath(qpngs[j])}'\nduration {step:.4f}\n")
+        f.write(f"file '{os.path.abspath(qpngs[-1])}'\n")
+    fs = txt[2] if txt else int(bh * 3.2)
+    tx = txt[0] if txt else f'{x1}-tw'; ty = txt[1] if txt else f'{y}-{int(bh * 3.6)}'
+    vf = (f"[0:v]fps={FPS},trim=duration={tot:.4f},setpts=PTS-STARTPTS,split[b0][b1];[b1]crop={x0}:{bh}:0:{y}[mg];"
+          f"[b0][2:v]overlay=x='{x0}-{L}*max(0,t-{pre})/{tq}':y={y}:eval=frame[o1];[o1][mg]overlay=0:{y},"
+          f"drawtext=fontfile='{FONT_BB}':text='%{{eif\\:max(1,ceil({tq}-max(0,t-{pre})))\\:d}}':fontsize={fs}:fontcolor=white:x={tx}:y={ty},format=yuv420p,setsar=1[q];"
+          f"[1:v]format=yuv420p,setsar=1[a];[q][a]concat=n=2:v=1:a=0,format=yuv420p[v]")
+    run(['ffmpeg', '-y', '-v', 'error', '-f', 'concat', '-safe', '0', '-i', lst,
+         '-loop', '1', '-t', f'{ta:.3f}', '-framerate', str(FPS), '-i', apng,
+         '-f', 'lavfi', '-t', f'{tot:.3f}', '-i', f'color=c=0xFFD23F:s={L}x{bh}:r={FPS}',
+         '-filter_complex', vf, '-map', '[v]', '-r', str(FPS), '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', out])
+
+
+def puzzle_cards(ep, TQ=10, start=2, per_step=1):
+    """Écrit build/q##_k.png (k=0..TQ) et a##.png pour la version longue."""
+    qs = json.load(open(f'{ep}/questions.json'))
+    photo = {int(f[:2]): f'{ep}/media/{f}' for f in os.listdir(f'{ep}/media') if f[:2].isdigit()}
+    build = f'{ep}/build'; os.makedirs(build, exist_ok=True)
+    for i, q in enumerate(qs):
+        order = tile_order(1000 + i)
+        for k in range(TQ + 1):
+            card_169(q, i + 1, len(qs), photo[i], 'q', set(order[:start + k * per_step])).save(f'{build}/q{i:02d}_{k}.png')
+        card_169(q, i + 1, len(qs), photo[i], 'a').save(f'{build}/a{i:02d}.png')

@@ -1,10 +1,10 @@
 import sys; sys.path.insert(0,'tools'); from render_quiz import *
-def thumb(ep, ids, l1, l2, out):
+def thumb(ep, ids, l1, l2, out, tiles=None):
     im=bg(1280,720); d=ImageDraw.Draw(im)
     # 2x2 photos right
     pw,ph=300,250; x0,y0=640,70
     for k,i in enumerate(ids):
-        p,m=rounded_photo(f'{ep}/media/{i:02d}.jpg',pw,ph,22)
+        p,m=rounded_photo(f'{ep}/media/{i:02d}.jpg',pw,ph,22,None,(tiles[k] if tiles else None))
         x=x0+(k%2)*(pw+16); y=y0+(k//2)*(ph+16)
         im.paste(p,(x,y),m)
     d=ImageDraw.Draw(im)
@@ -17,4 +17,4 @@ def thumb(ep, ids, l1, l2, out):
     bolt(d,560,560,70,PINK)
     d.rounded_rectangle([50,600,420,670],18,fill=GRN); f3=mont(40); d.text((70,612),'EASY > GENIUS',font=f3,fill=NAVY)
     im.save(out,quality=92)
-thumb('episodes/01',[3,14,2,17],('CAN YOU','GET'),'40/40','episodes/01/thumb.jpg')
+if __name__=='__main__': thumb('episodes/01',[3,14,2,17],('CAN YOU','GET'),'40/40','episodes/01/thumb.jpg')

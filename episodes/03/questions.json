@@ -1,562 +1,640 @@
 [
-{
-"lvl": "EASY",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Stade de France",
-"Wembley Stadium",
-"Allianz Arena",
-"Olympiastadion Berlin"
-],
-"a": 1,
-"f": "London. England's national stadium reopened in 2007 after a full rebuild.",
-"s": "Wembley Stadium aerial",
-"city": "London"
-},
-{
-"lvl": "EASY",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Santiago Bernabeu",
-"Metropolitano",
-"Camp Nou",
-"Mestalla"
-],
-"a": 2,
-"f": "Barcelona. FC Barcelona has played here since 1957.",
-"s": "Camp Nou exterior",
-"city": "Barcelona"
-},
-{
-"lvl": "EASY",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"San Mames",
-"Metropolitano",
-"Santiago Bernabeu",
-"Camp Nou"
-],
-"a": 2,
-"f": "Madrid. Real Madrid's home since 1947.",
-"s": "Santiago Bernabeu stadium exterior",
-"city": "Madrid"
-},
-{
-"lvl": "EASY",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Etihad Stadium",
-"Stamford Bridge",
-"Anfield",
-"Old Trafford"
-],
-"a": 3,
-"f": "Manchester. Manchester United's home is nicknamed the Theatre of Dreams.",
-"s": "Old Trafford stadium",
-"city": "Manchester"
-},
-{
-"lvl": "EASY",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Estadio Monumental",
-"Mineirao",
-"Maracana",
-"Morumbi"
-],
-"a": 2,
-"f": "Rio de Janeiro. It hosted the World Cup final in both 1950 and 2014.",
-"s": "Maracana stadium aerial",
-"city": "Rio de Janeiro"
-},
-{
-"lvl": "EASY",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Westfalenstadion",
-"Allianz Arena",
-"Stadio Olimpico",
-"San Siro"
-],
-"a": 3,
-"f": "Milan. AC Milan and Inter share this famous ground.",
-"s": "San Siro stadium exterior",
-"city": "Milan"
-},
-{
-"lvl": "EASY",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Olympiastadion Munich",
-"Westfalenstadion",
-"Johan Cruyff Arena",
-"Allianz Arena"
-],
-"a": 3,
-"f": "Munich. Its outer shell can light up in different colours.",
-"s": "Allianz Arena Munich",
-"city": "Munich"
-},
-{
-"lvl": "EASY",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Goodison Park",
-"Old Trafford",
-"St James' Park",
-"Anfield"
-],
-"a": 3,
-"f": "Liverpool. Liverpool FC has played here since 1892.",
-"s": "Anfield stadium exterior",
-"city": "Liverpool"
-},
-{
-"lvl": "EASY",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Parc des Princes",
-"Stade de France",
-"Wembley Stadium",
-"Stade Velodrome"
-],
-"a": 1,
-"f": "Saint-Denis. It hosted the 1998 World Cup final.",
-"s": "Stade de France",
-"city": "Saint-Denis"
-},
-{
-"lvl": "EASY",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Allianz Arena",
-"Westfalenstadion",
-"Olympiastadion Berlin",
-"De Kuip"
-],
-"a": 1,
-"f": "Dortmund. Its famous south stand is known as the Yellow Wall.",
-"s": "Westfalenstadion Dortmund",
-"city": "Dortmund"
-},
-{
-"lvl": "MEDIUM",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Estadio Monumental",
-"Estadio Centenario",
-"La Bombonera",
-"Morumbi"
-],
-"a": 2,
-"f": "Buenos Aires. The home of Boca Juniors.",
-"s": "La Bombonera stadium",
-"city": "Buenos Aires"
-},
-{
-"lvl": "MEDIUM",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Estadio Monumental",
-"Estadio Azteca",
-"Rose Bowl",
-"Maracana"
-],
-"a": 1,
-"f": "Mexico City. It hosted the World Cup final in 1970 and 1986.",
-"s": "Estadio Azteca",
-"city": "Mexico City"
-},
-{
-"lvl": "MEDIUM",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Allianz Riviera",
-"Stade de France",
-"Parc des Princes",
-"Stade Velodrome"
-],
-"a": 2,
-"f": "Paris. The home of Paris Saint-Germain.",
-"s": "Parc des Princes",
-"city": "Paris"
-},
-{
-"lvl": "MEDIUM",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Celtic Park",
-"Anfield",
-"Ibrox",
-"Hampden Park"
-],
-"a": 0,
-"f": "Glasgow. The home of Celtic Football Club.",
-"s": "Celtic Park stadium",
-"city": "Glasgow"
-},
-{
-"lvl": "MEDIUM",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Estadio do Dragao",
-"Estadio Jose Alvalade",
-"Mestalla",
-"Estadio da Luz"
-],
-"a": 3,
-"f": "Lisbon. Benfica's home hosted the Champions League final in 2014 and 2020.",
-"s": "Estadio da Luz Lisbon",
-"city": "Lisbon"
-},
-{
-"lvl": "MEDIUM",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Philips Stadion",
-"Johan Cruyff Arena",
-"De Kuip",
-"Westfalenstadion"
-],
-"a": 1,
-"f": "Amsterdam. Ajax's home was renamed after Johan Cruyff in 2018.",
-"s": "Johan Cruyff Arena",
-"city": "Amsterdam"
-},
-{
-"lvl": "MEDIUM",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Olympiastadion Berlin",
-"Allianz Arena",
-"Olympiastadion Munich",
-"Westfalenstadion"
-],
-"a": 0,
-"f": "Berlin. Built for the 1936 Olympics, it hosted the 2006 World Cup final.",
-"s": "Olympiastadion Berlin aerial",
-"city": "Berlin"
-},
-{
-"lvl": "MEDIUM",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"San Siro",
-"Stadio Diego Armando Maradona",
-"Juventus Stadium",
-"Stadio Olimpico"
-],
-"a": 3,
-"f": "Rome. AS Roma and Lazio share this stadium.",
-"s": "Stadio Olimpico Rome",
-"city": "Rome"
-},
-{
-"lvl": "MEDIUM",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Mestalla",
-"Metropolitano",
-"San Mames",
-"Camp Nou"
-],
-"a": 0,
-"f": "Valencia. Valencia CF has played here since 1923.",
-"s": "Mestalla stadium Valencia",
-"city": "Valencia"
-},
-{
-"lvl": "MEDIUM",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Villa Park",
-"St James' Park",
-"Old Trafford",
-"Anfield"
-],
-"a": 1,
-"f": "Newcastle. Newcastle United's ground sits right in the city centre.",
-"s": "St James' Park Newcastle stadium",
-"city": "Newcastle"
-},
-{
-"lvl": "HARD",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Estadio do Dragao",
-"Estadio da Luz",
-"Estadio Jose Alvalade",
-"San Mames"
-],
-"a": 0,
-"f": "Porto. FC Porto's home opened in 2003.",
-"s": "Estadio do Dragao Porto",
-"city": "Porto"
-},
-{
-"lvl": "HARD",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"De Kuip",
-"Celtic Park",
-"Philips Stadion",
-"Johan Cruyff Arena"
-],
-"a": 0,
-"f": "Rotterdam. Feyenoord has played here since 1937.",
-"s": "De Kuip Rotterdam stadium",
-"city": "Rotterdam"
-},
-{
-"lvl": "HARD",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Villa Park",
-"Ibrox",
-"Hampden Park",
-"Celtic Park"
-],
-"a": 1,
-"f": "Glasgow. The home of Rangers Football Club.",
-"s": "Ibrox Stadium",
-"city": "Glasgow"
-},
-{
-"lvl": "HARD",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Stamford Bridge",
-"Emirates Stadium",
-"Selhurst Park",
-"Craven Cottage"
-],
-"a": 0,
-"f": "London. Chelsea has played here since the club was founded in 1905.",
-"s": "Stamford Bridge stadium",
-"city": "London"
-},
-{
-"lvl": "HARD",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Emirates Stadium",
-"Tottenham Hotspur Stadium",
-"Wembley Stadium",
-"London Stadium"
-],
-"a": 1,
-"f": "London. Opened in 2019, it has a retractable pitch for NFL games.",
-"s": "Tottenham Hotspur Stadium",
-"city": "London"
-},
-{
-"lvl": "HARD",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Metropolitano",
-"Mestalla",
-"Anoeta",
-"San Mames"
-],
-"a": 3,
-"f": "Bilbao. Athletic Club's new San Mames opened in 2013.",
-"s": "San Mames stadium Bilbao",
-"city": "Bilbao"
-},
-{
-"lvl": "HARD",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Estadio Centenario",
-"Estadio Azteca",
-"Estadio Monumental",
-"La Bombonera"
-],
-"a": 2,
-"f": "Buenos Aires. The home of River Plate and Argentina's national team.",
-"s": "Estadio Monumental Buenos Aires",
-"city": "Buenos Aires"
-},
-{
-"lvl": "HARD",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Parc des Princes",
-"Groupama Stadium",
-"Stade Velodrome",
-"Stade de France"
-],
-"a": 2,
-"f": "Marseille. The home of Olympique de Marseille.",
-"s": "Stade Velodrome Marseille",
-"city": "Marseille"
-},
-{
-"lvl": "HARD",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Stadion Narodowy",
-"Puskas Arena",
-"Olympiastadion Berlin",
-"Luzhniki Stadium"
-],
-"a": 3,
-"f": "Moscow. It hosted the 2018 World Cup final.",
-"s": "Luzhniki Stadium",
-"city": "Moscow"
-},
-{
-"lvl": "HARD",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Moses Mabhida Stadium",
-"FNB Stadium",
-"Cape Town Stadium",
-"Stade Mohammed V"
-],
-"a": 1,
-"f": "Johannesburg. Shaped like a calabash, it hosted the 2010 World Cup final.",
-"s": "FNB Stadium Soccer City Johannesburg",
-"city": "Johannesburg"
-},
-{
-"lvl": "GENIUS",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Estadio Centenario",
-"Maracana",
-"Estadio Monumental",
-"La Bombonera"
-],
-"a": 0,
-"f": "Montevideo. It hosted the very first World Cup final, in 1930.",
-"s": "Estadio Centenario Montevideo",
-"city": "Montevideo"
-},
-{
-"lvl": "GENIUS",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Khalifa International Stadium",
-"Al Bayt Stadium",
-"Lusail Stadium",
-"Al Janoub Stadium"
-],
-"a": 2,
-"f": "Lusail. It hosted the 2022 World Cup final.",
-"s": "Lusail Stadium",
-"city": "Lusail"
-},
-{
-"lvl": "GENIUS",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Beijing National Stadium",
-"Saitama Stadium",
-"Shanghai Stadium",
-"Seoul World Cup Stadium"
-],
-"a": 0,
-"f": "Beijing. Nicknamed the Bird's Nest, it was built for the 2008 Olympics.",
-"s": "Beijing National Stadium Bird's Nest",
-"city": "Beijing"
-},
-{
-"lvl": "GENIUS",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Mineirao",
-"Arena Fonte Nova",
-"Morumbi",
-"Maracana"
-],
-"a": 0,
-"f": "Belo Horizonte. Brazil lost 7-1 to Germany here in 2014.",
-"s": "Mineirao stadium",
-"city": "Belo Horizonte"
-},
-{
-"lvl": "GENIUS",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Stadion Narodowy",
-"Ernst Happel Stadion",
-"Puskas Arena",
-"Luzhniki Stadium"
-],
-"a": 2,
-"f": "Budapest. Named after Ferenc Puskas, it opened in 2019.",
-"s": "Puskas Arena Budapest",
-"city": "Budapest"
-},
-{
-"lvl": "GENIUS",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Olympiastadion Berlin",
-"Luzhniki Stadium",
-"Puskas Arena",
-"Stadion Narodowy"
-],
-"a": 3,
-"f": "Warsaw. It hosted the opening match of Euro 2012.",
-"s": "Stadion Narodowy Warsaw",
-"city": "Warsaw"
-},
-{
-"lvl": "GENIUS",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Stade Mohammed V",
-"Stade Velodrome",
-"Cairo International Stadium",
-"FNB Stadium"
-],
-"a": 0,
-"f": "Casablanca. Home to the famous Casablanca derby between Wydad and Raja.",
-"s": "Stade Mohammed V Casablanca",
-"city": "Casablanca"
-},
-{
-"lvl": "GENIUS",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Yokohama International Stadium",
-"Saitama Stadium",
-"Seoul World Cup Stadium",
-"Beijing National Stadium"
-],
-"a": 2,
-"f": "Seoul. It hosted the opening match of the 2002 World Cup.",
-"s": "Seoul World Cup Stadium",
-"city": "Seoul"
-},
-{
-"lvl": "GENIUS",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Olympiastadion Berlin",
-"Olympiastadion Munich",
-"Puskas Arena",
-"Allianz Arena"
-],
-"a": 1,
-"f": "Munich. Its tent-like roof was built for the 1972 Olympics.",
-"s": "Olympiastadion Munich roof",
-"city": "Munich"
-},
-{
-"lvl": "GENIUS",
-"q": "Which stadium is hiding under the puzzle?",
-"o": [
-"Mineirao",
-"Arena Corinthians",
-"Maracana",
-"Morumbi"
-],
-"a": 3,
-"f": "Sao Paulo. The home of Sao Paulo FC.",
-"s": "Morumbi stadium Sao Paulo",
-"city": "Sao Paulo"
-}
+ {
+  "lvl": "EASY",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Stade de France",
+   "Wembley Stadium",
+   "Allianz Arena",
+   "Olympiastadion Berlin"
+  ],
+  "a": 1,
+  "f": "London. England's national stadium reopened in 2007 after a full rebuild.",
+  "s": "Wembley Stadium aerial",
+  "city": "London"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Santiago Bernabeu",
+   "Metropolitano",
+   "Camp Nou",
+   "Mestalla"
+  ],
+  "a": 2,
+  "f": "Barcelona. FC Barcelona has played here since 1957.",
+  "s": "Camp Nou exterior",
+  "city": "Barcelona"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "San Mames",
+   "Metropolitano",
+   "Santiago Bernabeu",
+   "Camp Nou"
+  ],
+  "a": 2,
+  "f": "Madrid. Real Madrid's home since 1947.",
+  "s": "Santiago Bernabeu stadium exterior",
+  "city": "Madrid",
+  "hide": [
+   [
+    0,
+    0.15,
+    1,
+    0.5
+   ]
+  ]
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Etihad Stadium",
+   "Stamford Bridge",
+   "Anfield",
+   "Old Trafford"
+  ],
+  "a": 3,
+  "f": "Manchester. Manchester United's home is nicknamed the Theatre of Dreams.",
+  "s": "Old Trafford stadium",
+  "city": "Manchester"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Estadio Monumental",
+   "Mineirao",
+   "Maracana",
+   "Morumbi"
+  ],
+  "a": 2,
+  "f": "Rio de Janeiro. It hosted the World Cup final in both 1950 and 2014.",
+  "s": "Maracana stadium aerial",
+  "city": "Rio de Janeiro"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Westfalenstadion",
+   "Allianz Arena",
+   "Stadio Olimpico",
+   "San Siro"
+  ],
+  "a": 3,
+  "f": "Milan. AC Milan and Inter share this famous ground.",
+  "s": "San Siro stadium exterior",
+  "city": "Milan"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Olympiastadion Munich",
+   "Westfalenstadion",
+   "Johan Cruyff Arena",
+   "Allianz Arena"
+  ],
+  "a": 3,
+  "f": "Munich. Its outer shell can light up in different colours.",
+  "s": "Allianz Arena Munich",
+  "city": "Munich",
+  "hide": [
+   [
+    0.2,
+    0.4,
+    0.42,
+    0.52
+   ]
+  ]
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Goodison Park",
+   "Old Trafford",
+   "St James' Park",
+   "Anfield"
+  ],
+  "a": 3,
+  "f": "Liverpool. Liverpool FC has played here since 1892.",
+  "s": "Anfield stadium exterior",
+  "city": "Liverpool"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Parc des Princes",
+   "Stade de France",
+   "Wembley Stadium",
+   "Stade Velodrome"
+  ],
+  "a": 1,
+  "f": "Saint-Denis. It hosted the 1998 World Cup final.",
+  "s": "Stade de France",
+  "city": "Saint-Denis"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Allianz Arena",
+   "Westfalenstadion",
+   "Olympiastadion Berlin",
+   "De Kuip"
+  ],
+  "a": 1,
+  "f": "Dortmund. Its famous south stand is known as the Yellow Wall.",
+  "s": "Westfalenstadion Dortmund",
+  "city": "Dortmund"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Estadio Monumental",
+   "Estadio Centenario",
+   "La Bombonera",
+   "Morumbi"
+  ],
+  "a": 2,
+  "f": "Buenos Aires. The home of Boca Juniors.",
+  "s": "La Bombonera stadium",
+  "city": "Buenos Aires"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Estadio Monumental",
+   "Estadio Azteca",
+   "Rose Bowl",
+   "Maracana"
+  ],
+  "a": 1,
+  "f": "Mexico City. It hosted the World Cup final in 1970 and 1986.",
+  "s": "Estadio Azteca",
+  "city": "Mexico City",
+  "hide": [
+   [
+    0.18,
+    0.38,
+    0.52,
+    0.55
+   ]
+  ]
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Allianz Riviera",
+   "Stade de France",
+   "Parc des Princes",
+   "Stade Velodrome"
+  ],
+  "a": 2,
+  "f": "Paris. The home of Paris Saint-Germain.",
+  "s": "Parc des Princes",
+  "city": "Paris"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Celtic Park",
+   "Anfield",
+   "Ibrox",
+   "Hampden Park"
+  ],
+  "a": 0,
+  "f": "Glasgow. The home of Celtic Football Club.",
+  "s": "Celtic Park stadium",
+  "city": "Glasgow"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Estadio do Dragao",
+   "Estadio Jose Alvalade",
+   "Mestalla",
+   "Estadio da Luz"
+  ],
+  "a": 3,
+  "f": "Lisbon. Benfica's home hosted the Champions League final in 2014 and 2020.",
+  "s": "Estadio da Luz Lisbon",
+  "city": "Lisbon",
+  "hide": [
+   [
+    0.28,
+    0.28,
+    0.67,
+    0.44
+   ]
+  ]
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Philips Stadion",
+   "Johan Cruyff Arena",
+   "De Kuip",
+   "Westfalenstadion"
+  ],
+  "a": 1,
+  "f": "Amsterdam. Ajax's home was renamed after Johan Cruyff in 2018.",
+  "s": "Johan Cruyff Arena",
+  "city": "Amsterdam"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Olympiastadion Berlin",
+   "Allianz Arena",
+   "Olympiastadion Munich",
+   "Westfalenstadion"
+  ],
+  "a": 0,
+  "f": "Berlin. Built for the 1936 Olympics, it hosted the 2006 World Cup final.",
+  "s": "Olympiastadion Berlin aerial",
+  "city": "Berlin"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "San Siro",
+   "Stadio Diego Armando Maradona",
+   "Juventus Stadium",
+   "Stadio Olimpico"
+  ],
+  "a": 3,
+  "f": "Rome. AS Roma and Lazio share this stadium.",
+  "s": "Stadio Olimpico Rome",
+  "city": "Rome"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Mestalla",
+   "Metropolitano",
+   "San Mames",
+   "Camp Nou"
+  ],
+  "a": 0,
+  "f": "Valencia. Valencia CF has played here since 1923.",
+  "s": "Mestalla stadium Valencia",
+  "city": "Valencia"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Villa Park",
+   "St James' Park",
+   "Old Trafford",
+   "Anfield"
+  ],
+  "a": 1,
+  "f": "Newcastle. Newcastle United's ground sits right in the city centre.",
+  "s": "St James' Park Newcastle stadium",
+  "city": "Newcastle"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Estadio do Dragao",
+   "Estadio da Luz",
+   "Estadio Jose Alvalade",
+   "San Mames"
+  ],
+  "a": 0,
+  "f": "Porto. FC Porto's home opened in 2003.",
+  "s": "Estadio do Dragao Porto",
+  "city": "Porto"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "De Kuip",
+   "Celtic Park",
+   "Philips Stadion",
+   "Johan Cruyff Arena"
+  ],
+  "a": 0,
+  "f": "Rotterdam. Feyenoord has played here since 1937.",
+  "s": "De Kuip Rotterdam stadium",
+  "city": "Rotterdam",
+  "hide": [
+   [
+    0.36,
+    0.48,
+    0.76,
+    0.62
+   ]
+  ]
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Villa Park",
+   "Ibrox",
+   "Hampden Park",
+   "Celtic Park"
+  ],
+  "a": 1,
+  "f": "Glasgow. The home of Rangers Football Club.",
+  "s": "Ibrox Stadium",
+  "city": "Glasgow"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Stamford Bridge",
+   "Emirates Stadium",
+   "Selhurst Park",
+   "Craven Cottage"
+  ],
+  "a": 0,
+  "f": "London. Chelsea has played here since the club was founded in 1905.",
+  "s": "Stamford Bridge stadium",
+  "city": "London"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Emirates Stadium",
+   "Tottenham Hotspur Stadium",
+   "Wembley Stadium",
+   "London Stadium"
+  ],
+  "a": 1,
+  "f": "London. Opened in 2019, it has a retractable pitch for NFL games.",
+  "s": "Tottenham Hotspur Stadium",
+  "city": "London"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Metropolitano",
+   "Mestalla",
+   "Anoeta",
+   "San Mames"
+  ],
+  "a": 3,
+  "f": "Bilbao. Athletic Club's new San Mames opened in 2013.",
+  "s": "San Mames stadium Bilbao",
+  "city": "Bilbao",
+  "hide": [
+   [
+    0.28,
+    0.58,
+    0.72,
+    0.71
+   ]
+  ]
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Estadio Centenario",
+   "Estadio Azteca",
+   "Estadio Monumental",
+   "La Bombonera"
+  ],
+  "a": 2,
+  "f": "Buenos Aires. The home of River Plate and Argentina's national team.",
+  "s": "Estadio Monumental Buenos Aires",
+  "city": "Buenos Aires",
+  "hide": [
+   [
+    0,
+    0.48,
+    0.22,
+    0.68
+   ],
+   [
+    0.78,
+    0.48,
+    1,
+    0.66
+   ]
+  ]
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Parc des Princes",
+   "Groupama Stadium",
+   "Stade Velodrome",
+   "Stade de France"
+  ],
+  "a": 2,
+  "f": "Marseille. The home of Olympique de Marseille.",
+  "s": "Stade Velodrome Marseille",
+  "city": "Marseille",
+  "hide": [
+   [
+    0.26,
+    0.42,
+    0.74,
+    0.57
+   ]
+  ]
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Stadion Narodowy",
+   "Puskas Arena",
+   "Olympiastadion Berlin",
+   "Luzhniki Stadium"
+  ],
+  "a": 3,
+  "f": "Moscow. It hosted the 2018 World Cup final.",
+  "s": "Luzhniki Stadium",
+  "city": "Moscow"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Moses Mabhida Stadium",
+   "FNB Stadium",
+   "Cape Town Stadium",
+   "Stade Mohammed V"
+  ],
+  "a": 1,
+  "f": "Johannesburg. Shaped like a calabash, it hosted the 2010 World Cup final.",
+  "s": "FNB Stadium Soccer City Johannesburg",
+  "city": "Johannesburg"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Estadio Centenario",
+   "Maracana",
+   "Estadio Monumental",
+   "La Bombonera"
+  ],
+  "a": 0,
+  "f": "Montevideo. It hosted the very first World Cup final, in 1930.",
+  "s": "Estadio Centenario Montevideo",
+  "city": "Montevideo"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Khalifa International Stadium",
+   "Al Bayt Stadium",
+   "Lusail Stadium",
+   "Al Janoub Stadium"
+  ],
+  "a": 2,
+  "f": "Lusail. It hosted the 2022 World Cup final.",
+  "s": "Lusail Stadium",
+  "city": "Lusail"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Beijing National Stadium",
+   "Saitama Stadium",
+   "Shanghai Stadium",
+   "Seoul World Cup Stadium"
+  ],
+  "a": 0,
+  "f": "Beijing. Nicknamed the Bird's Nest, it was built for the 2008 Olympics.",
+  "s": "Beijing National Stadium Bird's Nest",
+  "city": "Beijing"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Mineirao",
+   "Arena Fonte Nova",
+   "Morumbi",
+   "Maracana"
+  ],
+  "a": 0,
+  "f": "Belo Horizonte. Brazil lost 7-1 to Germany here in 2014.",
+  "s": "Mineirao stadium",
+  "city": "Belo Horizonte"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Stadion Narodowy",
+   "Ernst Happel Stadion",
+   "Puskas Arena",
+   "Luzhniki Stadium"
+  ],
+  "a": 2,
+  "f": "Budapest. Named after Ferenc Puskas, it opened in 2019.",
+  "s": "Puskas Arena Budapest",
+  "city": "Budapest"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Olympiastadion Berlin",
+   "Luzhniki Stadium",
+   "Puskas Arena",
+   "Stadion Narodowy"
+  ],
+  "a": 3,
+  "f": "Warsaw. It hosted the opening match of Euro 2012.",
+  "s": "Stadion Narodowy Warsaw",
+  "city": "Warsaw"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Stade Mohammed V",
+   "Stade Velodrome",
+   "Cairo International Stadium",
+   "FNB Stadium"
+  ],
+  "a": 0,
+  "f": "Casablanca. Home to the famous Casablanca derby between Wydad and Raja.",
+  "s": "Stade Mohammed V Casablanca",
+  "city": "Casablanca"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Yokohama International Stadium",
+   "Saitama Stadium",
+   "Seoul World Cup Stadium",
+   "Beijing National Stadium"
+  ],
+  "a": 2,
+  "f": "Seoul. It hosted the opening match of the 2002 World Cup.",
+  "s": "Seoul World Cup Stadium",
+  "city": "Seoul",
+  "hide": [
+   [
+    0.08,
+    0.5,
+    0.97,
+    0.68
+   ]
+  ]
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Olympiastadion Berlin",
+   "Olympiastadion Munich",
+   "Puskas Arena",
+   "Allianz Arena"
+  ],
+  "a": 1,
+  "f": "Munich. Its tent-like roof was built for the 1972 Olympics.",
+  "s": "Olympiastadion Munich roof",
+  "city": "Munich"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which stadium is hiding under the puzzle?",
+  "o": [
+   "Mineirao",
+   "Arena Corinthians",
+   "Maracana",
+   "Morumbi"
+  ],
+  "a": 3,
+  "f": "Sao Paulo. The home of Sao Paulo FC.",
+  "s": "Morumbi stadium Sao Paulo",
+  "city": "Sao Paulo"
+ }
 ]

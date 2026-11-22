@@ -1,0 +1,440 @@
+[
+ {
+  "file": "voice/voice0.wav",
+  "segs": [
+   [
+    0.0,
+    14.55
+   ],
+   [
+    14.55,
+    19.259999999999998
+   ],
+   [
+    19.259999999999998,
+    26.62
+   ],
+   [
+    26.62,
+    30.51
+   ],
+   [
+    30.51,
+    36.11
+   ],
+   [
+    36.11,
+    39.370000000000005
+   ],
+   [
+    39.370000000000005,
+    45.09
+   ],
+   [
+    45.09,
+    50.61
+   ],
+   [
+    50.61,
+    57.260000000000005
+   ],
+   [
+    57.260000000000005,
+    60.92
+   ],
+   [
+    60.92,
+    68.56
+   ],
+   [
+    68.56,
+    72.54
+   ],
+   [
+    72.54,
+    77.98
+   ],
+   [
+    77.98,
+    81.12
+   ],
+   [
+    81.12,
+    86.82000000000001
+   ],
+   [
+    86.82000000000001,
+    90.13
+   ],
+   [
+    90.13,
+    95.97999999999999
+   ],
+   [
+    95.97999999999999,
+    99.48
+   ],
+   [
+    99.48,
+    105.37
+   ],
+   [
+    105.37,
+    109.67
+   ],
+   [
+    109.67,
+    115.88
+   ]
+  ],
+  "texts": [
+   "Welcome to Quiz Rush! Today's challenge is tough. Forty famous football stadiums are hiding behind a puzzle. The pieces flip one by one, but never all of them. You have ten seconds each. Ready? Let's play!",
+   "Kick-off! The first stadium is hiding behind the puzzle. Which one is it?",
+   "Yes! It's Wembley Stadium, in London. England's national stadium reopened in 2007 after a full rebuild.",
+   "Piece by piece... which legendary ground is this?",
+   "That's Camp Nou, in Barcelona. FC Barcelona has played here since 1957.",
+   "Watch the tiles flip! Can you name this stadium?",
+   "It's Santiago Bernabeu, in Madrid. Real Madrid's home since 1947.",
+   "Big clue: you've seen this one on TV a thousand times. Which stadium?",
+   "Correct answer: Old Trafford, in Manchester. Manchester United's home is nicknamed the Theatre of Dreams.",
+   "This one has seen two World Cup finals. Name it!",
+   "Of course, it's Maracana, in Rio de Janeiro. It hosted the World Cup final in both 1950 and 2014.",
+   "Two clubs, one home. Which stadium is under there?",
+   "Boom! It's San Siro, in Milan. AC Milan and Inter share this famous ground.",
+   "Look at that shape! Which stadium is this?",
+   "Here it is: Allianz Arena, in Munich. Its outer shell can light up in different colours.",
+   "You'll never walk alone with this one. Which ground is it?",
+   "You got it, it's Anfield, in Liverpool. Liverpool FC has played here since 1892.",
+   "A national stadium is hiding here. Which one?",
+   "Spot on! It's Stade de France, in Saint-Denis. It hosted the 1998 World Cup final.",
+   "Last easy one! Listen for the roar. Which stadium is this?",
+   "The answer is Westfalenstadion, in Dortmund. Its famous south stand is known as the Yellow Wall."
+  ]
+ },
+ {
+  "file": "voice/voice1.wav",
+  "segs": [
+   [
+    0.0,
+    7.210000000000001
+   ],
+   [
+    7.210000000000001,
+    13.370000000000001
+   ],
+   [
+    13.370000000000001,
+    18.94
+   ],
+   [
+    18.94,
+    27.55
+   ],
+   [
+    27.55,
+    31.78
+   ],
+   [
+    31.78,
+    36.760000000000005
+   ],
+   [
+    36.760000000000005,
+    40.480000000000004
+   ],
+   [
+    40.480000000000004,
+    46.379999999999995
+   ],
+   [
+    46.379999999999995,
+    51.120000000000005
+   ],
+   [
+    51.120000000000005,
+    60.07
+   ],
+   [
+    60.07,
+    64.57
+   ],
+   [
+    64.57,
+    73.2
+   ],
+   [
+    73.2,
+    77.08
+   ],
+   [
+    77.08,
+    86.75
+   ],
+   [
+    86.75,
+    91.47
+   ],
+   [
+    91.47,
+    97.84
+   ],
+   [
+    97.84,
+    102.0
+   ],
+   [
+    102.0,
+    108.61
+   ],
+   [
+    108.61,
+    114.43
+   ],
+   [
+    114.43,
+    121.0
+   ]
+  ],
+  "texts": [
+   "Medium round! South American fans, this one's for you. Which stadium is hiding now?",
+   "Yes! It's La Bombonera, in Buenos Aires. The home of Boca Juniors.",
+   "Altitude and history. Which stadium is under the tiles?",
+   "That's Estadio Azteca, in Mexico City. It hosted the World Cup final in 1970 and 1986.",
+   "Paris lights are on. Which ground is this?",
+   "It's Parc des Princes, in Paris. The home of Paris Saint-Germain.",
+   "Scotland calling! Which stadium is it?",
+   "Correct answer: Celtic Park, in Glasgow. The home of Celtic Football Club.",
+   "Champions League nights live here. Name this stadium!",
+   "Of course, it's Estadio da Luz, in Lisbon. Benfica's home hosted the Champions League final in 2014 and 2020.",
+   "A legend gave this stadium his name. Which one is it?",
+   "Boom! It's Johan Cruyff Arena, in Amsterdam. Ajax's home was renamed after Johan Cruyff in 2018.",
+   "Olympic history in this one. Which stadium is it?",
+   "Here it is: Olympiastadion Berlin, in Berlin. Built for the 1936 Olympics, it hosted the 2006 World Cup final.",
+   "Two rival clubs share this one too. Which stadium is it?",
+   "You got it, it's Stadio Olimpico, in Rome. AS Roma and Lazio share this stadium.",
+   "One of Spain's oldest grounds. Which one?",
+   "Spot on! It's Mestalla, in Valencia. Valencia CF has played here since 1923.",
+   "Last Medium question! A stadium right in the city centre. Name it!",
+   "The answer is St James' Park, in Newcastle. Newcastle United's ground sits right in the city centre."
+  ]
+ },
+ {
+  "file": "voice/voice2.wav",
+  "segs": [
+   [
+    0.0,
+    5.45
+   ],
+   [
+    5.45,
+    12.54
+   ],
+   [
+    12.54,
+    16.42
+   ],
+   [
+    16.42,
+    22.630000000000003
+   ],
+   [
+    22.630000000000003,
+    26.39
+   ],
+   [
+    26.39,
+    31.47
+   ],
+   [
+    31.47,
+    35.46
+   ],
+   [
+    35.46,
+    42.68
+   ],
+   [
+    42.68,
+    47.14
+   ],
+   [
+    47.14,
+    55.400000000000006
+   ],
+   [
+    55.400000000000006,
+    59.510000000000005
+   ],
+   [
+    59.510000000000005,
+    66.61000000000001
+   ],
+   [
+    66.61000000000001,
+    70.14000000000001
+   ],
+   [
+    70.14000000000001,
+    76.93
+   ],
+   [
+    76.93,
+    80.28
+   ],
+   [
+    80.28,
+    85.71000000000001
+   ],
+   [
+    85.71000000000001,
+    89.92
+   ],
+   [
+    89.92,
+    96.18
+   ],
+   [
+    96.18,
+    101.08
+   ],
+   [
+    101.08,
+    108.32
+   ]
+  ],
+  "texts": [
+   "Hard round! Fewer tiles, more pressure. Which stadium is this?",
+   "Yes! It's Estadio do Dragao, in Porto. FC Porto's home opened in 2003.",
+   "A Dutch classic is hiding here. Which one?",
+   "That's De Kuip, in Rotterdam. Feyenoord has played here since 1937.",
+   "Back to Glasgow, but which stadium this time?",
+   "It's Ibrox, in Glasgow. The home of Rangers Football Club.",
+   "London calling! Which ground is under the puzzle?",
+   "Correct answer: Stamford Bridge, in London. Chelsea has played here since the club was founded in 1905.",
+   "This one is brand new and full of tech. Which stadium?",
+   "Of course, it's Tottenham Hotspur Stadium, in London. Opened in 2019, it has a retractable pitch for NFL games.",
+   "A cathedral of football in Spain. Can you name it?",
+   "Boom! It's San Mames, in Bilbao. Athletic Club's new San Mames opened in 2013.",
+   "Buenos Aires again! But which stadium?",
+   "Here it is: Estadio Monumental, in Buenos Aires. The home of River Plate and Argentina's national team.",
+   "Allez! Which French stadium is this?",
+   "You got it, it's Stade Velodrome, in Marseille. The home of Olympique de Marseille.",
+   "A World Cup final was played here not long ago. Which stadium?",
+   "Spot on! It's Luzhniki Stadium, in Moscow. It hosted the 2018 World Cup final.",
+   "Last Hard question! Think about Africa. Which stadium is this?",
+   "The answer is FNB Stadium, in Johannesburg. Shaped like a calabash, it hosted the 2010 World Cup final."
+  ]
+ },
+ {
+  "file": "voice/voice3.wav",
+  "segs": [
+   [
+    0.0,
+    6.460000000000001
+   ],
+   [
+    6.460000000000001,
+    13.71
+   ],
+   [
+    13.71,
+    17.700000000000003
+   ],
+   [
+    17.700000000000003,
+    22.98
+   ],
+   [
+    22.98,
+    26.69
+   ],
+   [
+    26.69,
+    33.64
+   ],
+   [
+    33.64,
+    38.66
+   ],
+   [
+    38.66,
+    45.61
+   ],
+   [
+    45.61,
+    48.82
+   ],
+   [
+    48.82,
+    55.9
+   ],
+   [
+    55.9,
+    60.11
+   ],
+   [
+    60.11,
+    65.94
+   ],
+   [
+    65.94,
+    70.3
+   ],
+   [
+    70.3,
+    77.47999999999999
+   ],
+   [
+    77.47999999999999,
+    81.19
+   ],
+   [
+    81.19,
+    87.34
+   ],
+   [
+    87.34,
+    90.87
+   ],
+   [
+    90.87,
+    97.47999999999999
+   ],
+   [
+    97.47999999999999,
+    102.87
+   ],
+   [
+    102.87,
+    107.56
+   ],
+   [
+    107.56,
+    114.92
+   ]
+  ],
+  "texts": [
+   "Genius round! Only true football nerds will get these. Which stadium?",
+   "Yes! It's Estadio Centenario, in Montevideo. It hosted the very first World Cup final, in 1930.",
+   "Brand new and built for the biggest night. Which one is it?",
+   "That's Lusail Stadium, in Lusail. It hosted the 2022 World Cup final.",
+   "This one isn't just for football. Name it!",
+   "It's Beijing National Stadium, in Beijing. Nicknamed the Bird's Nest, it was built for the 2008 Olympics.",
+   "Painful memories for one big football nation. Which stadium is this?",
+   "Correct answer: Mineirao, in Belo Horizonte. Brazil lost 7-1 to Germany here in 2014.",
+   "Central Europe's newest giant. Which stadium?",
+   "Of course, it's Puskas Arena, in Budapest. Named after Ferenc Puskas, it opened in 2019.",
+   "Red and white on the outside. Which stadium is hiding here?",
+   "Boom! It's Stadion Narodowy, in Warsaw. It hosted the opening match of Euro 2012.",
+   "Derby day magic lives here. Which stadium is this?",
+   "Here it is: Stade Mohammed V, in Casablanca. Home to the famous Casablanca derby between Wydad and Raja.",
+   "Asia hosted the world here. Which stadium?",
+   "You got it, it's Seoul World Cup Stadium, in Seoul. It hosted the opening match of the 2002 World Cup.",
+   "A roof like a giant tent. Which one is it?",
+   "Spot on! It's Olympiastadion Munich, in Munich. Its tent-like roof was built for the 1972 Olympics.",
+   "Final question! One last Brazilian giant. Which stadium is this?",
+   "The answer is Morumbi, in Sao Paulo. The home of Sao Paulo FC.",
+   "Full time! That was a hard one. How many stadiums did you recognise? Drop your score in the comments, and subscribe for the next Quiz Rush!"
+  ]
+ }
+]
