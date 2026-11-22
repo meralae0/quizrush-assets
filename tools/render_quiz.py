@@ -331,3 +331,111 @@ def shorts(ep, groups, hooks):
 
 if __name__ == '__main__':
     main(sys.argv[1])
+
+
+# ================= V2 : voix d'animateur =================
+import numpy as np
+
+
+def load_wav(path):
+    with wave.open(path) as w:
+        sr = w.getframerate(); ch = w.getnchannels()
+        a = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768
+    if ch == 2: a = a.reshape(-1, 2).mean(1)
+    return a, sr
+
+
+def to48(a, sr):
+    if sr == SR: return a
+    n = int(len(a) * SR / sr)
+    return np.interp(np.linspace(0, len(a) - 1, n), np.arange(len(a)), a).astype(np.float32)
+
+
+def trim(a, thr=0.02):
+    idx = np.where(np.abs(a) > thr)[0]
+    if len(idx) == 0: return a
+    s = max(0, idx[0] - int(0.03 * SR)); e = min(len(a), idx[-1] + int(0.12 * SR))
+    return a[s:e]
+
+
+def voice_clips(ep):
+    segs = json.load(open(f'{ep}/voice/segments.json'))
+    clips = []
+    for b in segs:
+        a, sr = load_wav(os.path.join(ep, b['file'])); a = to48(a, sr)
+        for (s, e) in b['segs']:
+            clips.append(trim(a[int(s * SR):int(e * SR)]))
+    # ordre: intro, q1,a1..q40,a40, outro
+    return clips
+
+
+def segment_v2(qpng, apng, out, pre, tq, ta, bar):
+    x0, y, x1, bh = bar; L = x1 - x0; tot = pre + tq
+    vf = (f"[0:v]split[b0][b1];[b1]crop={x0}:{bh}:0:{y}[mg];"
+          f"[b0][2:v]overlay=x='{x0}-{L}*max(0,t-{pre})/{tq}':y={y}:eval=frame[o1];[o1][mg]overlay=0:{y},"
+          f"drawtext=fontfile='{FONT_BB}':text='%{{eif\\:max(1,ceil({tq}-max(0,t-{pre})))\\:d}}':fontsize={int(bh*3.2)}:fontcolor=white:x={x1}-tw:y={y}-{int(bh*3.6)}[q];"
+          f"[1:v]null[a];[q][a]concat=n=2:v=1:a=0,format=yuv420p[v]")
+    run(['ffmpeg', '-y', '-v', 'error', '-loop', '1', '-t', f'{tot:.3f}', '-framerate', str(FPS), '-i', qpng,
+         '-loop', '1', '-t', f'{ta:.3f}', '-framerate', str(FPS), '-i', apng,
+         '-f', 'lavfi', '-t', f'{tot:.3f}', '-i', f'color=c=0xFFD23F:s={L}x{bh}:r={FPS}',
+         '-filter_complex', vf, '-map', '[v]', '-r', str(FPS), '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', out])
+
+
+def still(png, dur, out):
+    run(['ffmpeg', '-y', '-v', 'error', '-loop', '1', '-t', f'{dur:.3f}', '-framerate', str(FPS), '-i', png, '-vf', 'format=yuv420p', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', out])
+
+
+def fr(x):  # arrondi à la frame pour que vidéo et audio restent calés
+    return round(x * FPS) / FPS
+
+
+def main_voice(ep, TQ=8):
+    qs = json.load(open(f'{ep}/questions.json'))
+    photo = {int(f[:2]): f'{ep}/media/{f}' for f in os.listdir(f'{ep}/media') if f[:2].isdigit()}
+    build = f'{ep}/build'; sfx = f'{build}/sfx'; os.makedirs(build, exist_ok=True); make_sfx(sfx)
+    clips = voice_clips(ep); assert len(clips) == 2 * len(qs) + 2, len(clips)
+    intro_v, outro_v = clips[0], clips[-1]
+    segs = []; ev = []  # ev: (kind, time, data)
+    t = 0.0
+    d = fr(len(intro_v) / SR + 0.9); ev.append(('voice', 0.3, intro_v))
+    still(f'{build}/intro.png', d, f'{build}/v_intro.mp4'); segs.append(f'{build}/v_intro.mp4'); t += d
+    chapters = []
+    for i, q in enumerate(qs):
+        if i % 10 == 0: chapters.append((t, q['lvl'].title()))
+        qv, av = clips[1 + 2 * i], clips[2 + 2 * i]
+        pre = fr(len(qv) / SR + 0.35); ta = fr(max(3.2, len(av) / SR + 0.9))
+        ev.append(('voice', t + 0.15, qv))
+        for k in range(TQ): ev.append(('tick', t + pre + k, None))
+        ev.append(('ding', t + pre + TQ, None)); ev.append(('voice', t + pre + TQ + 0.35, av))
+        o = f'{build}/v{i:02d}.mp4'
+        segment_v2(f'{build}/q{i:02d}.png', f'{build}/a{i:02d}.png', o, pre, TQ, ta, (60, TIMER_Y, W - 60, 26))
+        segs.append(o); t += pre + TQ + ta
+    chapters.append((t, "What's your score?"))
+    d = fr(len(outro_v) / SR + 2.5); ev.append(('voice', t + 0.4, outro_v))
+    still(f'{build}/outro.png', d, f'{build}/v_outro.mp4'); segs.append(f'{build}/v_outro.mp4'); t += d
+    total = t
+    open(f'{build}/vlist.txt', 'w').write(''.join(f"file '{os.path.abspath(s)}'\n" for s in segs))
+    run(['ffmpeg', '-y', '-v', 'error', '-f', 'concat', '-safe', '0', '-i', f'{build}/vlist.txt', '-c', 'copy', f'{build}/video_v_noaudio.mp4'])
+    # ---- mix audio (numpy) ----
+    N = int(total * SR) + SR
+    voice = np.zeros(N, np.float32); fx = np.zeros(N, np.float32)
+    tick = load_wav(f'{sfx}/tick.wav')[0]; ding = load_wav(f'{sfx}/ding.wav')[0]
+    for kind, at, data in ev:
+        s = int(at * SR)
+        src = data if kind == 'voice' else (tick * 0.7 if kind == 'tick' else ding * 0.8)
+        tgt = voice if kind == 'voice' else fx
+        e = min(N, s + len(src)); tgt[s:e] += src[:e - s]
+    make_music(f'{sfx}/music_long.wav', total + 1)
+    mus = load_wav(f'{sfx}/music_long.wav')[0][:N]; mus = np.pad(mus, (0, N - len(mus)))
+    env = np.convolve((np.abs(voice) > 0.01).astype(np.float32), np.ones(int(0.25 * SR)) / int(0.25 * SR), 'same')
+    duck = 1 - 0.6 * np.clip(env * 4, 0, 1)
+    mix = voice * 1.0 + fx * 0.5 + mus * 0.8 * duck
+    mix = mix[:int(total * SR)]
+    mix = mix / max(1e-6, np.abs(mix).max()) * 0.9
+    raw = f'{build}/mix_v.wav'
+    with wave.open(raw, 'w') as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((mix * 32000).astype(np.int16).tobytes())
+    run(['ffmpeg', '-y', '-v', 'error', '-i', f'{build}/video_v_noaudio.mp4', '-i', raw, '-map', '0:v', '-map', '1:a',
+         '-af', 'loudnorm=I=-14:TP=-1.5', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-ac', '2', '-shortest', f'{ep}/video.mp4'])
+    json.dump([(round(a, 1), b) for a, b in chapters], open(f'{ep}/chapters.json', 'w'))
+    print('voice long ok', round(total, 1), chapters)

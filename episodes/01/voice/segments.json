@@ -1,0 +1,440 @@
+[
+ {
+  "file": "voice/voice0.wav",
+  "segs": [
+   [
+    0.0,
+    9.61766
+   ],
+   [
+    9.61766,
+    14.8767
+   ],
+   [
+    14.8767,
+    19.591
+   ],
+   [
+    19.591,
+    23.2297
+   ],
+   [
+    23.2297,
+    28.3876
+   ],
+   [
+    28.3876,
+    32.0728
+   ],
+   [
+    32.0728,
+    36.151849999999996
+   ],
+   [
+    36.151849999999996,
+    40.732150000000004
+   ],
+   [
+    40.732150000000004,
+    45.8484
+   ],
+   [
+    45.8484,
+    49.848150000000004
+   ],
+   [
+    49.848150000000004,
+    56.39175
+   ],
+   [
+    56.39175,
+    62.3881
+   ],
+   [
+    62.3881,
+    67.46725
+   ],
+   [
+    67.46725,
+    71.8245
+   ],
+   [
+    71.8245,
+    75.88295
+   ],
+   [
+    75.88295,
+    79.53055
+   ],
+   [
+    79.53055,
+    83.8942
+   ],
+   [
+    83.8942,
+    88.2179
+   ],
+   [
+    88.2179,
+    91.85255000000001
+   ],
+   [
+    91.85255000000001,
+    96.5305
+   ],
+   [
+    96.5305,
+    100.2
+   ]
+  ],
+  "texts": [
+   "Welcome to Quiz Rush! Forty questions, four levels, ten seconds each. Grab a pen, keep your score, and let's go!",
+   "Let's warm up! Which city is home to this famous tower?",
+   "Paris! Completed in 1889 for the World's Fair.",
+   "Cute one coming up. What is this animal?",
+   "A giant panda! Wild pandas live in the mountains of central China.",
+   "Look up at the sky. Which planet is this?",
+   "That's Saturn, and its rings are made mostly of ice.",
+   "Ancient wonder alert! In which country are these pyramids?",
+   "Egypt! The Great Pyramid is over four thousand five hundred years old.",
+   "Big city lights. What is the capital of Japan?",
+   "Tokyo, of course. It hosted the Summer Olympics in 1964 and 2021.",
+   "Sports fans, this one's yours. How many players per team are on the court in basketball?",
+   "Five players per team. The game was invented in 1891.",
+   "Deep breath. What is the largest ocean on Earth?",
+   "The mighty Pacific, covering about one third of our planet.",
+   "Picture this bridge. Which city is it famous for?",
+   "San Francisco! The Golden Gate opened in 1937.",
+   "Think about the map. How many continents are usually counted?",
+   "Seven continents, and Asia is the biggest of them all.",
+   "Last easy one! Which gas do plants absorb from the air?",
+   "Carbon dioxide. Plants turn it into sugar using sunlight."
+  ]
+ },
+ {
+  "file": "voice/voice1.wav",
+  "segs": [
+   [
+    0.0,
+    6.91004
+   ],
+   [
+    6.91004,
+    11.96115
+   ],
+   [
+    11.96115,
+    18.180349999999997
+   ],
+   [
+    18.180349999999997,
+    24.1089
+   ],
+   [
+    24.1089,
+    29.12025
+   ],
+   [
+    29.12025,
+    33.4225
+   ],
+   [
+    33.4225,
+    38.64085
+   ],
+   [
+    38.64085,
+    43.33175
+   ],
+   [
+    43.33175,
+    47.921800000000005
+   ],
+   [
+    47.921800000000005,
+    53.15115
+   ],
+   [
+    53.15115,
+    58.34895
+   ],
+   [
+    58.34895,
+    62.025850000000005
+   ],
+   [
+    62.025850000000005,
+    66.83025
+   ],
+   [
+    66.83025,
+    71.34604999999999
+   ],
+   [
+    71.34604999999999,
+    77.03229999999999
+   ],
+   [
+    77.03229999999999,
+    81.89265
+   ],
+   [
+    81.89265,
+    87.01675
+   ],
+   [
+    87.01675,
+    91.7954
+   ],
+   [
+    91.7954,
+    97.5083
+   ],
+   [
+    97.5083,
+    101.76
+   ]
+  ],
+  "texts": [
+   "Level up! Welcome to the Medium round. In which country is this ancient site?",
+   "Peru! The Inca built Machu Picchu in the fifteenth century.",
+   "Careful, this one tricks a lot of people. What is the capital of Australia?",
+   "Not Sydney... it's Canberra! Chosen as the capital in 1908.",
+   "Shiny question! What is the hardest natural material?",
+   "Diamond, pure carbon and incredibly tough.",
+   "Let's head to Africa. Which is the longest river on the continent?",
+   "The Nile, flowing all the way north to the Mediterranean.",
+   "A monument to love. In which country is it?",
+   "India! The Taj Mahal was built by Emperor Shah Jahan for his wife.",
+   "Kick-off time! How many players does a soccer team have on the field?",
+   "Eleven, and that includes the goalkeeper.",
+   "Chemistry class! What is the chemical symbol for gold?",
+   "A U! It comes from the Latin word aurum.",
+   "Ready, set, run! What is the fastest land animal?",
+   "The cheetah, hitting around one hundred kilometres per hour in short bursts.",
+   "Those white sails are iconic. In which country is this opera house?",
+   "Australia! The Sydney Opera House opened in 1973.",
+   "Final Medium question. What is the largest planet in our solar system?",
+   "Jupiter. You could fit more than a thousand Earths inside it."
+  ]
+ },
+ {
+  "file": "voice/voice2.wav",
+  "segs": [
+   [
+    0.0,
+    5.59802
+   ],
+   [
+    5.59802,
+    11.0909
+   ],
+   [
+    11.0909,
+    17.298900000000003
+   ],
+   [
+    17.298900000000003,
+    23.135350000000003
+   ],
+   [
+    23.135350000000003,
+    28.0235
+   ],
+   [
+    28.0235,
+    32.41115
+   ],
+   [
+    32.41115,
+    37.6244
+   ],
+   [
+    37.6244,
+    42.526799999999994
+   ],
+   [
+    42.526799999999994,
+    47.033500000000004
+   ],
+   [
+    47.033500000000004,
+    51.5273
+   ],
+   [
+    51.5273,
+    56.675250000000005
+   ],
+   [
+    56.675250000000005,
+    61.2177
+   ],
+   [
+    61.2177,
+    66.66995
+   ],
+   [
+    66.66995,
+    71.41585
+   ],
+   [
+    71.41585,
+    76.69855
+   ],
+   [
+    76.69855,
+    81.07570000000001
+   ],
+   [
+    81.07570000000001,
+    86.2339
+   ],
+   [
+    86.2339,
+    90.56485
+   ],
+   [
+    90.56485,
+    95.56639999999999
+   ],
+   [
+    95.56639999999999,
+    99.4
+   ]
+  ],
+  "texts": [
+   "You made it to the Hard round! In which country is this ancient city?",
+   "Jordan! Petra was carved straight into the rock by the Nabataeans.",
+   "Small step, giant leap. In which year did humans first land on the Moon?",
+   "Nineteen sixty-nine. Apollo 11 touched down on July twentieth.",
+   "Think tiny. What is the smallest country in the world?",
+   "Vatican City, less than half a square kilometre.",
+   "Snow at the equator? In which country is this mountain?",
+   "Tanzania! Kilimanjaro is the highest mountain in Africa.",
+   "Not the biggest city! What is the capital of Canada?",
+   "Ottawa, sitting right between Ontario and Quebec.",
+   "Your body knows this one. How many bones are in the adult human body?",
+   "Two hundred and six. Babies start with around three hundred!",
+   "A famous gift. Which country gave this statue to the United States?",
+   "France! The statue was dedicated in 1886.",
+   "Back to the periodic table. Which element has the symbol F E?",
+   "Iron! F E comes from the Latin word ferrum.",
+   "Gladiators, get ready! In which city is this ancient arena?",
+   "Rome! The Colosseum was completed in the year eighty.",
+   "Last Hard question. What is the largest hot desert in the world?",
+   "The Sahara, almost as big as the United States."
+  ]
+ },
+ {
+  "file": "voice/voice3.wav",
+  "segs": [
+   [
+    0.0,
+    5.8655
+   ],
+   [
+    5.8655,
+    9.901365
+   ],
+   [
+    9.901365,
+    15.0352
+   ],
+   [
+    15.0352,
+    19.04205
+   ],
+   [
+    19.04205,
+    23.5701
+   ],
+   [
+    23.5701,
+    27.345
+   ],
+   [
+    27.345,
+    31.78475
+   ],
+   [
+    31.78475,
+    36.5256
+   ],
+   [
+    36.5256,
+    41.02535
+   ],
+   [
+    41.02535,
+    45.01990000000001
+   ],
+   [
+    45.01990000000001,
+    50.205200000000005
+   ],
+   [
+    50.205200000000005,
+    54.4118
+   ],
+   [
+    54.4118,
+    59.0902
+   ],
+   [
+    59.0902,
+    63.2485
+   ],
+   [
+    63.2485,
+    67.36165
+   ],
+   [
+    67.36165,
+    72.3558
+   ],
+   [
+    72.3558,
+    75.99404999999999
+   ],
+   [
+    75.99404999999999,
+    79.71545
+   ],
+   [
+    79.71545,
+    84.00755
+   ],
+   [
+    84.00755,
+    88.4136
+   ],
+   [
+    88.4136,
+    94.96
+   ]
+  ],
+  "texts": [
+   "This is it, the Genius round! Which country has the most lakes?",
+   "Canada, home to more than half of the world's lakes.",
+   "Only true geography experts know this. What is the capital of Mongolia?",
+   "Ulaanbaatar, the coldest national capital on Earth.",
+   "A weird one from space. Which planet rotates on its side?",
+   "Uranus, tilted by about ninety-eight degrees.",
+   "Sunrise over a legend. In which country is this temple?",
+   "Cambodia! Angkor Wat is the largest religious monument in the world.",
+   "Wings out! Which is the only mammal capable of true flight?",
+   "The bat. Flying squirrels and sugar gliders only glide.",
+   "Back to where it all started. Which city hosted the first modern Olympic Games?",
+   "Athens, in 1896, right in this very stadium.",
+   "Listen closely. Which language has the most native speakers?",
+   "Mandarin Chinese, with close to a billion native speakers.",
+   "How deep can you go? What is the deepest lake in the world?",
+   "Lake Baikal in Siberia, more than one thousand six hundred metres deep.",
+   "Almost there! What is the capital of New Zealand?",
+   "Wellington, the southernmost capital in the world.",
+   "Final question! How long does sunlight take to reach Earth?",
+   "About eight minutes. That's one hundred and fifty million kilometres!",
+   "That's the end of the rush! So, what's your score? Drop it in the comments, and subscribe for the next quiz. See you soon!"
+  ]
+ }
+]
