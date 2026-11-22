@@ -1,0 +1,11 @@
+{
+ "youtube_long": {"file": "video.mp4", "thumb": "thumb.jpg", "title": "General Knowledge Quiz: Can You Get 40/40? (Easy to Genius)", "description_file": "description.txt", "language": "English", "category": "Entertainment", "altered_content": true, "when": "now"},
+ "youtube_shorts": [
+  {"file": "short1.mp4", "title": "Only 2% Get All 6 Right! #quiz #trivia #generalknowledge", "when": "2026-11-22 17:00 Africa/Casablanca"},
+  {"file": "short2.mp4", "title": "Can You Name All 6 Places? #quiz #geography #travel", "when": "2026-11-23 15:00 Africa/Casablanca"},
+  {"file": "short3.mp4", "title": "6 Space & Science Questions #quiz #science #space", "when": "2026-11-24 15:00 Africa/Casablanca"}
+ ],
+ "facebook_long_caption": "Can you get 40/40? 40 general knowledge questions with photos, from Easy to Genius. Comment your score! #quiz #generalknowledge #trivia",
+ "facebook_reel_caption": "How many did you get? Full 40-question quiz on our page and on YouTube: Quiz Rush Show #quiz #trivia",
+ "notes": "Reels Facebook aux mêmes horaires que les Shorts. Long Facebook en même temps que YouTube."
+}
