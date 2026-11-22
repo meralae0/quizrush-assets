@@ -1,0 +1,440 @@
+[
+ {
+  "file": "voice/voice0.wav",
+  "segs": [
+   [
+    0.0,
+    10.74
+   ],
+   [
+    10.74,
+    15.77
+   ],
+   [
+    15.77,
+    21.16
+   ],
+   [
+    21.16,
+    26.9
+   ],
+   [
+    26.9,
+    33.33
+   ],
+   [
+    33.33,
+    39.06
+   ],
+   [
+    39.06,
+    44.64
+   ],
+   [
+    44.64,
+    49.97
+   ],
+   [
+    49.97,
+    55.980000000000004
+   ],
+   [
+    55.980000000000004,
+    61.900000000000006
+   ],
+   [
+    61.900000000000006,
+    68.50999999999999
+   ],
+   [
+    68.50999999999999,
+    73.30000000000001
+   ],
+   [
+    73.30000000000001,
+    79.9
+   ],
+   [
+    79.9,
+    84.84
+   ],
+   [
+    84.84,
+    89.89
+   ],
+   [
+    89.89,
+    93.26
+   ],
+   [
+    93.26,
+    97.86000000000001
+   ],
+   [
+    97.86000000000001,
+    101.83
+   ],
+   [
+    101.83,
+    106.89
+   ],
+   [
+    106.89,
+    111.99000000000001
+   ],
+   [
+    111.99000000000001,
+    116.72
+   ]
+  ],
+  "texts": [
+   "Welcome back to Quiz Rush! Today it's Guess the Country. Forty famous places, four levels, ten seconds each. Ready? Let's travel!",
+   "First stop! Which country is home to this famous clock tower?",
+   "The United Kingdom! The great bell inside is nicknamed Big Ben.",
+   "Easy one, don't tip over. Where would you find this leaning tower?",
+   "Italy, of course. It started leaning soon after construction began in 1173.",
+   "Arms wide open! This giant statue overlooks which country's famous city?",
+   "Brazil! Christ the Redeemer has watched over Rio since 1931.",
+   "Snow on top, perfect cone. In which country is this volcano?",
+   "Japan! Mount Fuji is three thousand seven hundred and seventy-six metres high.",
+   "Still being built after more than a century! Which country is home to this basilica?",
+   "Spain! The Sagrada Familia in Barcelona has been under construction since 1882.",
+   "Look way up! The world's tallest building is in which country?",
+   "The United Arab Emirates. The Burj Khalifa in Dubai is eight hundred and twenty-eight metres tall.",
+   "History lovers, this one's for you. Where is this famous gate?",
+   "Germany! The Brandenburg Gate in Berlin was completed in 1791.",
+   "Those domes look like candy! Which country are they in?",
+   "Russia! That's Saint Basil's Cathedral on Red Square in Moscow.",
+   "Back to ancient times. Which country built this temple?",
+   "Greece. The Parthenon in Athens was finished in 438 BC.",
+   "Last easy question! Four presidents carved in stone. Which country?",
+   "The United States! Each face on Mount Rushmore is about eighteen metres tall."
+  ]
+ },
+ {
+  "file": "voice/voice1.wav",
+  "segs": [
+   [
+    0.0,
+    7.51
+   ],
+   [
+    7.51,
+    13.760000000000002
+   ],
+   [
+    13.760000000000002,
+    17.71
+   ],
+   [
+    17.71,
+    22.590000000000003
+   ],
+   [
+    22.590000000000003,
+    27.66
+   ],
+   [
+    27.66,
+    32.32
+   ],
+   [
+    32.32,
+    36.9
+   ],
+   [
+    36.9,
+    42.91
+   ],
+   [
+    42.91,
+    47.07
+   ],
+   [
+    47.07,
+    51.38
+   ],
+   [
+    51.38,
+    56.82
+   ],
+   [
+    56.82,
+    61.43000000000001
+   ],
+   [
+    61.43000000000001,
+    66.84
+   ],
+   [
+    66.84,
+    72.73
+   ],
+   [
+    72.73,
+    76.91
+   ],
+   [
+    76.91,
+    81.07
+   ],
+   [
+    81.07,
+    86.28
+   ],
+   [
+    86.28,
+    91.85
+   ],
+   [
+    91.85,
+    96.09
+   ],
+   [
+    96.09,
+    100.32
+   ]
+  ],
+  "texts": [
+   "Level up! Welcome to the Medium round. Which country is home to this fairy-tale castle?",
+   "Germany! Neuschwanstein was built for King Ludwig the Second of Bavaria.",
+   "Jungle pyramid alert! In which country is it?",
+   "Mexico! Chichen Itza was a great Maya city.",
+   "White walls, blue domes, sunsets. Where is this?",
+   "Greece! This is Oia, on the island of Santorini.",
+   "Empires came and went around this building. Which country is it in?",
+   "Turkey. Hagia Sophia in Istanbul was completed in 537.",
+   "Flat as a table. This mountain is in which country?",
+   "South Africa! Table Mountain towers over Cape Town.",
+   "Covered in real gold leaf! Where is this temple?",
+   "Japan! Kinkaku-ji, the Golden Pavilion, is in Kyoto.",
+   "Science meets architecture. Which country built this giant atom?",
+   "Belgium! The Atomium in Brussels was built for the 1958 World's Fair.",
+   "A ship on top of three towers! Which country?",
+   "Singapore! Marina Bay Sands opened in 2010.",
+   "Mysterious faces staring at you. Which country do they belong to?",
+   "Chile! The Moai of Easter Island were carved by the Rapa Nui people.",
+   "Final Medium question! Where is this giant red rock?",
+   "Australia! Uluru is sacred to the Anangu people."
+  ]
+ },
+ {
+  "file": "voice/voice2.wav",
+  "segs": [
+   [
+    0.0,
+    8.65
+   ],
+   [
+    8.65,
+    14.83
+   ],
+   [
+    14.83,
+    19.27
+   ],
+   [
+    19.27,
+    25.1
+   ],
+   [
+    25.1,
+    29.32
+   ],
+   [
+    29.32,
+    36.29
+   ],
+   [
+    36.29,
+    40.989999999999995
+   ],
+   [
+    40.989999999999995,
+    46.55
+   ],
+   [
+    46.55,
+    50.81
+   ],
+   [
+    50.81,
+    56.59
+   ],
+   [
+    56.59,
+    61.57
+   ],
+   [
+    61.57,
+    64.87
+   ],
+   [
+    64.87,
+    69.85
+   ],
+   [
+    69.85,
+    75.31
+   ],
+   [
+    75.31,
+    80.56
+   ],
+   [
+    80.56,
+    84.53999999999999
+   ],
+   [
+    84.53999999999999,
+    89.21000000000001
+   ],
+   [
+    89.21000000000001,
+    92.82
+   ],
+   [
+    92.82,
+    98.08
+   ],
+   [
+    98.08,
+    102.4
+   ]
+  ],
+  "texts": [
+   "You made it to the Hard round! Which country is home to this bay of limestone islands?",
+   "Vietnam! Ha Long Bay has about sixteen hundred islands and islets.",
+   "Waterfalls everywhere you look. Which country is this?",
+   "Croatia! Plitvice has sixteen lakes linked by waterfalls.",
+   "Twin towers glowing at night. Which country?",
+   "Malaysia! The Petronas Towers were the world's tallest buildings from 1998 to 2004.",
+   "A church that looks like a rocket! Which country?",
+   "Iceland! Hallgrimskirkja is the country's largest church.",
+   "Thousands of temples on one plain. Which country?",
+   "Myanmar! Bagan still has more than two thousand temples and pagodas.",
+   "Hot-air balloons and fairy chimneys. Where would you see these?",
+   "Turkey! Welcome to Cappadocia.",
+   "Statues line this old stone bridge. Which country?",
+   "The Czech Republic! Work on Charles Bridge in Prague began in 1357.",
+   "Ice as far as the eye can see. In which country is this glacier?",
+   "Argentina! Perito Moreno is in Patagonia.",
+   "A tiny island with a church in the middle of a lake. Where is it?",
+   "Slovenia! This is the famous Lake Bled.",
+   "Last Hard question! Which country is home to this dramatic fiord?",
+   "New Zealand! Milford Sound is in Fiordland National Park."
+  ]
+ },
+ {
+  "file": "voice/voice3.wav",
+  "segs": [
+   [
+    0.0,
+    7.58
+   ],
+   [
+    7.58,
+    13.61
+   ],
+   [
+    13.61,
+    18.36
+   ],
+   [
+    18.36,
+    23.380000000000003
+   ],
+   [
+    23.380000000000003,
+    27.29
+   ],
+   [
+    27.29,
+    31.32
+   ],
+   [
+    31.32,
+    35.14
+   ],
+   [
+    35.14,
+    38.480000000000004
+   ],
+   [
+    38.480000000000004,
+    42.33
+   ],
+   [
+    42.33,
+    46.769999999999996
+   ],
+   [
+    46.769999999999996,
+    50.760000000000005
+   ],
+   [
+    50.760000000000005,
+    55.72
+   ],
+   [
+    55.72,
+    58.53
+   ],
+   [
+    58.53,
+    62.99
+   ],
+   [
+    62.99,
+    67.46000000000001
+   ],
+   [
+    67.46000000000001,
+    72.09
+   ],
+   [
+    72.09,
+    75.28
+   ],
+   [
+    75.28,
+    80.07
+   ],
+   [
+    80.07,
+    84.80000000000001
+   ],
+   [
+    84.80000000000001,
+    89.58
+   ],
+   [
+    89.58,
+    96.44
+   ]
+  ],
+  "texts": [
+   "This is it, the Genius round! Razor-sharp stone forests. Which country?",
+   "Madagascar! Tsingy de Bemaraha is a UNESCO World Heritage Site.",
+   "The sky meets the ground here. Which country is home to this salt flat?",
+   "Bolivia! Salar de Uyuni is the largest salt flat on Earth.",
+   "An ancient fortress on a giant rock. Where is it?",
+   "Sri Lanka! Sigiriya was built in the fifth century.",
+   "Monks living on top of rock pillars! Which country?",
+   "Greece! These are the monasteries of Meteora.",
+   "Tiles, arches and turquoise domes. Which country?",
+   "Uzbekistan! The Registan is the heart of Samarkand.",
+   "Hold on tight! Which country is home to this cliffside monastery?",
+   "Bhutan! Tiger's Nest sits about nine hundred metres above the valley.",
+   "They look good enough to eat! Where are these hills?",
+   "The Philippines! There are more than twelve hundred Chocolate Hills on Bohol.",
+   "Spooky question! This castle is linked to Dracula. Which country?",
+   "Romania! Bran Castle is often linked to the Dracula legend.",
+   "Mountains all around the water. Where is this bay?",
+   "Montenegro! The old town of Kotor is a UNESCO World Heritage Site.",
+   "Final question! This church was carved into solid rock. Which country?",
+   "Ethiopia! The rock churches of Lalibela are around eight hundred years old.",
+   "And that's the end of our trip around the world! How many countries did you get? Tell us your score in the comments, and subscribe for the next Quiz Rush!"
+  ]
+ }
+]

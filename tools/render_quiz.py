@@ -146,11 +146,12 @@ def card_916(q, n, total, photo, state, hook=None):
         y = 215
         for l in hl:
             d.text(((VW - d.textlength(l, font=fh)) / 2, y), l, font=fh, fill=YEL); y += int(fh.size * 1.12)
-    s = f'{n}/{total}'; f2 = mont(40)
-    d.text(((VW - d.textlength(s, font=f2)) / 2, 330), s, font=f2, fill=WHITE)
     px0, py0, px1, py1 = 60, 385, VW - 60, 845
     p, m = rounded_photo(photo, px1 - px0, py1 - py0, 34)
     im.paste(p, (px0, py0), m); d = ImageDraw.Draw(im)
+    s = f'{n}/{total}'; f2 = mont(40); tw = d.textlength(s, font=f2)
+    d.rounded_rectangle([px0 + 22, py0 + 22, px0 + 58 + tw, py0 + 86], 22, fill=NAVY, outline=YEL, width=4)
+    d.text((px0 + 40, py0 + 30), s, font=f2, fill=WHITE)
     if state == 'q':
         cx, cy, r = V_CIRCLE
         d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=NAVY, outline=YEL, width=6)
