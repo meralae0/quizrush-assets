@@ -1,0 +1,522 @@
+[
+{
+"lvl": "EASY",
+"q": "Which country is home to this famous clock tower?",
+"o": [
+"Australia",
+"United Kingdom",
+"Ireland",
+"Canada"
+],
+"a": 1,
+"f": "The tower's great bell is nicknamed Big Ben.",
+"s": "Elizabeth Tower Westminster Big Ben"
+},
+{
+"lvl": "EASY",
+"q": "Where would you find this leaning tower?",
+"o": [
+"Greece",
+"Portugal",
+"Spain",
+"Italy"
+],
+"a": 3,
+"f": "It started to lean soon after construction began in 1173.",
+"s": "Leaning Tower of Pisa"
+},
+{
+"lvl": "EASY",
+"q": "This giant statue overlooks which country's famous city?",
+"o": [
+"Brazil",
+"Portugal",
+"Argentina",
+"Mexico"
+],
+"a": 0,
+"f": "Christ the Redeemer was completed in 1931 above Rio de Janeiro.",
+"s": "Christ the Redeemer Rio de Janeiro"
+},
+{
+"lvl": "EASY",
+"q": "In which country is this snowy volcano?",
+"o": [
+"South Korea",
+"China",
+"Nepal",
+"Japan"
+],
+"a": 3,
+"f": "Mount Fuji is Japan's highest mountain, at 3,776 metres.",
+"s": "Mount Fuji"
+},
+{
+"lvl": "EASY",
+"q": "Which country is home to this unfinished basilica?",
+"o": [
+"Italy",
+"France",
+"Mexico",
+"Spain"
+],
+"a": 3,
+"f": "The Sagrada Familia in Barcelona has been under construction since 1882.",
+"s": "Sagrada Familia Barcelona"
+},
+{
+"lvl": "EASY",
+"q": "The world's tallest building is in which country?",
+"o": [
+"Qatar",
+"Saudi Arabia",
+"United Arab Emirates",
+"China"
+],
+"a": 2,
+"f": "The Burj Khalifa in Dubai stands 828 metres tall.",
+"s": "Burj Khalifa"
+},
+{
+"lvl": "EASY",
+"q": "Where is this historic gate?",
+"o": [
+"Austria",
+"Netherlands",
+"Germany",
+"Poland"
+],
+"a": 2,
+"f": "Berlin's Brandenburg Gate was completed in 1791.",
+"s": "Brandenburg Gate"
+},
+{
+"lvl": "EASY",
+"q": "These colourful domes are in which country?",
+"o": [
+"Turkey",
+"Russia",
+"Iran",
+"Ukraine"
+],
+"a": 1,
+"f": "Saint Basil's Cathedral stands on Red Square in Moscow.",
+"s": "Saint Basil's Cathedral"
+},
+{
+"lvl": "EASY",
+"q": "Which country built this ancient temple?",
+"o": [
+"Greece",
+"Italy",
+"Egypt",
+"Turkey"
+],
+"a": 0,
+"f": "The Parthenon in Athens was completed in 438 BC.",
+"s": "Parthenon Acropolis Athens"
+},
+{
+"lvl": "EASY",
+"q": "Four presidents carved in stone. Which country?",
+"o": [
+"Canada",
+"Australia",
+"Mexico",
+"United States"
+],
+"a": 3,
+"f": "Each face on Mount Rushmore is about 18 metres tall.",
+"s": "Mount Rushmore"
+},
+{
+"lvl": "MEDIUM",
+"q": "Which country is home to this fairy-tale castle?",
+"o": [
+"Switzerland",
+"France",
+"Austria",
+"Germany"
+],
+"a": 3,
+"f": "Neuschwanstein in Bavaria was built for King Ludwig the Second.",
+"s": "Neuschwanstein Castle"
+},
+{
+"lvl": "MEDIUM",
+"q": "In which country is this ancient pyramid?",
+"o": [
+"Mexico",
+"Guatemala",
+"Peru",
+"Colombia"
+],
+"a": 0,
+"f": "Chichen Itza was a great Maya city on the Yucatan Peninsula.",
+"s": "Chichen Itza El Castillo"
+},
+{
+"lvl": "MEDIUM",
+"q": "Where are these white houses and blue domes?",
+"o": [
+"Greece",
+"Cyprus",
+"Croatia",
+"Italy"
+],
+"a": 0,
+"f": "This is Oia, on the Greek island of Santorini.",
+"s": "Oia Santorini blue domes"
+},
+{
+"lvl": "MEDIUM",
+"q": "Which country is home to this great domed building?",
+"o": [
+"Iran",
+"Egypt",
+"Turkey",
+"Greece"
+],
+"a": 2,
+"f": "Hagia Sophia in Istanbul was completed in 537 AD.",
+"s": "Hagia Sophia exterior"
+},
+{
+"lvl": "MEDIUM",
+"q": "This flat-topped mountain is in which country?",
+"o": [
+"Australia",
+"Argentina",
+"South Africa",
+"Kenya"
+],
+"a": 2,
+"f": "Table Mountain towers over Cape Town.",
+"s": "Table Mountain Cape Town"
+},
+{
+"lvl": "MEDIUM",
+"q": "Where is this golden temple?",
+"o": [
+"Vietnam",
+"China",
+"Japan",
+"South Korea"
+],
+"a": 2,
+"f": "Kinkaku-ji, the Golden Pavilion, is in Kyoto.",
+"s": "Kinkaku-ji Golden Pavilion"
+},
+{
+"lvl": "MEDIUM",
+"q": "Which country built this giant atom?",
+"o": [
+"France",
+"Luxembourg",
+"Belgium",
+"Netherlands"
+],
+"a": 2,
+"f": "The Atomium in Brussels was built for the 1958 World's Fair.",
+"s": "Atomium Brussels"
+},
+{
+"lvl": "MEDIUM",
+"q": "Which country is home to this hotel with a rooftop ship?",
+"o": [
+"Indonesia",
+"Thailand",
+"Malaysia",
+"Singapore"
+],
+"a": 3,
+"f": "Marina Bay Sands opened in 2010.",
+"s": "Marina Bay Sands"
+},
+{
+"lvl": "MEDIUM",
+"q": "These stone heads belong to which country?",
+"o": [
+"Fiji",
+"New Zealand",
+"Peru",
+"Chile"
+],
+"a": 3,
+"f": "The Moai of Easter Island were carved by the Rapa Nui people.",
+"s": "Moai Easter Island Ahu Tongariki"
+},
+{
+"lvl": "MEDIUM",
+"q": "Where is this giant red rock?",
+"o": [
+"Australia",
+"Namibia",
+"United States",
+"South Africa"
+],
+"a": 0,
+"f": "Uluru is a huge sandstone monolith sacred to the Anangu people.",
+"s": "Uluru"
+},
+{
+"lvl": "HARD",
+"q": "Which country is home to this bay of limestone islands?",
+"o": [
+"Philippines",
+"Vietnam",
+"Thailand",
+"China"
+],
+"a": 1,
+"f": "Ha Long Bay has about 1,600 limestone islands and islets.",
+"s": "Ha Long Bay"
+},
+{
+"lvl": "HARD",
+"q": "Where are these turquoise lakes and waterfalls?",
+"o": [
+"Croatia",
+"Slovenia",
+"Serbia",
+"Montenegro"
+],
+"a": 0,
+"f": "Plitvice has 16 terraced lakes linked by waterfalls.",
+"s": "Plitvice Lakes"
+},
+{
+"lvl": "HARD",
+"q": "These twin towers are in which country?",
+"o": [
+"Singapore",
+"Thailand",
+"Indonesia",
+"Malaysia"
+],
+"a": 3,
+"f": "The Petronas Towers were the world's tallest buildings from 1998 to 2004.",
+"s": "Petronas Towers"
+},
+{
+"lvl": "HARD",
+"q": "Which country is home to this striking church?",
+"o": [
+"Norway",
+"Denmark",
+"Iceland",
+"Finland"
+],
+"a": 2,
+"f": "Hallgrimskirkja is the largest church in Iceland, in Reykjavik.",
+"s": "Hallgrimskirkja Reykjavik"
+},
+{
+"lvl": "HARD",
+"q": "Thousands of temples on one plain. Which country?",
+"o": [
+"Thailand",
+"Myanmar",
+"Cambodia",
+"Laos"
+],
+"a": 1,
+"f": "Bagan has more than 2,000 surviving temples and pagodas.",
+"s": "Bagan temples"
+},
+{
+"lvl": "HARD",
+"q": "Where would you see these fairy chimney rocks?",
+"o": [
+"Iran",
+"Turkey",
+"Armenia",
+"Greece"
+],
+"a": 1,
+"f": "Cappadocia is famous for its fairy chimneys and cave houses.",
+"s": "Cappadocia fairy chimneys balloons"
+},
+{
+"lvl": "HARD",
+"q": "Which country is home to this old stone bridge?",
+"o": [
+"Austria",
+"Poland",
+"Czech Republic",
+"Hungary"
+],
+"a": 2,
+"f": "Construction of Charles Bridge in Prague began in 1357.",
+"s": "Charles Bridge Prague"
+},
+{
+"lvl": "HARD",
+"q": "In which country is this giant glacier?",
+"o": [
+"Norway",
+"Argentina",
+"Chile",
+"Iceland"
+],
+"a": 1,
+"f": "Perito Moreno is in Los Glaciares National Park, in Patagonia.",
+"s": "Perito Moreno Glacier"
+},
+{
+"lvl": "HARD",
+"q": "Where is this lake with a tiny island church?",
+"o": [
+"Croatia",
+"Slovenia",
+"Switzerland",
+"Austria"
+],
+"a": 1,
+"f": "This is Lake Bled, in the Julian Alps.",
+"s": "Lake Bled island church"
+},
+{
+"lvl": "HARD",
+"q": "Which country is home to this dramatic fiord?",
+"o": [
+"New Zealand",
+"Norway",
+"Canada",
+"Chile"
+],
+"a": 0,
+"f": "Milford Sound is in Fiordland National Park.",
+"s": "Milford Sound"
+},
+{
+"lvl": "GENIUS",
+"q": "These razor-sharp stone forests are in which country?",
+"o": [
+"Mozambique",
+"Madagascar",
+"Mauritius",
+"Tanzania"
+],
+"a": 1,
+"f": "Tsingy de Bemaraha is a UNESCO World Heritage Site.",
+"s": "Tsingy de Bemaraha"
+},
+{
+"lvl": "GENIUS",
+"q": "Which country is home to this endless salt flat?",
+"o": [
+"Bolivia",
+"Chile",
+"Peru",
+"Argentina"
+],
+"a": 0,
+"f": "Salar de Uyuni is the largest salt flat in the world.",
+"s": "Salar de Uyuni"
+},
+{
+"lvl": "GENIUS",
+"q": "Where is this ancient rock fortress?",
+"o": [
+"Bangladesh",
+"Nepal",
+"India",
+"Sri Lanka"
+],
+"a": 3,
+"f": "Sigiriya was built in the 5th century on a giant rock.",
+"s": "Sigiriya rock"
+},
+{
+"lvl": "GENIUS",
+"q": "Which country is home to these monasteries on rock pillars?",
+"o": [
+"Romania",
+"Bulgaria",
+"Greece",
+"Albania"
+],
+"a": 2,
+"f": "The monasteries of Meteora sit on top of huge sandstone pillars.",
+"s": "Meteora monastery"
+},
+{
+"lvl": "GENIUS",
+"q": "This famous square of tiled madrasas is in which country?",
+"o": [
+"Turkmenistan",
+"Iran",
+"Uzbekistan",
+"Afghanistan"
+],
+"a": 2,
+"f": "The Registan is the heart of the old city of Samarkand.",
+"s": "Registan Samarkand"
+},
+{
+"lvl": "GENIUS",
+"q": "Which country is home to this cliffside monastery?",
+"o": [
+"Bhutan",
+"India",
+"Nepal",
+"Tibet"
+],
+"a": 0,
+"f": "Tiger's Nest clings to a cliff about 900 metres above the valley.",
+"s": "Paro Taktsang Tiger's Nest"
+},
+{
+"lvl": "GENIUS",
+"q": "Where are these hills that look like chocolate?",
+"o": [
+"Vietnam",
+"Malaysia",
+"Indonesia",
+"Philippines"
+],
+"a": 3,
+"f": "There are more than 1,200 Chocolate Hills on the island of Bohol.",
+"s": "Chocolate Hills Bohol"
+},
+{
+"lvl": "GENIUS",
+"q": "Which country is home to this castle linked to Dracula?",
+"o": [
+"Slovakia",
+"Romania",
+"Serbia",
+"Hungary"
+],
+"a": 1,
+"f": "Bran Castle is often linked to the Dracula legend.",
+"s": "Bran Castle"
+},
+{
+"lvl": "GENIUS",
+"q": "Where is this bay surrounded by mountains?",
+"o": [
+"Croatia",
+"Montenegro",
+"Bosnia and Herzegovina",
+"Albania"
+],
+"a": 1,
+"f": "The old town of Kotor is a UNESCO World Heritage Site.",
+"s": "Bay of Kotor"
+},
+{
+"lvl": "GENIUS",
+"q": "This church carved into solid rock is in which country?",
+"o": [
+"Ethiopia",
+"Eritrea",
+"Egypt",
+"Sudan"
+],
+"a": 0,
+"f": "The rock-hewn churches of Lalibela date from around the 12th and 13th centuries.",
+"s": "Church of Saint George Lalibela"
+}
+]
