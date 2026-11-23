@@ -1,0 +1,93 @@
+I uploaded 4 audio files v0.mp3, v1.mp3, v2.mp3, v3.mp3 (in that order). Each is a sequence of spoken paragraphs. For each file, give the exact START time in seconds (with 2 decimals) of every paragraph EXCEPT the first one. Listen carefully. Paragraphs begin with these words:
+
+v0.mp3 (21 paragraphs):
+1. Welcome to Quiz Rush! Hungry? Today
+2. Kick-off! Here's your first dish. Any
+3. Yes! It's Pizza. Pizza Margherita is
+4. Take a good look. Which dish
+5. That's Sushi. Sushi comes from Japan,
+6. Easy one... or is it? Name
+7. It's Hamburger. It is named after
+8. Eyes on the screen. What dish
+9. Correct answer: Tacos. Tacos come from
+10. You've seen this one before. Which
+11. Of course, it's Croissant. Its name
+12. Quick! Which dish is this?
+13. Boom! It's Paella. This rice dish
+14. Trust your instinct. Name it!
+15. Here it is: Spaghetti. Its name
+16. Don't overthink it. Which dish is
+17. You got it, it's Pancakes. Pancakes
+18. This one is a classic. Which
+19. Spot on! It's Hot dog. Americans
+20. Last easy one! Which dish is
+21. The answer is Fish and chips.
+
+v1.mp3 (20 paragraphs):
+1. Medium round! Things get trickier. Which
+2. Yes! It's Ramen. This noodle soup
+3. Look closely at the details. Which
+4. That's Falafel. Falafel balls are made
+5. Ten seconds on the clock. Name
+6. It's Pad thai. Thailand's famous stir-fried
+7. This one fools a lot of
+8. Correct answer: Lasagne. Layers of pasta,
+9. Can you get this one right?
+10. Of course, it's Churros. These fried
+11. Think carefully. What dish is this?
+12. Boom! It's Dim sum. These small
+13. Here's a tricky one. Name it!
+14. Here it is: Burrito. Its name
+15. Got it already? Which dish is
+16. You got it, it's Pho. Vietnam's
+17. Keep that streak going! Which dish?
+18. Spot on! It's Hummus. A creamy
+19. Last medium question! Which dish is
+20. The answer is Gyros. Greek meat
+
+v2.mp3 (20 paragraphs):
+1. Hard round! Only the experts from
+2. Yes! It's Moussaka. Layers of eggplant,
+3. Not so easy now. Which dish?
+4. That's Bibimbap. Its name means mixed
+5. Here's one for the experts. Name
+6. It's Pierogi. These filled dumplings are
+7. Take your time... but not too
+8. Correct answer: Goulash. A paprika-rich stew
+9. This one is a real head-scratcher.
+10. Of course, it's Poutine. Fries, cheese
+11. Big brain time! What dish is
+12. Boom! It's Ceviche. Raw fish cured
+13. Lock in your answer! Which dish?
+14. Here it is: Baklava. Layers of
+15. Few people get this one. Do
+16. You got it, it's Shakshuka. Eggs
+17. Are you still with me? Which
+18. Spot on! It's Tagine. Named after
+19. Last hard one! Which dish?
+20. The answer is Borscht. This bright
+
+v3.mp3 (21 paragraphs):
+1. Genius round! Only true masters get
+2. Yes! It's Haggis. Scotland's national dish,
+3. Seriously tough now. Name this dish!
+4. That's Feijoada. A black bean and
+5. If you know this one, you're
+6. It's Injera. This spongy flatbread from
+7. Deep cut! Which dish is this?
+8. Correct answer: Pastel de nata. Portugal's
+9. Here's a rare one. What is
+10. Of course, it's Khachapuri. A boat-shaped
+11. No hints this time. Which dish?
+12. Boom! It's Pavlova. Named after the
+13. Almost there! Which dish is this?
+14. Here it is: Laksa. A spicy
+15. Only a handful of people will
+16. You got it, it's Bobotie. Spiced
+17. Second to last! Name this dish!
+18. Spot on! It's Rendang. A slow-cooked
+19. Final question! Make it count. Which
+20. The answer is Nasi lemak. Malaysia's
+21. That's the last bite! How many
+
+Answer ONLY with JSON like {"0":[t2,t3,...],"1":[...],"2":[...],"3":[...]} where each list has (number of paragraphs - 1) numbers.

@@ -1,0 +1,93 @@
+I uploaded 4 audio files v0.mp3, v1.mp3, v2.mp3, v3.mp3 (in that order). Each is a sequence of spoken paragraphs. For each file, give the exact START time in seconds (with 2 decimals) of every paragraph EXCEPT the first one. Listen carefully. Paragraphs begin with these words:
+
+v0.mp3 (21 paragraphs):
+1. Welcome to Quiz Rush! The lights
+2. Kick-off! Here's your first city. Any
+3. Yes! It's New York. Manhattan's skyline
+4. Take a good look. Which city
+5. That's Paris. The Eiffel Tower sparkles
+6. Easy one... or is it? Name
+7. It's London. The Thames runs right
+8. Eyes on the screen. What city
+9. Correct answer: Dubai. Home of the
+10. You've seen this one before. Which
+11. Of course, it's Tokyo. Greater Tokyo
+12. Quick! Which city is this?
+13. Boom! It's Hong Kong. It has
+14. Trust your instinct. Name it!
+15. Here it is: Sydney. The Opera
+16. Don't overthink it. Which city is
+17. You got it, it's Las Vegas.
+18. This one is a classic. Which
+19. Spot on! It's Venice. The city
+20. Last easy one! Which city is
+21. The answer is Singapore. Marina Bay
+
+v1.mp3 (20 paragraphs):
+1. Medium round! Things get trickier. Which
+2. Yes! It's Shanghai. The Oriental Pearl
+3. Look closely at the details. Which
+4. That's Chicago. The world's first skyscraper
+5. Ten seconds on the clock. Name
+6. It's Istanbul. The city spreads across
+7. This one fools a lot of
+8. Correct answer: Rio de Janeiro. Christ
+9. Can you get this one right?
+10. Of course, it's Toronto. The CN
+11. Think carefully. What city is this?
+12. Boom! It's San Francisco. The Golden
+13. Here's a tricky one. Name it!
+14. Here it is: Moscow. Red Square
+15. Got it already? Which city is
+16. You got it, it's Barcelona. Its
+17. Keep that streak going! Which city?
+18. Spot on! It's Seoul. Around half
+19. Last medium question! Which city is
+20. The answer is Kuala Lumpur. The
+
+v2.mp3 (20 paragraphs):
+1. Hard round! Only the experts from
+2. Yes! It's Budapest. The Parliament building
+3. Not so easy now. Which city?
+4. That's Prague. Its Charles Bridge dates
+5. Here's one for the experts. Name
+6. It's Doha. Qatar's capital hosted the
+7. Take your time... but not too
+8. Correct answer: Bangkok. Its full ceremonial
+9. This one is a real head-scratcher.
+10. Of course, it's Cape Town. Table
+11. Big brain time! What city is
+12. Boom! It's Vancouver. The city sits
+13. Lock in your answer! Which city?
+14. Here it is: Lisbon. Its red
+15. Few people get this one. Do
+16. You got it, it's Taipei. Taipei
+17. Are you still with me? Which
+18. Spot on! It's Mexico City. The
+19. Last hard one! Which city?
+20. The answer is Buenos Aires. Its
+
+v3.mp3 (21 paragraphs):
+1. Genius round! Only true masters get
+2. Yes! It's Baku. Its three Flame
+3. Seriously tough now. Name this city!
+4. That's Ljubljana. Its castle sits on
+5. If you know this one, you're
+6. It's Valletta. Malta's capital is one
+7. Deep cut! Which city is this?
+8. Correct answer: Tbilisi. The glass Bridge
+9. Here's a rare one. What is
+10. Of course, it's Almaty. Kazakhstan's biggest
+11. No hints this time. Which city?
+12. Boom! It's Panama City. It is
+13. Almost there! Which city is this?
+14. Here it is: Kuwait City. The
+15. Only a handful of people will
+16. You got it, it's Brisbane. The
+17. Second to last! Name this city!
+18. Spot on! It's Frankfurt. Its skyline
+19. Final question! Make it count. Which
+20. The answer is Montevideo. Uruguay's capital
+21. Lights out, that's the end! How
+
+Answer ONLY with JSON like {"0":[t2,t3,...],"1":[...],"2":[...],"3":[...]} where each list has (number of paragraphs - 1) numbers.

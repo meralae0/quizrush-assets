@@ -1,0 +1,93 @@
+I uploaded 4 audio files v0.mp3, v1.mp3, v2.mp3, v3.mp3 (in that order). Each is a sequence of spoken paragraphs. For each file, give the exact START time in seconds (with 2 decimals) of every paragraph EXCEPT the first one. Listen carefully. Paragraphs begin with these words:
+
+v0.mp3 (21 paragraphs):
+1. Welcome to Quiz Rush! Today we're
+2. Kick-off! Here's your first fruit or
+3. Yes! It's a Strawberry. Its seeds
+4. Take a good look. Which fruit
+5. That's a Banana. Bananas grow on
+6. Easy one... or is it? Name
+7. It's a Pineapple. A pineapple plant
+8. Eyes on the screen. What fruit
+9. Correct answer: a Watermelon. Watermelon is
+10. You've seen this one before. Which
+11. Of course, it's an Orange. Brazil
+12. Quick! Which fruit or vegetable is
+13. Boom! It's an Apple. There are
+14. Trust your instinct. Name it!
+15. Here it is: a Grape. Grapes
+16. Don't overthink it. Which fruit or
+17. You got it, it's a Carrot.
+18. This one is a classic. Which
+19. Spot on! It's a Broccoli. The
+20. Last easy one! Which fruit or
+21. The answer is a Tomato. Botanically,
+
+v1.mp3 (20 paragraphs):
+1. Medium round! Things get trickier. Which
+2. Yes! It's a Kiwi. It is
+3. Look closely at the details. Which
+4. That's a Pomegranate. A single pomegranate
+5. Ten seconds on the clock. Name
+6. It's an Avocado. Avocados ripen only
+7. This one fools a lot of
+8. Correct answer: a Mango. Mango is
+9. Can you get this one right?
+10. Of course, it's an Artichoke. The
+11. Think carefully. What fruit or vegetable
+12. Boom! It's an Eggplant. Some early
+13. Here's a tricky one. Name it!
+14. Here it is: a Coconut. A
+15. Got it already? Which fruit or
+16. You got it, it's a Fig.
+17. Keep that streak going! Which fruit
+18. Spot on! It's a Cauliflower. Cauliflower
+19. Last medium question! Which fruit or
+20. The answer is a Raspberry. Each
+
+v2.mp3 (20 paragraphs):
+1. Hard round! Only the experts from
+2. Yes! It's a Dragon fruit. It
+3. Not so easy now. Which fruit
+4. That's a Lychee. Its bumpy red
+5. Here's one for the experts. Name
+6. It's a Passion fruit. Its wrinkly
+7. Take your time... but not too
+8. Correct answer: an Okra. Okra is
+9. This one is a real head-scratcher.
+10. Of course, it's a Starfruit. Cut
+11. Big brain time! What fruit or
+12. Boom! It's a Kohlrabi. Its name
+13. Lock in your answer! Which fruit
+14. Here it is: a Persimmon. It
+15. Few people get this one. Do
+16. You got it, it's a Romanesco.
+17. Are you still with me? Which
+18. Spot on! It's a Brussels sprout.
+19. Last hard one! Which fruit or
+20. The answer is a Physalis. Each
+
+v3.mp3 (21 paragraphs):
+1. Genius round! Only true masters get
+2. Yes! It's a Rambutan. Its name
+3. Seriously tough now. Name this fruit
+4. That's a Durian. Known as the
+5. If you know this one, you're
+6. It's a Mangosteen. Often called the
+7. Deep cut! Which fruit or vegetable
+8. Correct answer: a Kiwano. Also called
+9. Here's a rare one. What is
+10. Of course, it's a Salak. Its
+11. No hints this time. Which fruit
+12. Boom! It's a Jackfruit. It is
+13. Almost there! Which fruit or vegetable
+14. Here it is: a Cherimoya. Mark
+15. Only a handful of people will
+16. You got it, it's a Buddha's
+17. Second to last! Name this fruit
+18. Spot on! It's a Jabuticaba. Its
+19. Final question! Make it count. Which
+20. The answer is a Feijoa. Also
+21. That's the last one! How many
+
+Answer ONLY with JSON like {"0":[t2,t3,...],"1":[...],"2":[...],"3":[...]} where each list has (number of paragraphs - 1) numbers.

@@ -1,0 +1,93 @@
+I uploaded 4 audio files v0.mp3, v1.mp3, v2.mp3, v3.mp3 (in that order). Each is a sequence of spoken paragraphs. For each file, give the exact START time in seconds (with 2 decimals) of every paragraph EXCEPT the first one. Listen carefully. Paragraphs begin with these words:
+
+v0.mp3 (21 paragraphs):
+1. Welcome to Quiz Rush! Calling all
+2. Kick-off! Here's your first dog breed.
+3. Yes! It's a Labrador Retriever. It
+4. Take a good look. Which dog
+5. That's a German Shepherd. It is
+6. Easy one... or is it? Name
+7. It's a Golden Retriever. The breed
+8. Eyes on the screen. What dog
+9. Correct answer: a Siberian Husky. Huskies
+10. You've seen this one before. Which
+11. Of course, it's a Dalmatian. Dalmatian
+12. Quick! Which dog breed is this?
+13. Boom! It's a Poodle. Poodles are
+14. Trust your instinct. Name it!
+15. Here it is: a Beagle. Beagles
+16. Don't overthink it. Which dog breed
+17. You got it, it's a Bulldog.
+18. This one is a classic. Which
+19. Spot on! It's a Chihuahua. It
+20. Last easy one! Which dog breed
+21. The answer is a Pug. Pugs
+
+v1.mp3 (20 paragraphs):
+1. Medium round! Things get trickier. Which
+2. Yes! It's a Border Collie. Often
+3. Look closely at the details. Which
+4. That's a Dachshund. Its name means
+5. Ten seconds on the clock. Name
+6. It's a Boxer. Boxers are known
+7. This one fools a lot of
+8. Correct answer: a Rottweiler. The breed
+9. Can you get this one right?
+10. Of course, it's a Shih Tzu.
+11. Think carefully. What dog breed is
+12. Boom! It's a Yorkshire Terrier. It
+13. Here's a tricky one. Name it!
+14. Here it is: a Great Dane.
+15. Got it already? Which dog breed
+16. You got it, it's a Dobermann.
+17. Keep that streak going! Which dog
+18. Spot on! It's a Bernese Mountain
+19. Last medium question! Which dog breed
+20. The answer is a Pomeranian. Pomeranians
+
+v2.mp3 (20 paragraphs):
+1. Hard round! Only the experts from
+2. Yes! It's a Shiba Inu. It
+3. Not so easy now. Which dog
+4. That's an Akita. The famous loyal
+5. Here's one for the experts. Name
+6. It's a Basenji. Known as the
+7. Take your time... but not too
+8. Correct answer: a Weimaraner. Its silver
+9. This one is a real head-scratcher.
+10. Of course, it's a Samoyed. Its
+11. Big brain time! What dog breed
+12. Boom! It's a Saint Bernard. These
+13. Lock in your answer! Which dog
+14. Here it is: an Afghan Hound.
+15. Few people get this one. Do
+16. You got it, it's a Bull
+17. Are you still with me? Which
+18. Spot on! It's a Whippet. Whippets
+19. Last hard one! Which dog breed?
+20. The answer is a Newfoundland. These
+
+v3.mp3 (21 paragraphs):
+1. Genius round! Only true masters get
+2. Yes! It's a Komondor. Its corded
+3. Seriously tough now. Name this dog
+4. That's a Xoloitzcuintle. This hairless dog
+5. If you know this one, you're
+6. It's a Puli. This Hungarian herding
+7. Deep cut! Which dog breed is
+8. Correct answer: a Borzoi. It was
+9. Here's a rare one. What is
+10. Of course, it's a Bedlington Terrier.
+11. No hints this time. Which dog
+12. Boom! It's a Shar Pei. Famous
+13. Almost there! Which dog breed is
+14. Here it is: a Chinese Crested.
+15. Only a handful of people will
+16. You got it, it's a Saluki.
+17. Second to last! Name this dog
+18. Spot on! It's a Leonberger. It
+19. Final question! Make it count. Which
+20. The answer is an Azawakh. This
+21. Good boys and good girls, that's
+
+Answer ONLY with JSON like {"0":[t2,t3,...],"1":[...],"2":[...],"3":[...]} where each list has (number of paragraphs - 1) numbers.

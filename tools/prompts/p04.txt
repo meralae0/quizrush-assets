@@ -1,0 +1,93 @@
+I uploaded 4 audio files v0.mp3, v1.mp3, v2.mp3, v3.mp3 (in that order). Each is a sequence of spoken paragraphs. For each file, give the exact START time in seconds (with 2 decimals) of every paragraph EXCEPT the first one. Listen carefully. Paragraphs begin with these words:
+
+v0.mp3 (21 paragraphs):
+1. Welcome to Quiz Rush! Today it's
+2. Kick-off! Here's your first flag. Any
+3. Yes! It's Japan. The red disc
+4. Take a good look. Which flag
+5. That's Canada. The maple leaf flag
+6. Easy one... or is it? Name
+7. It's Brazil. The blue globe shows
+8. Eyes on the screen. What flag
+9. Correct answer: United Kingdom. The Union
+10. You've seen this one before. Which
+11. Of course, it's Italy. Italians call
+12. Quick! Which flag is this?
+13. Boom! It's Germany. Its black, red
+14. Trust your instinct. Name it!
+15. Here it is: India. The blue
+16. Don't overthink it. Which flag is
+17. You got it, it's Mexico. The
+18. This one is a classic. Which
+19. Spot on! It's Australia. The big
+20. Last easy one! Which flag is
+21. The answer is South Korea. The
+
+v1.mp3 (20 paragraphs):
+1. Medium round! Things get trickier. Which
+2. Yes! It's Turkey. A white crescent
+3. Look closely at the details. Which
+4. That's Greece. Its nine stripes are
+5. Ten seconds on the clock. Name
+6. It's Sweden. The blue and gold
+7. This one fools a lot of
+8. Correct answer: Switzerland. It is one
+9. Can you get this one right?
+10. Of course, it's Argentina. The golden
+11. Think carefully. What flag is this?
+12. Boom! It's Portugal. The golden armillary
+13. Here's a tricky one. Name it!
+14. Here it is: South Africa. Adopted
+15. Got it already? Which flag is
+16. You got it, it's Jamaica. It
+17. Keep that streak going! Which flag?
+18. Spot on! It's Norway. Its red
+19. Last medium question! Which flag is
+20. The answer is Ireland. Ivory Coast
+
+v2.mp3 (20 paragraphs):
+1. Hard round! Only the experts from
+2. Yes! It's Nepal. It is the
+3. Not so easy now. Which flag?
+4. That's Kenya. A Maasai shield and
+5. Here's one for the experts. Name
+6. It's Cyprus. It is one of
+7. Take your time... but not too
+8. Correct answer: Bhutan. The white dragon
+9. This one is a real head-scratcher.
+10. Of course, it's Kazakhstan. A golden
+11. Big brain time! What flag is
+12. Boom! It's Chile. Its single white
+13. Lock in your answer! Which flag?
+14. Here it is: Finland. The blue
+15. Few people get this one. Do
+16. You got it, it's New Zealand.
+17. Are you still with me? Which
+18. Spot on! It's Sri Lanka. A
+19. Last hard one! Which flag?
+20. The answer is Colombia. Yellow fills
+
+v3.mp3 (21 paragraphs):
+1. Genius round! Only true masters get
+2. Yes! It's Kiribati. A frigatebird flies
+3. Seriously tough now. Name this flag!
+4. That's Mozambique. Its emblem shows a
+5. If you know this one, you're
+6. It's Seychelles. Five bands fan out
+7. Deep cut! Which flag is this?
+8. Correct answer: Eswatini. A shield and
+9. Here's a rare one. What is
+10. Of course, it's Belize. Its coat
+11. No hints this time. Which flag?
+12. Boom! It's Papua New Guinea. A
+13. Almost there! Which flag is this?
+14. Here it is: Mauritius. Four horizontal
+15. Only a handful of people will
+16. You got it, it's Kyrgyzstan. The
+17. Second to last! Name this flag!
+18. Spot on! It's Bosnia and Herzegovina.
+19. Final question! Make it count. Which
+20. The answer is Uruguay. The Sun
+21. And that's the last flag! How
+
+Answer ONLY with JSON like {"0":[t2,t3,...],"1":[...],"2":[...],"3":[...]} where each list has (number of paragraphs - 1) numbers.

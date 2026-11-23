@@ -1,0 +1,93 @@
+I uploaded 4 audio files v0.mp3, v1.mp3, v2.mp3, v3.mp3 (in that order). Each is a sequence of spoken paragraphs. For each file, give the exact START time in seconds (with 2 decimals) of every paragraph EXCEPT the first one. Listen carefully. Paragraphs begin with these words:
+
+v0.mp3 (21 paragraphs):
+1. Welcome to Quiz Rush! Today we're
+2. Kick-off! Here's your first animal. Any
+3. Yes! It's a Giraffe. Giraffes are
+4. Take a good look. Which animal
+5. That's a Zebra. Every zebra has
+6. Easy one... or is it? Name
+7. It's a Tiger. The tiger is
+8. Eyes on the screen. What animal
+9. Correct answer: a Lion. A lion's
+10. You've seen this one before. Which
+11. Of course, it's an Elephant. Elephants
+12. Quick! Which animal is this?
+13. Boom! It's a Penguin. Emperor penguins
+14. Trust your instinct. Name it!
+15. Here it is: a Panda. Giant
+16. Don't overthink it. Which animal is
+17. You got it, it's a Koala.
+18. This one is a classic. Which
+19. Spot on! It's a Kangaroo. Kangaroos
+20. Last easy one! Which animal is
+21. The answer is a Polar bear.
+
+v1.mp3 (20 paragraphs):
+1. Medium round! Things get trickier. Which
+2. Yes! It's a Flamingo. Flamingos get
+3. Look closely at the details. Which
+4. That's a Cheetah. The cheetah is
+5. Ten seconds on the clock. Name
+6. It's a Peacock. Only male peafowl
+7. This one fools a lot of
+8. Correct answer: a Hippopotamus. Hippos can't
+9. Can you get this one right?
+10. Of course, it's a Chameleon. Chameleons
+11. Think carefully. What animal is this?
+12. Boom! It's an Octopus. An octopus
+13. Here's a tricky one. Name it!
+14. Here it is: a Toucan. Its
+15. Got it already? Which animal is
+16. You got it, it's a Sloth.
+17. Keep that streak going! Which animal?
+18. Spot on! It's a Red panda.
+19. Last medium question! Which animal is
+20. The answer is a Meerkat. Meerkats
+
+v2.mp3 (20 paragraphs):
+1. Hard round! Only the experts from
+2. Yes! It's an Okapi. Despite its
+3. Not so easy now. Which animal?
+4. That's an Axolotl. Axolotls can regrow
+5. Here's one for the experts. Name
+6. It's a Pangolin. It is covered
+7. Take your time... but not too
+8. Correct answer: a Capybara. It is
+9. This one is a real head-scratcher.
+10. Of course, it's a Tapir. Tapirs
+11. Big brain time! What animal is
+12. Boom! It's a Mandrill. Mandrills are
+13. Lock in your answer! Which animal?
+14. Here it is: a Snow leopard.
+15. Few people get this one. Do
+16. You got it, it's a Platypus.
+17. Are you still with me? Which
+18. Spot on! It's a Lemur. Wild
+19. Last hard one! Which animal?
+20. The answer is a Narwhal. Its
+
+v3.mp3 (21 paragraphs):
+1. Genius round! Only true masters get
+2. Yes! It's an Aye-aye. It taps
+3. Seriously tough now. Name this animal!
+4. That's a Shoebill. This giant bird
+5. If you know this one, you're
+6. It's a Fossa. The biggest predator
+7. Deep cut! Which animal is this?
+8. Correct answer: a Quokka. Often called
+9. Here's a rare one. What is
+10. Of course, it's a Saiga antelope.
+11. No hints this time. Which animal?
+12. Boom! It's a Star-nosed mole. It
+13. Almost there! Which animal is this?
+14. Here it is: a Proboscis monkey.
+15. Only a handful of people will
+16. You got it, it's a Gharial.
+17. Second to last! Name this animal!
+18. Spot on! It's a Kakapo. The
+19. Final question! Make it count. Which
+20. The answer is a Maned wolf.
+21. That's the last animal! How many
+
+Answer ONLY with JSON like {"0":[t2,t3,...],"1":[...],"2":[...],"3":[...]} where each list has (number of paragraphs - 1) numbers.
