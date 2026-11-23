@@ -1,0 +1,58 @@
+{
+ "mode": "zoom",
+ "card": [
+  "GUESS THE ANIMAL",
+  "40 ZOOMED PHOTOS"
+ ],
+ "sub": "Zoom reveal  |  Easy > Genius  |  10 seconds each",
+ "tiers": [
+  "0-10  Visitor",
+  "11-20  Explorer",
+  "21-30  Ranger",
+  "31-39  Zoologist",
+  "40  Wildlife Legend"
+ ],
+ "thumb": {
+  "ids": [
+   2,
+   16,
+   30,
+   35
+  ],
+  "l1": [
+   "GUESS THE",
+   "ANIMAL"
+  ],
+  "l2": "40"
+ },
+ "title": "Guess the Animal: 40 Extreme Zoom Photos (Easy to Genius)",
+ "desc_intro": "Can you recognise an animal from an extreme close-up? Each photo starts super close and slowly zooms out. 40 animals from Easy to Genius, 10 seconds each. Keep your score and tell us in the comments!",
+ "tags": "#quiz #animals #wildlife #zoomquiz #trivia",
+ "noun": "animal",
+ "shorts": [
+  {
+   "ids": [
+    2,
+    4,
+    7,
+    11,
+    16
+   ],
+   "hook": "GUESS THE ANIMAL FROM THE ZOOM",
+   "title": "Guess the Animal From the Zoom! #quiz #animals #wildlife",
+   "caption": "Can you guess the animal before the zoom ends? 🐯 #quiz #animals #wildlife #trivia"
+  },
+  {
+   "ids": [
+    21,
+    24,
+    31,
+    33,
+    35
+   ],
+   "hook": "ONLY 2% GET ALL 5",
+   "title": "Only 2% Know These Animals! #quiz #animals #trivia",
+   "caption": "Rare animals zoom quiz! Only 2% get all 5 🦉 #quiz #animals #wildlife #trivia"
+  }
+ ]
+}

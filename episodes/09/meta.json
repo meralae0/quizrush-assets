@@ -1,0 +1,58 @@
+{
+ "mode": "none",
+ "card": [
+  "GUESS THE CITY",
+  "40 CITIES BY NIGHT"
+ ],
+ "sub": "Easy > Medium > Hard > Genius  |  10 seconds each",
+ "tiers": [
+  "0-10  Tourist",
+  "11-20  Night Owl",
+  "21-30  Jetsetter",
+  "31-39  Globetrotter",
+  "40  City Legend"
+ ],
+ "thumb": {
+  "ids": [
+   1,
+   5,
+   30,
+   9
+  ],
+  "l1": [
+   "GUESS THE",
+   "CITY"
+  ],
+  "l2": "40"
+ },
+ "title": "Guess the City at Night: 40 Famous Skylines (Easy to Genius)",
+ "desc_intro": "Can you recognise famous cities after dark? 40 skylines photographed at night, from Easy to Genius. You have 10 seconds for each one. Keep your score and tell us in the comments!",
+ "tags": "#quiz #travel #cities #geography #trivia",
+ "noun": "city",
+ "shorts": [
+  {
+   "ids": [
+    1,
+    3,
+    6,
+    13,
+    15
+   ],
+   "hook": "NAME ALL 5 CITIES BY NIGHT",
+   "title": "Can You Name All 5 Cities at Night? #quiz #travel #cities",
+   "caption": "Can you recognise these 5 cities at night? 🌃 #quiz #travel #cities #geography"
+  },
+  {
+   "ids": [
+    22,
+    26,
+    31,
+    33,
+    34
+   ],
+   "hook": "ONLY GLOBETROTTERS GET 5/5",
+   "title": "Only Globetrotters Get 5/5! #quiz #travel #geography",
+   "caption": "Night skylines quiz: only true globetrotters get all 5! ✈️ #quiz #travel #cities #geography"
+  }
+ ]
+}

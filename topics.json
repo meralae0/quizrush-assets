@@ -1,28 +1,148 @@
-{"note":"Tirage aléatoire pondéré par weight parmi status=todo. Le lundi, l'analyse des vues met à jour weight (thème qui marche: x1.5 et thèmes proches x1.2 ; thème faible: x0.7). Toujours en photos Wikimedia Commons libres, jamais de personnes réelles ni logos.",
-"done":[{"ep":"01","theme":"General Knowledge","date":"2026-11-22"},{"ep":"02","theme":"Guess the Country (famous places)","date":"2026-11-23"},{"ep":"03","theme":"Guess the Stadium (puzzle reveal)","date":"2026-11-24"}],
-"todo":[
-{"theme":"Guess the Flag","weight":1.2},
-{"theme":"Guess the Capital City from its skyline","weight":1},
-{"theme":"Guess the Animal (close-up / zoom reveal)","weight":1.2},
-{"theme":"Guess the Dog Breed","weight":1.1},
-{"theme":"Guess the Bird","weight":0.8},
-{"theme":"Guess the Food / national dish","weight":1.1},
-{"theme":"Guess the Fruit or Vegetable (zoom reveal)","weight":0.9},
-{"theme":"Guess the Landmark (puzzle reveal)","weight":1.1},
-{"theme":"Guess the US State from photos","weight":1},
-{"theme":"Guess the Island","weight":0.8},
-{"theme":"Guess the Mountain or Volcano","weight":0.8},
-{"theme":"Guess the Castle","weight":0.8},
-{"theme":"Guess the Bridge","weight":0.8},
-{"theme":"Space & Planets","weight":1},
-{"theme":"Guess the Dinosaur","weight":0.9},
-{"theme":"Guess the Sport from one photo","weight":0.9},
-{"theme":"Guess the Country from its map shape","weight":1},
-{"theme":"Guess the Car Type / classic vehicle (no logos)","weight":0.8},
-{"theme":"Famous Paintings (public domain)","weight":0.7},
-{"theme":"Guess the Musical Instrument","weight":0.8},
-{"theme":"Guess the Tennis / F1 / Olympic venue","weight":0.8},
-{"theme":"Guess the City at Night","weight":0.9}
-],
-"schedule":{"long":"18:00","shorts":["12:00","16:00","20:00"],"tz":"Africa/Casablanca (YouTube GMT+0000, Facebook Atlantic/Canary)"}
+{
+ "note": "Tirage aléatoire pondéré par weight parmi status=todo. Le lundi, l'analyse des vues met à jour weight (thème qui marche: x1.5 et thèmes proches x1.2 ; thème faible: x0.7). Toujours en photos Wikimedia Commons libres, jamais de personnes réelles ni logos.",
+ "done": [
+  {
+   "ep": "01",
+   "theme": "General Knowledge",
+   "date": "2026-11-22"
+  },
+  {
+   "ep": "02",
+   "theme": "Guess the Country (famous places)",
+   "date": "2026-11-23"
+  },
+  {
+   "ep": "03",
+   "theme": "Guess the Stadium (puzzle reveal)",
+   "date": "2026-11-24"
+  },
+  {
+   "ep": "04",
+   "theme": "Guess the Flag (tiles)",
+   "date": "2026-11-25"
+  },
+  {
+   "ep": "05",
+   "theme": "Guess the Dog Breed",
+   "date": "2026-11-26"
+  },
+  {
+   "ep": "06",
+   "theme": "Guess the Fruit or Vegetable (zoom)",
+   "date": "2026-11-27"
+  },
+  {
+   "ep": "07",
+   "theme": "Guess the Food",
+   "date": "2026-11-28"
+  },
+  {
+   "ep": "08",
+   "theme": "Guess the Animal (zoom)",
+   "date": "2026-11-29"
+  },
+  {
+   "ep": "09",
+   "theme": "Guess the City at Night",
+   "date": "2026-11-30"
+  }
+ ],
+ "todo": [
+  {
+   "theme": "Guess the Flag",
+   "weight": 1.2
+  },
+  {
+   "theme": "Guess the Capital City from its skyline",
+   "weight": 1
+  },
+  {
+   "theme": "Guess the Animal (close-up / zoom reveal)",
+   "weight": 1.2
+  },
+  {
+   "theme": "Guess the Dog Breed",
+   "weight": 1.1
+  },
+  {
+   "theme": "Guess the Bird",
+   "weight": 0.8
+  },
+  {
+   "theme": "Guess the Food / national dish",
+   "weight": 1.1
+  },
+  {
+   "theme": "Guess the Fruit or Vegetable (zoom reveal)",
+   "weight": 0.9
+  },
+  {
+   "theme": "Guess the Landmark (puzzle reveal)",
+   "weight": 1.1
+  },
+  {
+   "theme": "Guess the US State from photos",
+   "weight": 1
+  },
+  {
+   "theme": "Guess the Island",
+   "weight": 0.8
+  },
+  {
+   "theme": "Guess the Mountain or Volcano",
+   "weight": 0.8
+  },
+  {
+   "theme": "Guess the Castle",
+   "weight": 0.8
+  },
+  {
+   "theme": "Guess the Bridge",
+   "weight": 0.8
+  },
+  {
+   "theme": "Space & Planets",
+   "weight": 1
+  },
+  {
+   "theme": "Guess the Dinosaur",
+   "weight": 0.9
+  },
+  {
+   "theme": "Guess the Sport from one photo",
+   "weight": 0.9
+  },
+  {
+   "theme": "Guess the Country from its map shape",
+   "weight": 1
+  },
+  {
+   "theme": "Guess the Car Type / classic vehicle (no logos)",
+   "weight": 0.8
+  },
+  {
+   "theme": "Famous Paintings (public domain)",
+   "weight": 0.7
+  },
+  {
+   "theme": "Guess the Musical Instrument",
+   "weight": 0.8
+  },
+  {
+   "theme": "Guess the Tennis / F1 / Olympic venue",
+   "weight": 0.8
+  },
+  {
+   "theme": "Guess the City at Night",
+   "weight": 0.9
+  }
+ ],
+ "schedule": {
+  "long": "18:00",
+  "shorts": [
+   "12:00",
+   "20:00"
+  ],
+  "tz": "Heure du Maroc (UTC+1). YouTube Studio est en GMT+0000 et la page Facebook en Atlantic/Canary (UTC) : saisir 11:00 / 17:00 / 19:00 dans les deux. Les épisodes 04-09 ont été saisis en 12/18/20 sur YouTube (1 h plus tard au Maroc) et en 11/17/19 sur Facebook (sauf long du 25/11 : 18:00 UTC)."
+ }
 }
