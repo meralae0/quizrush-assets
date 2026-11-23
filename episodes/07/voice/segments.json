@@ -1,0 +1,440 @@
+[
+ {
+  "file": "voice/voice0.wav",
+  "segs": [
+   [
+    0.0,
+    14.93
+   ],
+   [
+    14.93,
+    18.51
+   ],
+   [
+    18.51,
+    24.130000000000003
+   ],
+   [
+    24.130000000000003,
+    27.020000000000003
+   ],
+   [
+    27.020000000000003,
+    32.13
+   ],
+   [
+    32.13,
+    35.29
+   ],
+   [
+    35.29,
+    39.730000000000004
+   ],
+   [
+    39.730000000000004,
+    42.72
+   ],
+   [
+    42.72,
+    48.260000000000005
+   ],
+   [
+    48.260000000000005,
+    50.81
+   ],
+   [
+    50.81,
+    55.66
+   ],
+   [
+    55.66,
+    57.93
+   ],
+   [
+    57.93,
+    62.75
+   ],
+   [
+    62.75,
+    64.75
+   ],
+   [
+    64.75,
+    69.22999999999999
+   ],
+   [
+    69.22999999999999,
+    72.12
+   ],
+   [
+    72.12,
+    76.75
+   ],
+   [
+    76.75,
+    79.28999999999999
+   ],
+   [
+    79.28999999999999,
+    84.28999999999999
+   ],
+   [
+    84.28999999999999,
+    86.99000000000001
+   ],
+   [
+    86.99000000000001,
+    91.64
+   ]
+  ],
+  "texts": [
+   "Welcome to Quiz Rush! Hungry? Today we're travelling the world through food. Forty famous dishes, from Easy to Genius. You have ten seconds each. Ready? Let's eat... I mean, let's play!",
+   "Kick-off! Here's your first dish. Any idea?",
+   "Yes! It's Pizza. Pizza Margherita is said to be named after Queen Margherita of Italy.",
+   "Take a good look. Which dish is this?",
+   "That's Sushi. Sushi comes from Japan, and the word refers to the vinegared rice.",
+   "Easy one... or is it? Name this dish!",
+   "It's Hamburger. It is named after the German city of Hamburg.",
+   "Eyes on the screen. What dish do we have here?",
+   "Correct answer: Tacos. Tacos come from Mexico and are made with corn tortillas.",
+   "You've seen this one before. Which dish?",
+   "Of course, it's Croissant. Its name means crescent in French.",
+   "Quick! Which dish is this?",
+   "Boom! It's Paella. This rice dish comes from Valencia in Spain.",
+   "Trust your instinct. Name it!",
+   "Here it is: Spaghetti. Its name means little strings in Italian.",
+   "Don't overthink it. Which dish is this?",
+   "You got it, it's Pancakes. Pancakes are one of the oldest foods in the world.",
+   "This one is a classic. Which dish?",
+   "Spot on! It's Hot dog. Americans eat billions of hot dogs every year.",
+   "Last easy one! Which dish is this?",
+   "The answer is Fish and chips. Britain's famous takeaway since the 1800s."
+  ]
+ },
+ {
+  "file": "voice/voice1.wav",
+  "segs": [
+   [
+    0.0,
+    5.34
+   ],
+   [
+    5.34,
+    10.93
+   ],
+   [
+    10.93,
+    14.41
+   ],
+   [
+    14.41,
+    19.05
+   ],
+   [
+    19.05,
+    22.270000000000003
+   ],
+   [
+    22.270000000000003,
+    26.910000000000004
+   ],
+   [
+    26.910000000000004,
+    30.630000000000003
+   ],
+   [
+    30.630000000000003,
+    35.94
+   ],
+   [
+    35.94,
+    38.7
+   ],
+   [
+    38.7,
+    44.769999999999996
+   ],
+   [
+    44.769999999999996,
+    47.42
+   ],
+   [
+    47.42,
+    52.95
+   ],
+   [
+    52.95,
+    55.31
+   ],
+   [
+    55.31,
+    60.32000000000001
+   ],
+   [
+    60.32000000000001,
+    62.93000000000001
+   ],
+   [
+    62.93000000000001,
+    68.66
+   ],
+   [
+    68.66,
+    71.38
+   ],
+   [
+    71.38,
+    77.56
+   ],
+   [
+    77.56,
+    80.99000000000001
+   ],
+   [
+    80.99000000000001,
+    85.36
+   ]
+  ],
+  "texts": [
+   "Medium round! Things get trickier. Which dish is this?",
+   "Yes! It's Ramen. This noodle soup is one of Japan's most loved dishes.",
+   "Look closely at the details. Which dish?",
+   "That's Falafel. Falafel balls are made from chickpeas or fava beans.",
+   "Ten seconds on the clock. Name this dish!",
+   "It's Pad thai. Thailand's famous stir-fried rice noodles.",
+   "This one fools a lot of people. Which dish is it?",
+   "Correct answer: Lasagne. Layers of pasta, sauce and cheese from Italy.",
+   "Can you get this one right? Which dish?",
+   "Of course, it's Churros. These fried dough sticks are often dipped in chocolate in Spain.",
+   "Think carefully. What dish is this?",
+   "Boom! It's Dim sum. These small bites are often served in bamboo steamers.",
+   "Here's a tricky one. Name it!",
+   "Here it is: Burrito. Its name means little donkey in Spanish.",
+   "Got it already? Which dish is this?",
+   "You got it, it's Pho. Vietnam's famous noodle soup, often eaten for breakfast.",
+   "Keep that streak going! Which dish?",
+   "Spot on! It's Hummus. A creamy dip made from chickpeas, tahini, lemon and garlic.",
+   "Last medium question! Which dish is this?",
+   "The answer is Gyros. Greek meat cooked on a vertical rotisserie."
+  ]
+ },
+ {
+  "file": "voice/voice2.wav",
+  "segs": [
+   [
+    0.0,
+    6.54
+   ],
+   [
+    6.54,
+    13.54
+   ],
+   [
+    13.54,
+    16.97
+   ],
+   [
+    16.97,
+    22.07
+   ],
+   [
+    22.07,
+    25.72
+   ],
+   [
+    25.72,
+    30.91
+   ],
+   [
+    30.91,
+    34.75
+   ],
+   [
+    34.75,
+    39.61
+   ],
+   [
+    39.61,
+    44.19
+   ],
+   [
+    44.19,
+    50.290000000000006
+   ],
+   [
+    50.290000000000006,
+    54.08
+   ],
+   [
+    54.08,
+    60.66
+   ],
+   [
+    60.66,
+    63.68
+   ],
+   [
+    63.68,
+    69.38
+   ],
+   [
+    69.38,
+    72.23
+   ],
+   [
+    72.23,
+    77.95
+   ],
+   [
+    77.95,
+    81.46000000000001
+   ],
+   [
+    81.46000000000001,
+    88.21000000000001
+   ],
+   [
+    88.21000000000001,
+    90.97
+   ],
+   [
+    90.97,
+    96.0
+   ]
+  ],
+  "texts": [
+   "Hard round! Only the experts from here. Which dish is this?",
+   "Yes! It's Moussaka. Layers of eggplant, meat and creamy sauce, famous in Greece.",
+   "Not so easy now. Which dish?",
+   "That's Bibimbap. Its name means mixed rice in Korean.",
+   "Here's one for the experts. Name this dish!",
+   "It's Pierogi. These filled dumplings are a favourite in Poland.",
+   "Take your time... but not too much. Which dish?",
+   "Correct answer: Goulash. A paprika-rich stew from Hungary.",
+   "This one is a real head-scratcher. Which dish is it?",
+   "Of course, it's Poutine. Fries, cheese curds and gravy, from Quebec in Canada.",
+   "Big brain time! What dish is this?",
+   "Boom! It's Ceviche. Raw fish cured in lime juice, a national dish of Peru.",
+   "Lock in your answer! Which dish?",
+   "Here it is: Baklava. Layers of thin pastry, nuts and syrup.",
+   "Few people get this one. Do you?",
+   "You got it, it's Shakshuka. Eggs poached in a spiced tomato and pepper sauce.",
+   "Are you still with me? Which dish is this?",
+   "Spot on! It's Tagine. Named after the cone-shaped clay pot it's cooked in, from Morocco.",
+   "Last hard one! Which dish?",
+   "The answer is Borscht. This bright red soup gets its colour from beetroot."
+  ]
+ },
+ {
+  "file": "voice/voice3.wav",
+  "segs": [
+   [
+    0.0,
+    6.29
+   ],
+   [
+    6.29,
+    12.57
+   ],
+   [
+    12.57,
+    15.690000000000001
+   ],
+   [
+    15.690000000000001,
+    21.28
+   ],
+   [
+    21.28,
+    24.93
+   ],
+   [
+    24.93,
+    30.82
+   ],
+   [
+    30.82,
+    34.120000000000005
+   ],
+   [
+    34.120000000000005,
+    40.69
+   ],
+   [
+    40.69,
+    43.379999999999995
+   ],
+   [
+    43.379999999999995,
+    48.97
+   ],
+   [
+    48.97,
+    52.019999999999996
+   ],
+   [
+    52.019999999999996,
+    57.2
+   ],
+   [
+    57.2,
+    60.21
+   ],
+   [
+    60.21,
+    65.91
+   ],
+   [
+    65.91,
+    69.72999999999999
+   ],
+   [
+    69.72999999999999,
+    75.30000000000001
+   ],
+   [
+    75.30000000000001,
+    78.12
+   ],
+   [
+    78.12,
+    83.14
+   ],
+   [
+    83.14,
+    86.97
+   ],
+   [
+    86.97,
+    92.68
+   ],
+   [
+    92.68,
+    101.04
+   ]
+  ],
+  "texts": [
+   "Genius round! Only true masters get these. Which dish is this?",
+   "Yes! It's Haggis. Scotland's national dish, traditionally served with neeps and tatties.",
+   "Seriously tough now. Name this dish!",
+   "That's Feijoada. A black bean and pork stew, one of Brazil's national dishes.",
+   "If you know this one, you're a legend. Which dish?",
+   "It's Injera. This spongy flatbread from Ethiopia is used as both plate and spoon.",
+   "Deep cut! Which dish is this?",
+   "Correct answer: Pastel de nata. Portugal's famous custard tart, first made by monks in Lisbon.",
+   "Here's a rare one. What is it?",
+   "Of course, it's Khachapuri. A boat-shaped cheese bread from Georgia, topped with an egg.",
+   "No hints this time. Which dish?",
+   "Boom! It's Pavlova. Named after the Russian ballerina Anna Pavlova.",
+   "Almost there! Which dish is this?",
+   "Here it is: Laksa. A spicy coconut noodle soup from Malaysia and Singapore.",
+   "Only a handful of people will get this. Which dish?",
+   "You got it, it's Bobotie. Spiced minced meat with an egg topping, from South Africa.",
+   "Second to last! Name this dish!",
+   "Spot on! It's Rendang. A slow-cooked spicy beef dish from Indonesia.",
+   "Final question! Make it count. Which dish is this?",
+   "The answer is Nasi lemak. Malaysia's national dish: rice cooked in coconut milk.",
+   "That's the last bite! How many dishes did you get? Drop your score in the comments, and come back tomorrow, there's a brand new quiz every day on Quiz Rush!"
+  ]
+ }
+]

@@ -1,0 +1,440 @@
+[
+ {
+  "file": "voice/voice0.wav",
+  "segs": [
+   [
+    0.0,
+    10.66
+   ],
+   [
+    10.66,
+    15.600000000000001
+   ],
+   [
+    15.600000000000001,
+    20.6
+   ],
+   [
+    20.6,
+    24.72
+   ],
+   [
+    24.72,
+    29.45
+   ],
+   [
+    29.45,
+    33.260000000000005
+   ],
+   [
+    33.260000000000005,
+    38.09
+   ],
+   [
+    38.09,
+    42.8
+   ],
+   [
+    42.8,
+    48.379999999999995
+   ],
+   [
+    48.379999999999995,
+    51.540000000000006
+   ],
+   [
+    51.540000000000006,
+    57.120000000000005
+   ],
+   [
+    57.120000000000005,
+    59.68000000000001
+   ],
+   [
+    59.68000000000001,
+    64.93
+   ],
+   [
+    64.93,
+    68.01
+   ],
+   [
+    68.01,
+    73.80000000000001
+   ],
+   [
+    73.80000000000001,
+    77.07
+   ],
+   [
+    77.07,
+    81.83
+   ],
+   [
+    81.83,
+    84.94999999999999
+   ],
+   [
+    84.94999999999999,
+    89.44
+   ],
+   [
+    89.44,
+    93.19
+   ],
+   [
+    93.19,
+    98.28
+   ]
+  ],
+  "texts": [
+   "Welcome to Quiz Rush! Today we're zooming in on animals. Each photo starts super close, then slowly zooms out. You have ten seconds each. Ready? Let's play!",
+   "Kick-off! Here's your first animal. Any idea?",
+   "Yes! It's a Giraffe. Giraffes are the tallest animals on Earth.",
+   "Take a good look. Which animal is this?",
+   "That's a Zebra. Every zebra has its own unique stripe pattern.",
+   "Easy one... or is it? Name this animal!",
+   "It's a Tiger. The tiger is the largest wild cat in the world.",
+   "Eyes on the screen. What animal do we have here?",
+   "Correct answer: a Lion. A lion's roar can be heard up to eight kilometres away.",
+   "You've seen this one before. Which animal?",
+   "Of course, it's an Elephant. Elephants are the largest land animals alive today.",
+   "Quick! Which animal is this?",
+   "Boom! It's a Penguin. Emperor penguins can dive more than 500 metres deep.",
+   "Trust your instinct. Name it!",
+   "Here it is: a Panda. Giant pandas spend up to 14 hours a day eating bamboo.",
+   "Don't overthink it. Which animal is this?",
+   "You got it, it's a Koala. Koalas sleep up to 20 hours a day.",
+   "This one is a classic. Which animal?",
+   "Spot on! It's a Kangaroo. Kangaroos can't walk backwards.",
+   "Last easy one! Which animal is this?",
+   "The answer is a Polar bear. Under its white fur, a polar bear has black skin."
+  ]
+ },
+ {
+  "file": "voice/voice1.wav",
+  "segs": [
+   [
+    0.0,
+    4.74
+   ],
+   [
+    4.74,
+    10.31
+   ],
+   [
+    10.31,
+    13.89
+   ],
+   [
+    13.89,
+    18.53
+   ],
+   [
+    18.53,
+    21.51
+   ],
+   [
+    21.51,
+    26.75
+   ],
+   [
+    26.75,
+    30.240000000000002
+   ],
+   [
+    30.240000000000002,
+    36.44
+   ],
+   [
+    36.44,
+    39.650000000000006
+   ],
+   [
+    39.650000000000006,
+    44.86
+   ],
+   [
+    44.86,
+    47.63
+   ],
+   [
+    47.63,
+    53.2
+   ],
+   [
+    53.2,
+    55.74
+   ],
+   [
+    55.74,
+    60.82
+   ],
+   [
+    60.82,
+    63.980000000000004
+   ],
+   [
+    63.980000000000004,
+    69.68
+   ],
+   [
+    69.68,
+    72.49000000000001
+   ],
+   [
+    72.49000000000001,
+    78.06
+   ],
+   [
+    78.06,
+    81.8
+   ],
+   [
+    81.8,
+    86.68
+   ]
+  ],
+  "texts": [
+   "Medium round! Things get trickier. Which animal is this?",
+   "Yes! It's a Flamingo. Flamingos get their pink colour from the food they eat.",
+   "Look closely at the details. Which animal?",
+   "That's a Cheetah. The cheetah is the fastest land animal.",
+   "Ten seconds on the clock. Name this animal!",
+   "It's a Peacock. Only male peafowl have the spectacular tail.",
+   "This one fools a lot of people. Which animal is it?",
+   "Correct answer: a Hippopotamus. Hippos can't really swim. They walk along the river bottom.",
+   "Can you get this one right? Which animal?",
+   "Of course, it's a Chameleon. Chameleons can move each eye on its own.",
+   "Think carefully. What animal is this?",
+   "Boom! It's an Octopus. An octopus has three hearts and blue blood.",
+   "Here's a tricky one. Name it!",
+   "Here it is: a Toucan. Its huge beak is surprisingly light.",
+   "Got it already? Which animal is this?",
+   "You got it, it's a Sloth. Sloths can take weeks to digest a single meal.",
+   "Keep that streak going! Which animal?",
+   "Spot on! It's a Red panda. Red pandas spend most of their life in trees.",
+   "Last medium question! Which animal is this?",
+   "The answer is a Meerkat. Meerkats take turns standing guard for the group."
+  ]
+ },
+ {
+  "file": "voice/voice2.wav",
+  "segs": [
+   [
+    0.0,
+    4.449999999999999
+   ],
+   [
+    4.449999999999999,
+    11.34
+   ],
+   [
+    11.34,
+    14.61
+   ],
+   [
+    14.61,
+    19.95
+   ],
+   [
+    19.95,
+    23.32
+   ],
+   [
+    23.32,
+    28.82
+   ],
+   [
+    28.82,
+    32.4
+   ],
+   [
+    32.4,
+    37.34
+   ],
+   [
+    37.34,
+    41.35
+   ],
+   [
+    41.35,
+    46.75
+   ],
+   [
+    46.75,
+    50.69
+   ],
+   [
+    50.69,
+    55.21
+   ],
+   [
+    55.21,
+    57.84
+   ],
+   [
+    57.84,
+    63.599999999999994
+   ],
+   [
+    63.599999999999994,
+    66.46000000000001
+   ],
+   [
+    66.46000000000001,
+    71.18
+   ],
+   [
+    71.18,
+    74.61
+   ],
+   [
+    74.61,
+    80.67
+   ],
+   [
+    80.67,
+    83.61
+   ],
+   [
+    83.61,
+    88.28
+   ]
+  ],
+  "texts": [
+   "Hard round! Only the experts from here. Which animal is this?",
+   "Yes! It's an Okapi. Despite its stripes, its closest relative is the giraffe.",
+   "Not so easy now. Which animal?",
+   "That's an Axolotl. Axolotls can regrow lost limbs.",
+   "Here's one for the experts. Name this animal!",
+   "It's a Pangolin. It is covered in scales and rolls into a ball when threatened.",
+   "Take your time... but not too much. Which animal?",
+   "Correct answer: a Capybara. It is the largest rodent in the world.",
+   "This one is a real head-scratcher. Which animal is it?",
+   "Of course, it's a Tapir. Tapirs use their short trunk to grab leaves.",
+   "Big brain time! What animal is this?",
+   "Boom! It's a Mandrill. Mandrills are the largest monkeys in the world.",
+   "Lock in your answer! Which animal?",
+   "Here it is: a Snow leopard. It uses its long thick tail as a scarf in the cold.",
+   "Few people get this one. Do you?",
+   "You got it, it's a Platypus. It is a mammal that lays eggs.",
+   "Are you still with me? Which animal is this?",
+   "Spot on! It's a Lemur. Wild lemurs live only on the island of Madagascar.",
+   "Last hard one! Which animal?",
+   "The answer is a Narwhal. Its long tusk is actually a tooth."
+  ]
+ },
+ {
+  "file": "voice/voice3.wav",
+  "segs": [
+   [
+    0.0,
+    5.82
+   ],
+   [
+    5.82,
+    11.84
+   ],
+   [
+    11.84,
+    15.34
+   ],
+   [
+    15.34,
+    20.6
+   ],
+   [
+    20.6,
+    24.28
+   ],
+   [
+    24.28,
+    27.980000000000004
+   ],
+   [
+    27.980000000000004,
+    30.990000000000002
+   ],
+   [
+    30.990000000000002,
+    37.400000000000006
+   ],
+   [
+    37.400000000000006,
+    39.900000000000006
+   ],
+   [
+    39.900000000000006,
+    46.540000000000006
+   ],
+   [
+    46.540000000000006,
+    49.33
+   ],
+   [
+    49.33,
+    54.36
+   ],
+   [
+    54.36,
+    57.08
+   ],
+   [
+    57.08,
+    61.730000000000004
+   ],
+   [
+    61.730000000000004,
+    65.31
+   ],
+   [
+    65.31,
+    70.38
+   ],
+   [
+    70.38,
+    72.94999999999999
+   ],
+   [
+    72.94999999999999,
+    78.4
+   ],
+   [
+    78.4,
+    82.36
+   ],
+   [
+    82.36,
+    88.18
+   ],
+   [
+    88.18,
+    95.88
+   ]
+  ],
+  "texts": [
+   "Genius round! Only true masters get these. Which animal is this?",
+   "Yes! It's an Aye-aye. It taps on trees with a long thin finger to find insects.",
+   "Seriously tough now. Name this animal!",
+   "That's a Shoebill. This giant bird has a huge bill shaped like a shoe.",
+   "If you know this one, you're a legend. Which animal?",
+   "It's a Fossa. The biggest predator of Madagascar.",
+   "Deep cut! Which animal is this?",
+   "Correct answer: a Quokka. Often called the happiest animal in the world because it looks like it's smiling.",
+   "Here's a rare one. What is it?",
+   "Of course, it's a Saiga antelope. Its large flexible nose helps it filter dust and cold air.",
+   "No hints this time. Which animal?",
+   "Boom! It's a Star-nosed mole. It has 22 tentacles on its nose.",
+   "Almost there! Which animal is this?",
+   "Here it is: a Proboscis monkey. Males have a very large nose.",
+   "Only a handful of people will get this. Which animal?",
+   "You got it, it's a Gharial. Its long thin snout is perfect for catching fish.",
+   "Second to last! Name this animal!",
+   "Spot on! It's a Kakapo. The world's only flightless parrot, from New Zealand.",
+   "Final question! Make it count. Which animal is this?",
+   "The answer is a Maned wolf. It looks like a fox on stilts, but it's neither a fox nor a wolf.",
+   "That's the last animal! How many did you spot? Drop your score in the comments, and come back tomorrow, there's a brand new quiz every day on Quiz Rush!"
+  ]
+ }
+]
