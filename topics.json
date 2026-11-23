@@ -49,6 +49,10 @@
  ],
  "todo": [
   {
+   "theme": "General Knowledge (mixed photo questions)",
+   "weight": 1.5
+  },
+  {
    "theme": "Guess the Flag",
    "weight": 1.2
   },
@@ -102,15 +106,15 @@
   },
   {
    "theme": "Space & Planets",
-   "weight": 1
+   "weight": 1.2
   },
   {
    "theme": "Guess the Dinosaur",
-   "weight": 0.9
+   "weight": 1.08
   },
   {
    "theme": "Guess the Sport from one photo",
-   "weight": 0.9
+   "weight": 1.08
   },
   {
    "theme": "Guess the Country from its map shape",
@@ -144,5 +148,11 @@
    "20:00"
   ],
   "tz": "Heure du Maroc (UTC+1). YouTube Studio est en GMT+0000 et la page Facebook en Atlantic/Canary (UTC) : saisir 11:00 / 17:00 / 19:00 dans les deux. Les épisodes 04-09 ont été saisis en 12/18/20 sur YouTube (1 h plus tard au Maroc) et en 11/17/19 sur Facebook (sauf long du 25/11 : 18:00 UTC)."
- }
+ },
+ "log": [
+  {
+   "date": "2026-11-23",
+   "analyse": "GK short YT 567 vues/FB 210 vs Country ~125/~150 -> GK ajouté x1.5, Space/Sport/Dinosaur x1.2"
+  }
+ ]
 }
