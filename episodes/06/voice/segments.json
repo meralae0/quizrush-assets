@@ -1,0 +1,440 @@
+[
+ {
+  "file": "voice/voice0.wav",
+  "segs": [
+   [
+    0.0,
+    11.510000000000002
+   ],
+   [
+    11.510000000000002,
+    15.38
+   ],
+   [
+    15.38,
+    21.92
+   ],
+   [
+    21.92,
+    24.62
+   ],
+   [
+    24.62,
+    29.67
+   ],
+   [
+    29.67,
+    33.19
+   ],
+   [
+    33.19,
+    38.730000000000004
+   ],
+   [
+    38.730000000000004,
+    41.82
+   ],
+   [
+    41.82,
+    46.95
+   ],
+   [
+    46.95,
+    49.85
+   ],
+   [
+    49.85,
+    54.56
+   ],
+   [
+    54.56,
+    56.89
+   ],
+   [
+    56.89,
+    61.620000000000005
+   ],
+   [
+    61.620000000000005,
+    63.67
+   ],
+   [
+    63.67,
+    68.28
+   ],
+   [
+    68.28,
+    71.17
+   ],
+   [
+    71.17,
+    76.1
+   ],
+   [
+    76.1,
+    79.12
+   ],
+   [
+    79.12,
+    84.4
+   ],
+   [
+    84.4,
+    87.39
+   ],
+   [
+    87.39,
+    91.04
+   ]
+  ],
+  "texts": [
+   "Welcome to Quiz Rush! Today we're zooming in on fruits and vegetables. Each photo starts super close, then slowly zooms out. You have ten seconds each. Ready? Let's play!",
+   "Kick-off! Here's your first fruit or vegetable. Any idea?",
+   "Yes! It's a Strawberry. Its seeds are on the outside. About 200 of them on each berry.",
+   "Take a good look. Which fruit or vegetable is this?",
+   "That's a Banana. Bananas grow on giant plants that are not actually trees.",
+   "Easy one... or is it? Name this fruit or vegetable!",
+   "It's a Pineapple. A pineapple plant takes around two years to produce one fruit.",
+   "Eyes on the screen. What fruit or vegetable do we have here?",
+   "Correct answer: a Watermelon. Watermelon is about 92 percent water.",
+   "You've seen this one before. Which fruit or vegetable?",
+   "Of course, it's an Orange. Brazil is the world's biggest orange producer.",
+   "Quick! Which fruit or vegetable is this?",
+   "Boom! It's an Apple. There are thousands of apple varieties around the world.",
+   "Trust your instinct. Name it!",
+   "Here it is: a Grape. Grapes grow in bunches of up to a hundred or more.",
+   "Don't overthink it. Which fruit or vegetable is this?",
+   "You got it, it's a Carrot. The first cultivated carrots were purple, not orange.",
+   "This one is a classic. Which fruit or vegetable?",
+   "Spot on! It's a Broccoli. The part we eat is actually a cluster of flower buds.",
+   "Last easy one! Which fruit or vegetable is this?",
+   "The answer is a Tomato. Botanically, the tomato is a fruit."
+  ]
+ },
+ {
+  "file": "voice/voice1.wav",
+  "segs": [
+   [
+    0.0,
+    6.390000000000001
+   ],
+   [
+    6.390000000000001,
+    12.46
+   ],
+   [
+    12.46,
+    16.68
+   ],
+   [
+    16.68,
+    22.14
+   ],
+   [
+    22.14,
+    26.35
+   ],
+   [
+    26.35,
+    31.22
+   ],
+   [
+    31.22,
+    35.43
+   ],
+   [
+    35.43,
+    40.5
+   ],
+   [
+    40.5,
+    43.93
+   ],
+   [
+    43.93,
+    49.31
+   ],
+   [
+    49.31,
+    52.66
+   ],
+   [
+    52.66,
+    58.790000000000006
+   ],
+   [
+    58.790000000000006,
+    61.480000000000004
+   ],
+   [
+    61.480000000000004,
+    67.06
+   ],
+   [
+    67.06,
+    70.35
+   ],
+   [
+    70.35,
+    75.22
+   ],
+   [
+    75.22,
+    78.16
+   ],
+   [
+    78.16,
+    83.75999999999999
+   ],
+   [
+    83.75999999999999,
+    87.53
+   ],
+   [
+    87.53,
+    93.2
+   ]
+  ],
+  "texts": [
+   "Medium round! Things get trickier. Which fruit or vegetable is this?",
+   "Yes! It's a Kiwi. It is named after the kiwi bird of New Zealand.",
+   "Look closely at the details. Which fruit or vegetable?",
+   "That's a Pomegranate. A single pomegranate can hold hundreds of seeds.",
+   "Ten seconds on the clock. Name this fruit or vegetable!",
+   "It's an Avocado. Avocados ripen only after they are picked.",
+   "This one fools a lot of people. Which fruit or vegetable is it?",
+   "Correct answer: a Mango. Mango is the national fruit of India.",
+   "Can you get this one right? Which fruit or vegetable?",
+   "Of course, it's an Artichoke. The part we eat is a flower bud before it blooms.",
+   "Think carefully. What fruit or vegetable is this?",
+   "Boom! It's an Eggplant. Some early varieties were white and egg-shaped, which gave it its name.",
+   "Here's a tricky one. Name it!",
+   "Here it is: a Coconut. A coconut can float across oceans and still sprout.",
+   "Got it already? Which fruit or vegetable is this?",
+   "You got it, it's a Fig. Figs are actually inside-out flowers.",
+   "Keep that streak going! Which fruit or vegetable?",
+   "Spot on! It's a Cauliflower. Cauliflower also comes in orange, purple and green.",
+   "Last medium question! Which fruit or vegetable is this?",
+   "The answer is a Raspberry. Each raspberry is made of many tiny fruits joined together."
+  ]
+ },
+ {
+  "file": "voice/voice2.wav",
+  "segs": [
+   [
+    0.0,
+    5.6
+   ],
+   [
+    5.6,
+    9.969999999999999
+   ],
+   [
+    9.969999999999999,
+    13.370000000000001
+   ],
+   [
+    13.370000000000001,
+    17.9
+   ],
+   [
+    17.9,
+    21.9
+   ],
+   [
+    21.9,
+    26.0
+   ],
+   [
+    26.0,
+    30.200000000000003
+   ],
+   [
+    30.200000000000003,
+    34.82
+   ],
+   [
+    34.82,
+    39.019999999999996
+   ],
+   [
+    39.019999999999996,
+    43.870000000000005
+   ],
+   [
+    43.870000000000005,
+    47.489999999999995
+   ],
+   [
+    47.489999999999995,
+    52.370000000000005
+   ],
+   [
+    52.370000000000005,
+    55.629999999999995
+   ],
+   [
+    55.629999999999995,
+    60.11
+   ],
+   [
+    60.11,
+    62.84
+   ],
+   [
+    62.84,
+    68.21000000000001
+   ],
+   [
+    68.21000000000001,
+    71.27000000000001
+   ],
+   [
+    71.27000000000001,
+    75.57
+   ],
+   [
+    75.57,
+    78.51
+   ],
+   [
+    78.51,
+    83.12
+   ]
+  ],
+  "texts": [
+   "Hard round! Only the experts from here. Which fruit or vegetable is this?",
+   "Yes! It's a Dragon fruit. It grows on a climbing cactus.",
+   "Not so easy now. Which fruit or vegetable?",
+   "That's a Lychee. Its bumpy red skin hides sweet white flesh.",
+   "Here's one for the experts. Name this fruit or vegetable!",
+   "It's a Passion fruit. Its wrinkly skin means it's ripe.",
+   "Take your time... but not too much. Which fruit or vegetable?",
+   "Correct answer: an Okra. Okra is sometimes called lady's finger.",
+   "This one is a real head-scratcher. Which fruit or vegetable is it?",
+   "Of course, it's a Starfruit. Cut it into slices and you get perfect stars.",
+   "Big brain time! What fruit or vegetable is this?",
+   "Boom! It's a Kohlrabi. Its name means cabbage turnip in German.",
+   "Lock in your answer! Which fruit or vegetable?",
+   "Here it is: a Persimmon. It is the national fruit of Japan.",
+   "Few people get this one. Do you?",
+   "You got it, it's a Romanesco. Its spirals form a natural fractal pattern.",
+   "Are you still with me? Which fruit or vegetable is this?",
+   "Spot on! It's a Brussels sprout. They grow along a tall thick stalk.",
+   "Last hard one! Which fruit or vegetable?",
+   "The answer is a Physalis. Each berry grows inside a papery husk."
+  ]
+ },
+ {
+  "file": "voice/voice3.wav",
+  "segs": [
+   [
+    0.0,
+    6.25
+   ],
+   [
+    6.25,
+    11.190000000000001
+   ],
+   [
+    11.190000000000001,
+    14.379999999999999
+   ],
+   [
+    14.379999999999999,
+    20.060000000000002
+   ],
+   [
+    20.060000000000002,
+    23.630000000000003
+   ],
+   [
+    23.630000000000003,
+    27.86
+   ],
+   [
+    27.86,
+    31.18
+   ],
+   [
+    31.18,
+    37.510000000000005
+   ],
+   [
+    37.510000000000005,
+    39.86
+   ],
+   [
+    39.86,
+    44.86
+   ],
+   [
+    44.86,
+    47.79
+   ],
+   [
+    47.79,
+    52.5
+   ],
+   [
+    52.5,
+    55.83
+   ],
+   [
+    55.83,
+    61.769999999999996
+   ],
+   [
+    61.769999999999996,
+    65.55
+   ],
+   [
+    65.55,
+    71.31
+   ],
+   [
+    71.31,
+    74.24000000000001
+   ],
+   [
+    74.24000000000001,
+    80.0
+   ],
+   [
+    80.0,
+    84.6
+   ],
+   [
+    84.6,
+    90.73
+   ],
+   [
+    90.73,
+    98.44
+   ]
+  ],
+  "texts": [
+   "Genius round! Only true masters get these. Which fruit or vegetable is this?",
+   "Yes! It's a Rambutan. Its name comes from the Malay word for hair.",
+   "Seriously tough now. Name this fruit or vegetable!",
+   "That's a Durian. Known as the king of fruits, it's famous for its powerful smell.",
+   "If you know this one, you're a legend. Which fruit or vegetable?",
+   "It's a Mangosteen. Often called the queen of fruits.",
+   "Deep cut! Which fruit or vegetable is this?",
+   "Correct answer: a Kiwano. Also called horned melon, its flesh is green and jelly-like.",
+   "Here's a rare one. What is it?",
+   "Of course, it's a Salak. Its scaly skin gives it the name snake fruit.",
+   "No hints this time. Which fruit or vegetable?",
+   "Boom! It's a Jackfruit. It is the largest tree fruit in the world.",
+   "Almost there! Which fruit or vegetable is this?",
+   "Here it is: a Cherimoya. Mark Twain called it the most delicious fruit known to men.",
+   "Only a handful of people will get this. Which fruit or vegetable?",
+   "You got it, it's a Buddha's hand. This citrus fruit is split into finger-like sections.",
+   "Second to last! Name this fruit or vegetable!",
+   "Spot on! It's a Jabuticaba. Its fruits grow directly on the tree trunk.",
+   "Final question! Make it count. Which fruit or vegetable is this?",
+   "The answer is a Feijoa. Also called pineapple guava, it's very popular in New Zealand.",
+   "That's the last one! How many did you recognise? Drop your score in the comments, and come back tomorrow, there's a brand new quiz every day on Quiz Rush!"
+  ]
+ }
+]

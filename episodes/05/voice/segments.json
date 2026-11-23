@@ -1,0 +1,440 @@
+[
+ {
+  "file": "voice/voice0.wav",
+  "segs": [
+   [
+    0.0,
+    11.75
+   ],
+   [
+    11.75,
+    15.46
+   ],
+   [
+    15.46,
+    22.07
+   ],
+   [
+    22.07,
+    25.28
+   ],
+   [
+    25.28,
+    30.34
+   ],
+   [
+    30.34,
+    34.17
+   ],
+   [
+    34.17,
+    39.44
+   ],
+   [
+    39.44,
+    42.8
+   ],
+   [
+    42.8,
+    48.94
+   ],
+   [
+    48.94,
+    52.19
+   ],
+   [
+    52.19,
+    58.28
+   ],
+   [
+    58.28,
+    60.68000000000001
+   ],
+   [
+    60.68000000000001,
+    65.38
+   ],
+   [
+    65.38,
+    67.64
+   ],
+   [
+    67.64,
+    73.92
+   ],
+   [
+    73.92,
+    76.68
+   ],
+   [
+    76.68,
+    81.85
+   ],
+   [
+    81.85,
+    85.1
+   ],
+   [
+    85.1,
+    91.71000000000001
+   ],
+   [
+    91.71000000000001,
+    94.6
+   ],
+   [
+    94.6,
+    99.6
+   ]
+  ],
+  "texts": [
+   "Welcome to Quiz Rush! Calling all dog lovers! Forty dog breeds, from the family favourites to the super rare ones. You have ten seconds for each. Ready? Let's play!",
+   "Kick-off! Here's your first dog breed. Any idea?",
+   "Yes! It's a Labrador Retriever. It is one of the most popular family dogs in the world.",
+   "Take a good look. Which dog breed is this?",
+   "That's a German Shepherd. It is famous as a police and service dog.",
+   "Easy one... or is it? Name this dog breed!",
+   "It's a Golden Retriever. The breed was developed in Scotland in the 1800s.",
+   "Eyes on the screen. What dog breed do we have here?",
+   "Correct answer: a Siberian Husky. Huskies were bred to pull sleds over long distances.",
+   "You've seen this one before. Which dog breed?",
+   "Of course, it's a Dalmatian. Dalmatian puppies are born completely white. The spots come later.",
+   "Quick! Which dog breed is this?",
+   "Boom! It's a Poodle. Poodles are among the smartest dog breeds.",
+   "Trust your instinct. Name it!",
+   "Here it is: a Beagle. Beagles have an amazing sense of smell and are used to sniff out food at airports.",
+   "Don't overthink it. Which dog breed is this?",
+   "You got it, it's a Bulldog. The Bulldog is a national symbol of Britain.",
+   "This one is a classic. Which dog breed?",
+   "Spot on! It's a Chihuahua. It is one of the smallest dog breeds in the world, named after a Mexican state.",
+   "Last easy one! Which dog breed is this?",
+   "The answer is a Pug. Pugs come from China, where they lived with emperors."
+  ]
+ },
+ {
+  "file": "voice/voice1.wav",
+  "segs": [
+   [
+    0.0,
+    5.52
+   ],
+   [
+    5.52,
+    12.27
+   ],
+   [
+    12.27,
+    16.04
+   ],
+   [
+    16.04,
+    21.08
+   ],
+   [
+    21.08,
+    24.82
+   ],
+   [
+    24.82,
+    29.660000000000004
+   ],
+   [
+    29.660000000000004,
+    33.8
+   ],
+   [
+    33.8,
+    39.67
+   ],
+   [
+    39.67,
+    43.21
+   ],
+   [
+    43.21,
+    48.19
+   ],
+   [
+    48.19,
+    51.730000000000004
+   ],
+   [
+    51.730000000000004,
+    57.769999999999996
+   ],
+   [
+    57.769999999999996,
+    60.66
+   ],
+   [
+    60.66,
+    66.39
+   ],
+   [
+    66.39,
+    69.65
+   ],
+   [
+    69.65,
+    76.07
+   ],
+   [
+    76.07,
+    79.38
+   ],
+   [
+    79.38,
+    85.2
+   ],
+   [
+    85.2,
+    88.84
+   ],
+   [
+    88.84,
+    94.44
+   ]
+  ],
+  "texts": [
+   "Medium round! Things get trickier. Which dog breed is this?",
+   "Yes! It's a Border Collie. Often called the most intelligent dog breed, it was bred to herd sheep.",
+   "Look closely at the details. Which dog breed?",
+   "That's a Dachshund. Its name means badger dog in German.",
+   "Ten seconds on the clock. Name this dog breed!",
+   "It's a Boxer. Boxers are known for playing with their front paws.",
+   "This one fools a lot of people. Which dog breed is it?",
+   "Correct answer: a Rottweiler. The breed is named after the German town of Rottweil.",
+   "Can you get this one right? Which dog breed?",
+   "Of course, it's a Shih Tzu. Its name means little lion.",
+   "Think carefully. What dog breed is this?",
+   "Boom! It's a Yorkshire Terrier. It was first bred to catch rats in English mills.",
+   "Here's a tricky one. Name it!",
+   "Here it is: a Great Dane. Great Danes are among the tallest dogs in the world.",
+   "Got it already? Which dog breed is this?",
+   "You got it, it's a Dobermann. It was created in Germany by a tax collector named Louis Dobermann.",
+   "Keep that streak going! Which dog breed?",
+   "Spot on! It's a Bernese Mountain Dog. It was bred to pull carts on Swiss farms.",
+   "Last medium question! Which dog breed is this?",
+   "The answer is a Pomeranian. Pomeranians descend from much larger sled dogs."
+  ]
+ },
+ {
+  "file": "voice/voice2.wav",
+  "segs": [
+   [
+    0.0,
+    6.32
+   ],
+   [
+    6.32,
+    12.11
+   ],
+   [
+    12.11,
+    15.51
+   ],
+   [
+    15.51,
+    20.630000000000003
+   ],
+   [
+    20.630000000000003,
+    24.79
+   ],
+   [
+    24.79,
+    29.84
+   ],
+   [
+    29.84,
+    33.730000000000004
+   ],
+   [
+    33.730000000000004,
+    40.08
+   ],
+   [
+    40.08,
+    44.28
+   ],
+   [
+    44.28,
+    50.769999999999996
+   ],
+   [
+    50.769999999999996,
+    54.24
+   ],
+   [
+    54.24,
+    60.14
+   ],
+   [
+    60.14,
+    63.02
+   ],
+   [
+    63.02,
+    69.57
+   ],
+   [
+    69.57,
+    72.27000000000001
+   ],
+   [
+    72.27000000000001,
+    77.36000000000001
+   ],
+   [
+    77.36000000000001,
+    80.57000000000001
+   ],
+   [
+    80.57000000000001,
+    86.15
+   ],
+   [
+    86.15,
+    88.8
+   ],
+   [
+    88.8,
+    94.56
+   ]
+  ],
+  "texts": [
+   "Hard round! Only the experts from here. Which dog breed is this?",
+   "Yes! It's a Shiba Inu. It is one of the oldest dog breeds from Japan.",
+   "Not so easy now. Which dog breed?",
+   "That's an Akita. The famous loyal dog Hachiko was an Akita.",
+   "Here's one for the experts. Name this dog breed!",
+   "It's a Basenji. Known as the barkless dog, it yodels instead of barking.",
+   "Take your time... but not too much. Which dog breed?",
+   "Correct answer: a Weimaraner. Its silver grey coat earned it the nickname the Grey Ghost.",
+   "This one is a real head-scratcher. Which dog breed is it?",
+   "Of course, it's a Samoyed. Its upturned mouth gives it the famous Samoyed smile.",
+   "Big brain time! What dog breed is this?",
+   "Boom! It's a Saint Bernard. These dogs were bred to rescue travellers in the Swiss Alps.",
+   "Lock in your answer! Which dog breed?",
+   "Here it is: an Afghan Hound. Its long silky coat makes it one of the most glamorous breeds.",
+   "Few people get this one. Do you?",
+   "You got it, it's a Bull Terrier. It is known for its unique egg-shaped head.",
+   "Are you still with me? Which dog breed is this?",
+   "Spot on! It's a Whippet. Whippets can run faster than 50 kilometres per hour.",
+   "Last hard one! Which dog breed?",
+   "The answer is a Newfoundland. These giant dogs are excellent swimmers, with webbed feet."
+  ]
+ },
+ {
+  "file": "voice/voice3.wav",
+  "segs": [
+   [
+    0.0,
+    6.0200000000000005
+   ],
+   [
+    6.0200000000000005,
+    11.92
+   ],
+   [
+    11.92,
+    15.620000000000001
+   ],
+   [
+    15.620000000000001,
+    21.89
+   ],
+   [
+    21.89,
+    26.21
+   ],
+   [
+    26.21,
+    31.11
+   ],
+   [
+    31.11,
+    34.3
+   ],
+   [
+    34.3,
+    39.41
+   ],
+   [
+    39.41,
+    42.11
+   ],
+   [
+    42.11,
+    46.89
+   ],
+   [
+    46.89,
+    50.06
+   ],
+   [
+    50.06,
+    55.120000000000005
+   ],
+   [
+    55.120000000000005,
+    58.400000000000006
+   ],
+   [
+    58.400000000000006,
+    65.19
+   ],
+   [
+    65.19,
+    69.38
+   ],
+   [
+    69.38,
+    74.72
+   ],
+   [
+    74.72,
+    77.82
+   ],
+   [
+    77.82,
+    82.93
+   ],
+   [
+    82.93,
+    87.28
+   ],
+   [
+    87.28,
+    93.6
+   ],
+   [
+    93.6,
+    102.4
+   ]
+  ],
+  "texts": [
+   "Genius round! Only true masters get these. Which dog breed is this?",
+   "Yes! It's a Komondor. Its corded white coat looks like a mop.",
+   "Seriously tough now. Name this dog breed!",
+   "That's a Xoloitzcuintle. This hairless dog from Mexico has a history going back thousands of years.",
+   "If you know this one, you're a legend. Which dog breed?",
+   "It's a Puli. This Hungarian herding dog has a black corded coat.",
+   "Deep cut! Which dog breed is this?",
+   "Correct answer: a Borzoi. It was bred in Russia to hunt wolves.",
+   "Here's a rare one. What is it?",
+   "Of course, it's a Bedlington Terrier. It looks like a little lamb.",
+   "No hints this time. Which dog breed?",
+   "Boom! It's a Shar Pei. Famous for its deep wrinkles and blue-black tongue.",
+   "Almost there! Which dog breed is this?",
+   "Here it is: a Chinese Crested. It is mostly hairless, with silky hair on its head, tail and feet.",
+   "Only a handful of people will get this. Which dog breed?",
+   "You got it, it's a Saluki. It is one of the oldest known dog breeds, from the Middle East.",
+   "Second to last! Name this dog breed!",
+   "Spot on! It's a Leonberger. It was bred in Germany to look like a lion.",
+   "Final question! Make it count. Which dog breed is this?",
+   "The answer is an Azawakh. This slim sighthound comes from the Sahel region of West Africa.",
+   "Good boys and good girls, that's the end! How many breeds did you know? Drop your score in the comments, and come back tomorrow for a brand new quiz on Quiz Rush!"
+  ]
+ }
+]
