@@ -45,6 +45,21 @@
    "ep": "09",
    "theme": "Guess the City at Night",
    "date": "2026-11-30"
+  },
+  {
+   "ep": "10",
+   "theme": "General Knowledge (mixed photo questions)",
+   "date": "2026-12-01"
+  },
+  {
+   "ep": "11",
+   "theme": "Space & Planets (zoom)",
+   "date": "2026-12-02"
+  },
+  {
+   "ep": "12",
+   "theme": "Guess the Castle (puzzle)",
+   "date": "2026-12-03"
   }
  ],
  "todo": [
@@ -142,12 +157,12 @@
   }
  ],
  "schedule": {
-  "long": "18:00",
+  "long": "19:00",
   "shorts": [
    "12:00",
    "20:00"
   ],
-  "tz": "Heure du Maroc (UTC+1). YouTube Studio est en GMT+0000 et la page Facebook en Atlantic/Canary (UTC) : saisir 11:00 / 17:00 / 19:00 dans les deux. Les épisodes 04-09 ont été saisis en 12/18/20 sur YouTube (1 h plus tard au Maroc) et en 11/17/19 sur Facebook (sauf long du 25/11 : 18:00 UTC)."
+  "tz": "Heure du Maroc (UTC+1). YouTube Studio (GMT+0000) et page Facebook (Atlantic/Canary = UTC) : saisir 11:00 / 18:00 / 19:00 dans les deux, à partir du 01/12. Heures choisies pour ne pas tomber en même temps que BriefAI (13:00 / 17:00 / 21:00, long Facebook 18:00)."
  },
  "log": [
   {
