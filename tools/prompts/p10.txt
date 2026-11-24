@@ -1,0 +1,93 @@
+I uploaded 4 audio files v0.mp3, v1.mp3, v2.mp3, v3.mp3 (in that order). Each is a sequence of spoken paragraphs. For each file, give the exact START time in seconds (with 2 decimals) of every paragraph EXCEPT the first one. Listen carefully. Paragraphs begin with these words:
+
+v0.mp3 (21 paragraphs):
+1. Welcome to Quiz Rush! It's general
+2. Kick-off! What is this animal?
+3. Yes! It's Zebra. No two zebras
+4. Take a good look. Which planet
+5. That's Mars. Its red colour comes
+6. Easy one... or is it? Which
+7. It's Amsterdam. Amsterdam has more than
+8. Eyes on the screen. What is
+9. Correct answer: Blue whale. It can
+10. Quick! How many legs does a
+11. Of course, it's 8. Insects have
+12. Trust your instinct. At what temperature
+13. Boom! It's 100 degrees Celsius. That's
+14. Don't overthink it. Which instrument is
+15. Here it is: Violin. A violin
+16. This one is a classic. What
+17. You got it, it's Giraffe. A
+18. Here we go. Which fruit is
+19. Spot on! It's Pineapple. A pineapple
+20. Last easy one! Which bird is
+21. The answer is Flamingo. Flamingos get
+
+v1.mp3 (20 paragraphs):
+1. Medium round! Things get trickier. What
+2. Yes! It's Mount Everest. Its summit
+3. Look closely. What is the capital
+4. That's Ankara. Ankara became the capital
+5. Ten seconds on the clock. Which
+6. It's Nitrogen. Nitrogen makes up about
+7. This one fools a lot of
+8. Correct answer: Indonesia. Borobudur is the
+9. Can you get this one right?
+10. Of course, it's Platypus. Platypuses and
+11. Think carefully. How many strings does
+12. Boom! It's 6. Bass guitars usually
+13. Here's a tricky one. What is
+14. Here it is: Russia. Russia spans
+15. Keep that streak going! Which metal
+16. You got it, it's Mercury. Mercury
+17. Next up. What is the longest
+18. Spot on! It's the Amazon. The
+19. Last medium question! How many teeth
+20. The answer is 32. That includes
+
+v2.mp3 (20 paragraphs):
+1. Hard round! Only the experts from
+2. Yes! It's Venezuela. Angel Falls is
+3. Not so easy now. What is
+4. That's Brasília. Brasília was built from
+5. Here's one for the experts. Which
+6. It's Hummingbird. Some hummingbirds beat their
+7. Take your time... but not too
+8. Correct answer: Na. Na comes from
+9. This one is a real head-scratcher.
+10. Of course, it's the United Kingdom.
+11. Big brain time! How many hearts
+12. Boom! It's 3. Its blood is
+13. Lock in your answer! Which country
+14. Here it is: New Zealand. The
+15. Few people get this one. What
+16. You got it, it's Greenland. About
+17. Are you still with me? Which
+18. Spot on! It's Carbon. Pencil lead
+19. Last hard one! In which country
+20. The answer is Greece. The ancient
+
+v3.mp3 (21 paragraphs):
+1. Genius round! Only true masters get
+2. Yes! It's Astana. Astana has been
+3. Seriously tough now. Which mammal can
+4. That's Bowhead whale. Some bowhead whales
+5. If you know this one, you're
+6. It's Thimphu. Thimphu is one of
+7. Deep cut! Which tree species grows
+8. Correct answer: the coast redwood. The
+9. Here's a rare one. Which gemstone
+10. Of course, it's Emerald. Emerald is
+11. No hints this time. What is
+12. Boom! It's Naypyidaw. Naypyidaw replaced Yangon
+13. Almost there! Which mammal is covered
+14. Here it is: Pangolin. When threatened,
+15. Only a handful of people will
+16. You got it, it's Kyoto. Kyoto
+17. Second to last! What is the
+18. Spot on! It's Komodo dragon. Komodo
+19. Final question! Make it count. Which
+20. The answer is Brazil. Brazil has
+21. That's the end! How many did
+
+Answer ONLY with JSON like {"0":[t2,t3,...],"1":[...],"2":[...],"3":[...]} where each list has (number of paragraphs - 1) numbers.

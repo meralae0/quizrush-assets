@@ -1,0 +1,524 @@
+[
+ {
+  "lvl": "EASY",
+  "q": "Which planet is this?",
+  "o": [
+   "Neptune",
+   "Uranus",
+   "Jupiter",
+   "Saturn"
+  ],
+  "a": 3,
+  "f": "Saturn is so light it could float in water, in a big enough bathtub.",
+  "wiki": "Saturn",
+  "search": "Saturn during Equinox"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which planet is this?",
+  "o": [
+   "Mars",
+   "Earth",
+   "Venus",
+   "Neptune"
+  ],
+  "a": 1,
+  "f": "This famous photo was taken by the Apollo 17 crew in 1972.",
+  "wiki": "The Blue Marble"
+ },
+ {
+  "lvl": "EASY",
+  "q": "What is this?",
+  "o": [
+   "Pluto",
+   "Ceres",
+   "The Moon",
+   "Mercury"
+  ],
+  "a": 2,
+  "f": "The Moon drifts about 3.8 centimetres further from Earth every year.",
+  "wiki": "Moon"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which planet is this?",
+  "o": [
+   "Saturn",
+   "Jupiter",
+   "Mars",
+   "Venus"
+  ],
+  "a": 1,
+  "f": "Its Great Red Spot is a storm bigger than Earth.",
+  "wiki": "Jupiter"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which planet is this?",
+  "o": [
+   "Venus",
+   "Pluto",
+   "Mars",
+   "Mercury"
+  ],
+  "a": 2,
+  "f": "Mars has the tallest volcano in the solar system, Olympus Mons.",
+  "wiki": "Mars"
+ },
+ {
+  "lvl": "EASY",
+  "q": "What is this?",
+  "o": [
+   "The Sun",
+   "The Moon",
+   "Jupiter",
+   "Venus"
+  ],
+  "a": 0,
+  "f": "The Sun holds over 99 percent of the mass of the solar system.",
+  "wiki": "Sun",
+  "search": "Sun Solar Dynamics Observatory"
+ },
+ {
+  "lvl": "EASY",
+  "q": "What is this?",
+  "o": [
+   "International Space Station",
+   "Mir",
+   "Hubble Space Telescope",
+   "Tiangong"
+  ],
+  "a": 0,
+  "f": "The ISS circles Earth about every 90 minutes.",
+  "wiki": "International Space Station"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which is the closest planet to the Sun?",
+  "o": [
+   "Venus",
+   "Earth",
+   "Mercury",
+   "Mars"
+  ],
+  "a": 2,
+  "f": "A year on Mercury lasts only 88 Earth days.",
+  "wiki": "Mercury (planet)"
+ },
+ {
+  "lvl": "EASY",
+  "q": "What do we call a space rock that lands on Earth?",
+  "o": [
+   "Asteroid",
+   "Comet",
+   "Meteor",
+   "Meteorite"
+  ],
+  "a": 3,
+  "f": "Most meteorites come from the asteroid belt.",
+  "wiki": "Meteorite"
+ },
+ {
+  "lvl": "EASY",
+  "q": "What is the name of our galaxy?",
+  "o": [
+   "Milky Way",
+   "Andromeda",
+   "Sombrero",
+   "Whirlpool"
+  ],
+  "a": 0,
+  "f": "Our galaxy contains between 100 and 400 billion stars.",
+  "wiki": "Milky Way"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which planet is this?",
+  "o": [
+   "Saturn",
+   "Earth",
+   "Uranus",
+   "Neptune"
+  ],
+  "a": 3,
+  "f": "Neptune has the fastest winds in the solar system.",
+  "wiki": "Neptune"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which planet is this?",
+  "o": [
+   "Uranus",
+   "Venus",
+   "Saturn",
+   "Neptune"
+  ],
+  "a": 0,
+  "f": "Uranus was the first planet discovered with a telescope, in 1781.",
+  "wiki": "Uranus"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which planet is this?",
+  "o": [
+   "Mars",
+   "Venus",
+   "Mercury",
+   "The Moon"
+  ],
+  "a": 1,
+  "f": "Venus is the hottest planet, even hotter than Mercury.",
+  "wiki": "Venus"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "What kind of object is this?",
+  "o": [
+   "Satellite",
+   "Asteroid",
+   "Meteor",
+   "Comet"
+  ],
+  "a": 3,
+  "f": "A comet's tail always points away from the Sun.",
+  "wiki": "Comet Hale–Bopp"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "What is this light show called?",
+  "o": [
+   "Rainbow",
+   "Halo",
+   "Zodiacal light",
+   "Aurora"
+  ],
+  "a": 3,
+  "f": "Auroras happen when particles from the Sun hit our atmosphere.",
+  "wiki": "Aurora"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which telescope is this?",
+  "o": [
+   "Hubble Space Telescope",
+   "Kepler",
+   "Spitzer",
+   "James Webb"
+  ],
+  "a": 0,
+  "f": "Hubble was launched in 1990.",
+  "wiki": "Hubble Space Telescope"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "What is this event called?",
+  "o": [
+   "Transit of Venus",
+   "Supermoon",
+   "Total solar eclipse",
+   "Lunar eclipse"
+  ],
+  "a": 2,
+  "f": "A total solar eclipse can last up to about seven and a half minutes.",
+  "wiki": "Solar eclipse"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "What is Saturn's largest moon?",
+  "o": [
+   "Ganymede",
+   "Titan",
+   "Enceladus",
+   "Europa"
+  ],
+  "a": 1,
+  "f": "Titan is the only moon with a thick atmosphere.",
+  "wiki": "Titan (moon)"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "What kind of space rock is this?",
+  "o": [
+   "Moon",
+   "Comet",
+   "Asteroid",
+   "Dwarf planet"
+  ],
+  "a": 2,
+  "f": "Eros was the first asteroid a spacecraft landed on, in 2001.",
+  "wiki": "433 Eros"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which dwarf planet is this?",
+  "o": [
+   "Eris",
+   "Pluto",
+   "Makemake",
+   "Ceres"
+  ],
+  "a": 1,
+  "f": "Pluto has a heart-shaped glacier called Tombaugh Regio.",
+  "wiki": "Pluto"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which moon of Jupiter is this?",
+  "o": [
+   "Ganymede",
+   "Callisto",
+   "Europa",
+   "Io"
+  ],
+  "a": 3,
+  "f": "Io is the most volcanically active world in the solar system.",
+  "wiki": "Io (moon)"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which moon is this?",
+  "o": [
+   "Europa",
+   "Io",
+   "Titan",
+   "Enceladus"
+  ],
+  "a": 0,
+  "f": "Scientists think a salty ocean lies under its icy crust.",
+  "wiki": "Europa (moon)"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which nebula is this?",
+  "o": [
+   "Eagle Nebula",
+   "Crab Nebula",
+   "Orion Nebula",
+   "Ring Nebula"
+  ],
+  "a": 1,
+  "f": "It's what remains of a star that exploded in 1054.",
+  "wiki": "Crab Nebula"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which galaxy is this?",
+  "o": [
+   "Triangulum",
+   "Whirlpool",
+   "Andromeda",
+   "Milky Way"
+  ],
+  "a": 2,
+  "f": "It will collide with the Milky Way in about 4.5 billion years.",
+  "wiki": "Andromeda Galaxy"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which Mars rover is this?",
+  "o": [
+   "Sojourner",
+   "Spirit",
+   "Curiosity",
+   "Opportunity"
+  ],
+  "a": 2,
+  "f": "Curiosity landed on Mars in 2012.",
+  "wiki": "Curiosity (rover)"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which moon is this?",
+  "o": [
+   "Mimas",
+   "Enceladus",
+   "Triton",
+   "Europa"
+  ],
+  "a": 1,
+  "f": "Enceladus shoots jets of water ice into space.",
+  "wiki": "Enceladus"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which nebula is this?",
+  "o": [
+   "Orion Nebula",
+   "Lagoon Nebula",
+   "Crab Nebula",
+   "Eagle Nebula"
+  ],
+  "a": 0,
+  "f": "You can see it with the naked eye, just below Orion's Belt.",
+  "wiki": "Orion Nebula"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which moon of Saturn is this?",
+  "o": [
+   "Mimas",
+   "Tethys",
+   "Callisto",
+   "Rhea"
+  ],
+  "a": 0,
+  "f": "Its giant Herschel crater is about a third of its width.",
+  "wiki": "Mimas (moon)"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which space station is this?",
+  "o": [
+   "Skylab",
+   "Salyut 7",
+   "ISS",
+   "Mir"
+  ],
+  "a": 3,
+  "f": "Mir orbited Earth for 15 years, from 1986 to 2001.",
+  "wiki": "Mir"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which rocket is this?",
+  "o": [
+   "Atlas V",
+   "Soyuz",
+   "Saturn V",
+   "Falcon 9"
+  ],
+  "a": 2,
+  "f": "The Saturn V rocket carried astronauts to the Moon.",
+  "wiki": "Saturn V"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which moon is this?",
+  "o": [
+   "Titania",
+   "Miranda",
+   "Charon",
+   "Triton"
+  ],
+  "a": 3,
+  "f": "Triton orbits Neptune backwards.",
+  "wiki": "Triton (moon)"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which galaxy is this?",
+  "o": [
+   "Whirlpool Galaxy",
+   "Andromeda",
+   "Sombrero",
+   "Pinwheel"
+  ],
+  "a": 0,
+  "f": "It's being pulled by a smaller companion galaxy.",
+  "wiki": "Whirlpool Galaxy"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which nebula is this?",
+  "o": [
+   "Ring Nebula",
+   "Helix Nebula",
+   "Cat's Eye Nebula",
+   "Crab Nebula"
+  ],
+  "a": 0,
+  "f": "It's a cloud of gas thrown off by a dying star.",
+  "wiki": "Ring Nebula"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which dwarf planet is this?",
+  "o": [
+   "Eris",
+   "Ceres",
+   "Pluto",
+   "Vesta"
+  ],
+  "a": 1,
+  "f": "Ceres is the largest object in the asteroid belt.",
+  "wiki": "Ceres (dwarf planet)"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which comet is this?",
+  "o": [
+   "Hale-Bopp",
+   "Comet 67P",
+   "Halley's Comet",
+   "Tempel 1"
+  ],
+  "a": 1,
+  "f": "The Rosetta mission landed a probe on it in 2014.",
+  "wiki": "67P/Churyumov–Gerasimenko"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which galaxy is this?",
+  "o": [
+   "Cartwheel",
+   "Sombrero Galaxy",
+   "Pinwheel",
+   "Whirlpool"
+  ],
+  "a": 1,
+  "f": "Its bright core is circled by a dark lane of dust.",
+  "wiki": "Sombrero Galaxy"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which moon of Uranus is this?",
+  "o": [
+   "Titania",
+   "Ariel",
+   "Miranda",
+   "Oberon"
+  ],
+  "a": 2,
+  "f": "Miranda has cliffs about 20 kilometres high.",
+  "wiki": "Miranda (moon)"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which moon is this?",
+  "o": [
+   "Io",
+   "Europa",
+   "Ganymede",
+   "Callisto"
+  ],
+  "a": 3,
+  "f": "Callisto is one of the most cratered worlds in the solar system.",
+  "wiki": "Callisto (moon)"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which nebula is this?",
+  "o": [
+   "Crab Nebula",
+   "Ring Nebula",
+   "Cat's Eye Nebula",
+   "Horsehead Nebula"
+  ],
+  "a": 3,
+  "f": "It lies in the constellation of Orion.",
+  "wiki": "Horsehead Nebula"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which asteroid is this?",
+  "o": [
+   "Ceres",
+   "Eros",
+   "Vesta",
+   "Bennu"
+  ],
+  "a": 2,
+  "f": "Vesta is the brightest asteroid seen from Earth.",
+  "wiki": "4 Vesta"
+ }
+]

@@ -1,0 +1,58 @@
+{
+ "mode": "tiles",
+ "card": [
+  "GUESS THE CASTLE",
+  "40 FAMOUS CASTLES"
+ ],
+ "tiers": [
+  "0-10  Peasant",
+  "11-20  Knight",
+  "21-30  Lord",
+  "31-39  King",
+  "40  Castle Legend"
+ ],
+ "thumb": {
+  "ids": [
+   2,
+   7,
+   20,
+   33
+  ],
+  "l1": [
+   "GUESS THE",
+   "CASTLE"
+  ],
+  "l2": "40"
+ },
+ "title": "Guess the Castle: 40 Famous Castles Around the World (Easy to Genius)",
+ "desc_intro": "Can you recognise the most famous castles in the world? 40 castles hidden behind a puzzle, from Easy to Genius. You have 10 seconds for each one. Keep your score and tell us in the comments!",
+ "tags": "#quiz #castles #travel #history #trivia",
+ "noun": "castle",
+ "shorts": [
+  {
+   "ids": [
+    0,
+    2,
+    4,
+    6,
+    8
+   ],
+   "hook": "NAME ALL 5 CASTLES",
+   "title": "Can You Name All 5 Castles? #quiz #castles #travel",
+   "caption": "Can you name these 5 famous castles? 🏰 #quiz #castles #travel #history"
+  },
+  {
+   "ids": [
+    20,
+    21,
+    24,
+    30,
+    33
+   ],
+   "hook": "ONLY HISTORY BUFFS GET 5/5",
+   "title": "Only History Buffs Get 5/5! #quiz #castles #history",
+   "caption": "Only true history buffs get all 5 castles! 👑 #quiz #castles #history #travel"
+  }
+ ],
+ "sub": "Easy > Medium > Hard > Genius  |  10 seconds each"
+}

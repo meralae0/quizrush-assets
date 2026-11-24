@@ -1,0 +1,418 @@
+{
+ "noun": "castle",
+ "article": false,
+ "q": "Which castle is this?",
+ "items": [
+  [
+   "Windsor Castle",
+   [
+    "Balmoral Castle",
+    "Edinburgh Castle",
+    "Warwick Castle"
+   ],
+   "Windsor Castle",
+   "It's the oldest and largest occupied castle in the world."
+  ],
+  [
+   "Edinburgh Castle",
+   [
+    "Stirling Castle",
+    "Cardiff Castle",
+    "Dublin Castle"
+   ],
+   "Edinburgh Castle",
+   "It stands on Castle Rock, an extinct volcano."
+  ],
+  [
+   "Himeji Castle",
+   [
+    "Osaka Castle",
+    "Matsumoto Castle",
+    "Nagoya Castle"
+   ],
+   "Himeji Castle",
+   "It's nicknamed the White Heron Castle."
+  ],
+  [
+   "Château de Chambord",
+   [
+    "Château de Chenonceau",
+    "Château d'Amboise",
+    "Château de Blois"
+   ],
+   "Château de Chambord",
+   "Chambord has a famous double-spiral staircase."
+  ],
+  [
+   "Tower of London",
+   [
+    "Windsor Castle",
+    "Warwick Castle",
+    "Dover Castle"
+   ],
+   "Tower of London",
+   "The Crown Jewels are kept inside.",
+   {
+    "say": "the Tower of London"
+   }
+  ],
+  [
+   "Alhambra",
+   [
+    "Alcázar of Seville",
+    "Alcázar of Segovia",
+    "Castillo de Coca"
+   ],
+   "Alhambra",
+   "It was built mainly by the Nasrid rulers of Granada.",
+   {
+    "say": "the Alhambra"
+   }
+  ],
+  [
+   "Prague Castle",
+   [
+    "Buda Castle",
+    "Wawel Castle",
+    "Bratislava Castle"
+   ],
+   "Prague Castle",
+   "It's one of the largest castle complexes in the world."
+  ],
+  [
+   "Eilean Donan",
+   [
+    "Urquhart Castle",
+    "Dunnottar Castle",
+    "Inveraray Castle"
+   ],
+   "Eilean Donan",
+   "It sits on a small tidal island in the Scottish Highlands."
+  ],
+  [
+   "Hohenzollern Castle",
+   [
+    "Lichtenstein Castle",
+    "Heidelberg Castle",
+    "Burg Eltz"
+   ],
+   "Hohenzollern Castle",
+   "It stands on top of a mountain in southern Germany."
+  ],
+  [
+   "Castel Sant'Angelo",
+   [
+    "Castello Sforzesco",
+    "Castel dell'Ovo",
+    "Castello Estense"
+   ],
+   "Castel Sant'Angelo",
+   "It was first built as a tomb for Emperor Hadrian."
+  ],
+  [
+   "Malbork Castle",
+   [
+    "Wawel Castle",
+    "Książ Castle",
+    "Trakai Island Castle"
+   ],
+   "Malbork Castle",
+   "It's the largest castle in the world by land area."
+  ],
+  [
+   "Bodiam Castle",
+   [
+    "Leeds Castle",
+    "Caerphilly Castle",
+    "Bamburgh Castle"
+   ],
+   "Bodiam Castle",
+   "This 14th-century castle is surrounded by a wide moat."
+  ],
+  [
+   "Conwy Castle",
+   [
+    "Caernarfon Castle",
+    "Harlech Castle",
+    "Cardiff Castle"
+   ],
+   "Conwy Castle",
+   "It was built for King Edward the First in the 1280s."
+  ],
+  [
+   "Warwick Castle",
+   [
+    "Windsor Castle",
+    "Arundel Castle",
+    "Alnwick Castle"
+   ],
+   "Warwick Castle",
+   "It began as a wooden fort built by William the Conqueror in 1068."
+  ],
+  [
+   "Peleș Castle",
+   [
+    "Bran Castle",
+    "Corvin Castle",
+    "Cantacuzino Castle"
+   ],
+   "Peleș Castle",
+   "It was one of the first castles in Europe with electricity."
+  ],
+  [
+   "Château de Chenonceau",
+   [
+    "Château d'Amboise",
+    "Château de Villandry",
+    "Château d'Azay-le-Rideau"
+   ],
+   "Château de Chenonceau",
+   "It's built across the River Cher."
+  ],
+  [
+   "Pena Palace",
+   [
+    "Moorish Castle",
+    "Belém Tower",
+    "Quinta da Regaleira"
+   ],
+   "Pena Palace",
+   "It sits on a hilltop above Sintra, in Portugal."
+  ],
+  [
+   "Osaka Castle",
+   [
+    "Himeji Castle",
+    "Nagoya Castle",
+    "Kumamoto Castle"
+   ],
+   "Osaka Castle",
+   "Its main tower was rebuilt in concrete in 1931."
+  ],
+  [
+   "Kronborg",
+   [
+    "Frederiksborg Castle",
+    "Rosenborg Castle",
+    "Egeskov Castle"
+   ],
+   "Kronborg",
+   "Shakespeare set Hamlet here, under the name Elsinore."
+  ],
+  [
+   "Lichtenstein Castle",
+   [
+    "Hohenzollern Castle",
+    "Neuschwanstein Castle",
+    "Burg Eltz"
+   ],
+   "Lichtenstein Castle",
+   "It sits on a cliff edge in the Swabian Alps."
+  ],
+  [
+   "Alcázar of Segovia",
+   [
+    "Alhambra",
+    "Alcázar of Toledo",
+    "Castillo de Coca"
+   ],
+   "Alcázar of Segovia",
+   "Its shape is said to look like the bow of a ship.",
+   {
+    "say": "the Alcázar of Segovia"
+   }
+  ],
+  [
+   "Bled Castle",
+   [
+    "Predjama Castle",
+    "Ljubljana Castle",
+    "Spiš Castle"
+   ],
+   "Bled Castle",
+   "It's the oldest castle in Slovenia, first mentioned in 1011."
+  ],
+  [
+   "Trakai Island Castle",
+   [
+    "Malbork Castle",
+    "Turaida Castle",
+    "Mir Castle"
+   ],
+   "Trakai Island Castle",
+   "It stands on an island in Lake Galvė, in Lithuania."
+  ],
+  [
+   "Spiš Castle",
+   [
+    "Orava Castle",
+    "Bojnice Castle",
+    "Buda Castle"
+   ],
+   "Spiš Castle",
+   "It's one of the largest castle sites in Central Europe."
+  ],
+  [
+   "Matsumoto Castle",
+   [
+    "Himeji Castle",
+    "Hikone Castle",
+    "Inuyama Castle"
+   ],
+   "Matsumoto Castle",
+   "Its black walls earned it the nickname Crow Castle."
+  ],
+  [
+   "Burg Eltz",
+   [
+    "Hohenzollern Castle",
+    "Marksburg",
+    "Reichsburg Cochem"
+   ],
+   "Eltz Castle",
+   "The same family has owned it for over 800 years."
+  ],
+  [
+   "Orava Castle",
+   [
+    "Spiš Castle",
+    "Bojnice Castle",
+    "Trenčín Castle"
+   ],
+   "Orava Castle",
+   "It was a filming location for the 1922 film Nosferatu."
+  ],
+  [
+   "Château de Pierrefonds",
+   [
+    "Château de Chambord",
+    "Château de Vincennes",
+    "Château de Foix"
+   ],
+   "Château de Pierrefonds",
+   "It was rebuilt by the architect Viollet-le-Duc in the 1800s."
+  ],
+  [
+   "Vianden Castle",
+   [
+    "Bourscheid Castle",
+    "Burg Eltz",
+    "Bouillon Castle"
+   ],
+   "Vianden Castle",
+   "This hilltop castle is the most famous in Luxembourg."
+  ],
+  [
+   "Caernarfon Castle",
+   [
+    "Conwy Castle",
+    "Harlech Castle",
+    "Beaumaris Castle"
+   ],
+   "Caernarfon Castle",
+   "Its walls were inspired by the walls of Constantinople."
+  ],
+  [
+   "Krak des Chevaliers",
+   [
+    "Citadel of Aleppo",
+    "Kerak Castle",
+    "Citadel of Salah Ed-Din"
+   ],
+   "Krak des Chevaliers",
+   "It's one of the best-preserved Crusader castles in the world."
+  ],
+  [
+   "Corvin Castle",
+   [
+    "Bran Castle",
+    "Peleș Castle",
+    "Râșnov Citadel"
+   ],
+   "Corvin Castle",
+   "It's in Romania, and is also known as Hunyad Castle."
+  ],
+  [
+   "Bojnice Castle",
+   [
+    "Orava Castle",
+    "Spiš Castle",
+    "Trenčín Castle"
+   ],
+   "Bojnice Castle",
+   "It hosts an International Festival of Ghosts every spring."
+  ],
+  [
+   "Predjama Castle",
+   [
+    "Bled Castle",
+    "Ljubljana Castle",
+    "Celje Castle"
+   ],
+   "Predjama Castle",
+   "It's built inside the mouth of a cave."
+  ],
+  [
+   "Mir Castle",
+   [
+    "Nesvizh Castle",
+    "Trakai Island Castle",
+    "Malbork Castle"
+   ],
+   "Mir Castle Complex",
+   "It's a UNESCO World Heritage site in Belarus."
+  ],
+  [
+   "Castel del Monte",
+   [
+    "Castello Sforzesco",
+    "Castel Sant'Angelo",
+    "Castello Estense"
+   ],
+   "Castel del Monte, Apulia",
+   "Its floor plan is a perfect octagon."
+  ],
+  [
+   "Haut-Kœnigsbourg",
+   [
+    "Château de Pierrefonds",
+    "Burg Eltz",
+    "Hohenzollern Castle"
+   ],
+   "Château du Haut-Kœnigsbourg",
+   "It overlooks the Alsace plain in eastern France."
+  ],
+  [
+   "Kumamoto Castle",
+   [
+    "Osaka Castle",
+    "Himeji Castle",
+    "Matsumoto Castle"
+   ],
+   "Kumamoto Castle",
+   "It was badly damaged by an earthquake in 2016."
+  ],
+  [
+   "Mehrangarh Fort",
+   [
+    "Amber Fort",
+    "Red Fort",
+    "Chittorgarh Fort"
+   ],
+   "Mehrangarh",
+   "It towers about 120 metres above the city of Jodhpur."
+  ],
+  [
+   "Rumeli Hisarı",
+   [
+    "Anadolu Hisarı",
+    "Yedikule Fortress",
+    "Galata Tower"
+   ],
+   "Rumelihisarı",
+   "It was built in just four months, in 1452."
+  ]
+ ],
+ "intro": "Welcome to Quiz Rush! Today it's all about castles! Forty famous castles are hiding behind a puzzle, and the pieces flip one by one. You have ten seconds each. Ready? Let's play!",
+ "outro": "That's the end of our castle tour! How many did you recognise? Drop your score in the comments, and come back tomorrow, there's a brand new quiz every day on Quiz Rush!"
+}

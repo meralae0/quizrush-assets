@@ -1,0 +1,522 @@
+[
+ {
+  "lvl": "EASY",
+  "q": "Which castle is this?",
+  "o": [
+   "Windsor Castle",
+   "Edinburgh Castle",
+   "Balmoral Castle",
+   "Warwick Castle"
+  ],
+  "a": 0,
+  "f": "It's the oldest and largest occupied castle in the world.",
+  "wiki": "Windsor Castle"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which castle is this?",
+  "o": [
+   "Stirling Castle",
+   "Dublin Castle",
+   "Edinburgh Castle",
+   "Cardiff Castle"
+  ],
+  "a": 2,
+  "f": "It stands on Castle Rock, an extinct volcano.",
+  "wiki": "Edinburgh Castle"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which castle is this?",
+  "o": [
+   "Himeji Castle",
+   "Matsumoto Castle",
+   "Nagoya Castle",
+   "Osaka Castle"
+  ],
+  "a": 0,
+  "f": "It's nicknamed the White Heron Castle.",
+  "wiki": "Himeji Castle"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which castle is this?",
+  "o": [
+   "Château de Blois",
+   "Château de Chambord",
+   "Château d'Amboise",
+   "Château de Chenonceau"
+  ],
+  "a": 1,
+  "f": "Chambord has a famous double-spiral staircase.",
+  "wiki": "Château de Chambord"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which castle is this?",
+  "o": [
+   "Warwick Castle",
+   "Dover Castle",
+   "Windsor Castle",
+   "Tower of London"
+  ],
+  "a": 3,
+  "f": "The Crown Jewels are kept inside.",
+  "wiki": "Tower of London"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which castle is this?",
+  "o": [
+   "Alhambra",
+   "Castillo de Coca",
+   "Alcázar of Segovia",
+   "Alcázar of Seville"
+  ],
+  "a": 0,
+  "f": "It was built mainly by the Nasrid rulers of Granada.",
+  "wiki": "Alhambra"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which castle is this?",
+  "o": [
+   "Wawel Castle",
+   "Buda Castle",
+   "Prague Castle",
+   "Bratislava Castle"
+  ],
+  "a": 2,
+  "f": "It's one of the largest castle complexes in the world.",
+  "wiki": "Prague Castle"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which castle is this?",
+  "o": [
+   "Urquhart Castle",
+   "Inveraray Castle",
+   "Dunnottar Castle",
+   "Eilean Donan"
+  ],
+  "a": 3,
+  "f": "It sits on a small tidal island in the Scottish Highlands.",
+  "wiki": "Eilean Donan"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which castle is this?",
+  "o": [
+   "Heidelberg Castle",
+   "Burg Eltz",
+   "Hohenzollern Castle",
+   "Lichtenstein Castle"
+  ],
+  "a": 2,
+  "f": "It stands on top of a mountain in southern Germany.",
+  "wiki": "Hohenzollern Castle"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which castle is this?",
+  "o": [
+   "Castel dell'Ovo",
+   "Castel Sant'Angelo",
+   "Castello Sforzesco",
+   "Castello Estense"
+  ],
+  "a": 1,
+  "f": "It was first built as a tomb for Emperor Hadrian.",
+  "wiki": "Castel Sant'Angelo"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which castle is this?",
+  "o": [
+   "Trakai Island Castle",
+   "Książ Castle",
+   "Malbork Castle",
+   "Wawel Castle"
+  ],
+  "a": 2,
+  "f": "It's the largest castle in the world by land area.",
+  "wiki": "Malbork Castle"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which castle is this?",
+  "o": [
+   "Bamburgh Castle",
+   "Caerphilly Castle",
+   "Bodiam Castle",
+   "Leeds Castle"
+  ],
+  "a": 2,
+  "f": "This 14th-century castle is surrounded by a wide moat.",
+  "wiki": "Bodiam Castle"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which castle is this?",
+  "o": [
+   "Conwy Castle",
+   "Harlech Castle",
+   "Cardiff Castle",
+   "Caernarfon Castle"
+  ],
+  "a": 0,
+  "f": "It was built for King Edward the First in the 1280s.",
+  "wiki": "Conwy Castle"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which castle is this?",
+  "o": [
+   "Windsor Castle",
+   "Warwick Castle",
+   "Alnwick Castle",
+   "Arundel Castle"
+  ],
+  "a": 1,
+  "f": "It began as a wooden fort built by William the Conqueror in 1068.",
+  "wiki": "Warwick Castle"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which castle is this?",
+  "o": [
+   "Corvin Castle",
+   "Peleș Castle",
+   "Cantacuzino Castle",
+   "Bran Castle"
+  ],
+  "a": 1,
+  "f": "It was one of the first castles in Europe with electricity.",
+  "wiki": "Peleș Castle"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which castle is this?",
+  "o": [
+   "Château d'Amboise",
+   "Château d'Azay-le-Rideau",
+   "Château de Villandry",
+   "Château de Chenonceau"
+  ],
+  "a": 3,
+  "f": "It's built across the River Cher.",
+  "wiki": "Château de Chenonceau"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which castle is this?",
+  "o": [
+   "Moorish Castle",
+   "Belém Tower",
+   "Quinta da Regaleira",
+   "Pena Palace"
+  ],
+  "a": 3,
+  "f": "It sits on a hilltop above Sintra, in Portugal.",
+  "wiki": "Pena Palace"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which castle is this?",
+  "o": [
+   "Nagoya Castle",
+   "Kumamoto Castle",
+   "Himeji Castle",
+   "Osaka Castle"
+  ],
+  "a": 3,
+  "f": "Its main tower was rebuilt in concrete in 1931.",
+  "wiki": "Osaka Castle"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which castle is this?",
+  "o": [
+   "Kronborg",
+   "Rosenborg Castle",
+   "Frederiksborg Castle",
+   "Egeskov Castle"
+  ],
+  "a": 0,
+  "f": "Shakespeare set Hamlet here, under the name Elsinore.",
+  "wiki": "Kronborg"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which castle is this?",
+  "o": [
+   "Burg Eltz",
+   "Lichtenstein Castle",
+   "Hohenzollern Castle",
+   "Neuschwanstein Castle"
+  ],
+  "a": 1,
+  "f": "It sits on a cliff edge in the Swabian Alps.",
+  "wiki": "Lichtenstein Castle"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which castle is this?",
+  "o": [
+   "Alcázar of Toledo",
+   "Alcázar of Segovia",
+   "Castillo de Coca",
+   "Alhambra"
+  ],
+  "a": 1,
+  "f": "Its shape is said to look like the bow of a ship.",
+  "wiki": "Alcázar of Segovia"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which castle is this?",
+  "o": [
+   "Predjama Castle",
+   "Spiš Castle",
+   "Bled Castle",
+   "Ljubljana Castle"
+  ],
+  "a": 2,
+  "f": "It's the oldest castle in Slovenia, first mentioned in 1011.",
+  "wiki": "Bled Castle"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which castle is this?",
+  "o": [
+   "Malbork Castle",
+   "Turaida Castle",
+   "Trakai Island Castle",
+   "Mir Castle"
+  ],
+  "a": 2,
+  "f": "It stands on an island in Lake Galvė, in Lithuania.",
+  "wiki": "Trakai Island Castle"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which castle is this?",
+  "o": [
+   "Spiš Castle",
+   "Orava Castle",
+   "Bojnice Castle",
+   "Buda Castle"
+  ],
+  "a": 0,
+  "f": "It's one of the largest castle sites in Central Europe.",
+  "wiki": "Spiš Castle"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which castle is this?",
+  "o": [
+   "Matsumoto Castle",
+   "Hikone Castle",
+   "Himeji Castle",
+   "Inuyama Castle"
+  ],
+  "a": 0,
+  "f": "Its black walls earned it the nickname Crow Castle.",
+  "wiki": "Matsumoto Castle"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which castle is this?",
+  "o": [
+   "Marksburg",
+   "Hohenzollern Castle",
+   "Burg Eltz",
+   "Reichsburg Cochem"
+  ],
+  "a": 2,
+  "f": "The same family has owned it for over 800 years.",
+  "wiki": "Eltz Castle"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which castle is this?",
+  "o": [
+   "Spiš Castle",
+   "Trenčín Castle",
+   "Bojnice Castle",
+   "Orava Castle"
+  ],
+  "a": 3,
+  "f": "It was a filming location for the 1922 film Nosferatu.",
+  "wiki": "Orava Castle"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which castle is this?",
+  "o": [
+   "Château de Foix",
+   "Château de Pierrefonds",
+   "Château de Chambord",
+   "Château de Vincennes"
+  ],
+  "a": 1,
+  "f": "It was rebuilt by the architect Viollet-le-Duc in the 1800s.",
+  "wiki": "Château de Pierrefonds"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which castle is this?",
+  "o": [
+   "Burg Eltz",
+   "Bouillon Castle",
+   "Bourscheid Castle",
+   "Vianden Castle"
+  ],
+  "a": 3,
+  "f": "This hilltop castle is the most famous in Luxembourg.",
+  "wiki": "Vianden Castle"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which castle is this?",
+  "o": [
+   "Caernarfon Castle",
+   "Harlech Castle",
+   "Conwy Castle",
+   "Beaumaris Castle"
+  ],
+  "a": 0,
+  "f": "Its walls were inspired by the walls of Constantinople.",
+  "wiki": "Caernarfon Castle"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which castle is this?",
+  "o": [
+   "Krak des Chevaliers",
+   "Citadel of Salah Ed-Din",
+   "Citadel of Aleppo",
+   "Kerak Castle"
+  ],
+  "a": 0,
+  "f": "It's one of the best-preserved Crusader castles in the world.",
+  "wiki": "Krak des Chevaliers"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which castle is this?",
+  "o": [
+   "Bran Castle",
+   "Peleș Castle",
+   "Râșnov Citadel",
+   "Corvin Castle"
+  ],
+  "a": 3,
+  "f": "It's in Romania, and is also known as Hunyad Castle.",
+  "wiki": "Corvin Castle"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which castle is this?",
+  "o": [
+   "Orava Castle",
+   "Trenčín Castle",
+   "Spiš Castle",
+   "Bojnice Castle"
+  ],
+  "a": 3,
+  "f": "It hosts an International Festival of Ghosts every spring.",
+  "wiki": "Bojnice Castle"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which castle is this?",
+  "o": [
+   "Ljubljana Castle",
+   "Predjama Castle",
+   "Celje Castle",
+   "Bled Castle"
+  ],
+  "a": 1,
+  "f": "It's built inside the mouth of a cave.",
+  "wiki": "Predjama Castle"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which castle is this?",
+  "o": [
+   "Trakai Island Castle",
+   "Nesvizh Castle",
+   "Mir Castle",
+   "Malbork Castle"
+  ],
+  "a": 2,
+  "f": "It's a UNESCO World Heritage site in Belarus.",
+  "wiki": "Mir Castle Complex"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which castle is this?",
+  "o": [
+   "Castello Sforzesco",
+   "Castel Sant'Angelo",
+   "Castello Estense",
+   "Castel del Monte"
+  ],
+  "a": 3,
+  "f": "Its floor plan is a perfect octagon.",
+  "wiki": "Castel del Monte, Apulia"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which castle is this?",
+  "o": [
+   "Haut-Kœnigsbourg",
+   "Hohenzollern Castle",
+   "Château de Pierrefonds",
+   "Burg Eltz"
+  ],
+  "a": 0,
+  "f": "It overlooks the Alsace plain in eastern France.",
+  "wiki": "Château du Haut-Kœnigsbourg"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which castle is this?",
+  "o": [
+   "Himeji Castle",
+   "Kumamoto Castle",
+   "Osaka Castle",
+   "Matsumoto Castle"
+  ],
+  "a": 1,
+  "f": "It was badly damaged by an earthquake in 2016.",
+  "wiki": "Kumamoto Castle"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which castle is this?",
+  "o": [
+   "Chittorgarh Fort",
+   "Amber Fort",
+   "Mehrangarh Fort",
+   "Red Fort"
+  ],
+  "a": 2,
+  "f": "It towers about 120 metres above the city of Jodhpur.",
+  "wiki": "Mehrangarh"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which castle is this?",
+  "o": [
+   "Galata Tower",
+   "Rumeli Hisarı",
+   "Anadolu Hisarı",
+   "Yedikule Fortress"
+  ],
+  "a": 1,
+  "f": "It was built in just four months, in 1452.",
+  "wiki": "Rumelihisarı"
+ }
+]

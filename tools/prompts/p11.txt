@@ -1,0 +1,93 @@
+I uploaded 4 audio files v0.mp3, v1.mp3, v2.mp3, v3.mp3 (in that order). Each is a sequence of spoken paragraphs. For each file, give the exact START time in seconds (with 2 decimals) of every paragraph EXCEPT the first one. Listen carefully. Paragraphs begin with these words:
+
+v0.mp3 (21 paragraphs):
+1. Welcome to Quiz Rush! Today we're
+2. Kick-off! Which planet is this?
+3. Yes! It's Saturn. Saturn is so
+4. Take a good look. Which planet
+5. That's Earth. This famous photo was
+6. Easy one... or is it? What
+7. It's the Moon. The Moon drifts
+8. Eyes on the screen. Which planet
+9. Correct answer: Jupiter. Its Great Red
+10. Quick! Which planet is this?
+11. Of course, it's Mars. Mars has
+12. Trust your instinct. What is this?
+13. Boom! It's the Sun. The Sun
+14. Don't overthink it. What is this?
+15. Here it is: the International Space
+16. This one is a classic. Which
+17. You got it, it's Mercury. A
+18. Here we go. What do we
+19. Spot on! It's a meteorite. Most
+20. Last easy one! What is the
+21. The answer is the Milky Way.
+
+v1.mp3 (20 paragraphs):
+1. Medium round! Things get trickier. Which
+2. Yes! It's Neptune. Neptune has the
+3. Look closely. Which planet is this?
+4. That's Uranus. Uranus was the first
+5. Ten seconds on the clock. Which
+6. It's Venus. Venus is the hottest
+7. This one fools a lot of
+8. Correct answer: a comet. A comet's
+9. Can you get this one right?
+10. Of course, it's an aurora. Auroras
+11. Think carefully. Which telescope is this?
+12. Boom! It's the Hubble Space Telescope.
+13. Here's a tricky one. What is
+14. Here it is: a total solar
+15. Keep that streak going! What is
+16. You got it, it's Titan. Titan
+17. Next up. What kind of space
+18. Spot on! It's an asteroid, called
+19. Last medium question! Which dwarf planet
+20. The answer is Pluto. Pluto has
+
+v2.mp3 (20 paragraphs):
+1. Hard round! Only the experts from
+2. Yes! It's Io. Io is the
+3. Not so easy now. Which moon
+4. That's Europa. Scientists think a salty
+5. Here's one for the experts. Which
+6. It's the Crab Nebula. It's what
+7. Take your time... but not too
+8. Correct answer: the Andromeda Galaxy. It
+9. This one is a real head-scratcher.
+10. Of course, it's Curiosity. Curiosity landed
+11. Big brain time! Which moon is
+12. Boom! It's Enceladus. Enceladus shoots jets
+13. Lock in your answer! Which nebula
+14. Here it is: the Orion Nebula.
+15. Few people get this one. Which
+16. You got it, it's Mimas. Its
+17. Are you still with me? Which
+18. Spot on! It's Mir. Mir orbited
+19. Last hard one! Which rocket is
+20. The answer is the Saturn V.
+
+v3.mp3 (21 paragraphs):
+1. Genius round! Only true masters get
+2. Yes! It's Triton. Triton orbits Neptune
+3. Seriously tough now. Which galaxy is
+4. That's the Whirlpool Galaxy. It's being
+5. If you know this one, you're
+6. It's the Ring Nebula. It's a
+7. Deep cut! Which dwarf planet is
+8. Correct answer: Ceres. Ceres is the
+9. Here's a rare one. Which comet
+10. Of course, it's comet 67P. The
+11. No hints this time. Which galaxy
+12. Boom! It's the Sombrero Galaxy. Its
+13. Almost there! Which moon of Uranus
+14. Here it is: Miranda. Miranda has
+15. Only a handful of people will
+16. You got it, it's Callisto. Callisto
+17. Second to last! Which nebula is
+18. Spot on! It's the Horsehead Nebula.
+19. Final question! Make it count. Which
+20. The answer is Vesta. Vesta is
+21. Mission complete! How many did you
+
+Answer ONLY with JSON like {"0":[t2,t3,...],"1":[...],"2":[...],"3":[...]} where each list has (number of paragraphs - 1) numbers.

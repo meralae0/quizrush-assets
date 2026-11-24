@@ -1,0 +1,93 @@
+I uploaded 4 audio files v0.mp3, v1.mp3, v2.mp3, v3.mp3 (in that order). Each is a sequence of spoken paragraphs. For each file, give the exact START time in seconds (with 2 decimals) of every paragraph EXCEPT the first one. Listen carefully. Paragraphs begin with these words:
+
+v0.mp3 (21 paragraphs):
+1. Welcome to Quiz Rush! Today it's
+2. Kick-off! Here's your first castle. Any
+3. Yes! It's Windsor Castle. It's the
+4. Take a good look. Which castle
+5. That's Edinburgh Castle. It stands on
+6. Easy one... or is it? Name
+7. It's Himeji Castle. It's nicknamed the
+8. Eyes on the screen. What castle
+9. Correct answer: Château de Chambord. Chambord
+10. You've seen this one before. Which
+11. Of course, it's the Tower of
+12. Quick! Which castle is this?
+13. Boom! It's the Alhambra. It was
+14. Trust your instinct. Name it!
+15. Here it is: Prague Castle. It's
+16. Don't overthink it. Which castle is
+17. You got it, it's Eilean Donan.
+18. This one is a classic. Which
+19. Spot on! It's Hohenzollern Castle. It
+20. Last easy one! Which castle is
+21. The answer is Castel Sant'Angelo. It
+
+v1.mp3 (20 paragraphs):
+1. Medium round! Things get trickier. Which
+2. Yes! It's Malbork Castle. It's the
+3. Look closely at the details. Which
+4. That's Bodiam Castle. This 14th-century castle
+5. Ten seconds on the clock. Name
+6. It's Conwy Castle. It was built
+7. This one fools a lot of
+8. Correct answer: Warwick Castle. It began
+9. Can you get this one right?
+10. Of course, it's Peleș Castle. It
+11. Think carefully. What castle is this?
+12. Boom! It's Château de Chenonceau. It's
+13. Here's a tricky one. Name it!
+14. Here it is: Pena Palace. It
+15. Got it already? Which castle is
+16. You got it, it's Osaka Castle.
+17. Keep that streak going! Which castle?
+18. Spot on! It's Kronborg. Shakespeare set
+19. Last medium question! Which castle is
+20. The answer is Lichtenstein Castle. It
+
+v2.mp3 (20 paragraphs):
+1. Hard round! Only the experts from
+2. Yes! It's the Alcázar of Segovia.
+3. Not so easy now. Which castle?
+4. That's Bled Castle. It's the oldest
+5. Here's one for the experts. Name
+6. It's Trakai Island Castle. It stands
+7. Take your time... but not too
+8. Correct answer: Spiš Castle. It's one
+9. This one is a real head-scratcher.
+10. Of course, it's Matsumoto Castle. Its
+11. Big brain time! What castle is
+12. Boom! It's Burg Eltz. The same
+13. Lock in your answer! Which castle?
+14. Here it is: Orava Castle. It
+15. Few people get this one. Do
+16. You got it, it's Château de
+17. Are you still with me? Which
+18. Spot on! It's Vianden Castle. This
+19. Last hard one! Which castle?
+20. The answer is Caernarfon Castle. Its
+
+v3.mp3 (21 paragraphs):
+1. Genius round! Only true masters get
+2. Yes! It's Krak des Chevaliers. It's
+3. Seriously tough now. Name this castle!
+4. That's Corvin Castle. It's in Romania,
+5. If you know this one, you're
+6. It's Bojnice Castle. It hosts an
+7. Deep cut! Which castle is this?
+8. Correct answer: Predjama Castle. It's built
+9. Here's a rare one. What is
+10. Of course, it's Mir Castle. It's
+11. No hints this time. Which castle?
+12. Boom! It's Castel del Monte. Its
+13. Almost there! Which castle is this?
+14. Here it is: Haut-Kœnigsbourg. It overlooks
+15. Only a handful of people will
+16. You got it, it's Kumamoto Castle.
+17. Second to last! Name this castle!
+18. Spot on! It's Mehrangarh Fort. It
+19. Final question! Make it count. Which
+20. The answer is Rumeli Hisarı. It
+21. That's the end of our castle
+
+Answer ONLY with JSON like {"0":[t2,t3,...],"1":[...],"2":[...],"3":[...]} where each list has (number of paragraphs - 1) numbers.

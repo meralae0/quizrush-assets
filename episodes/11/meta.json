@@ -1,0 +1,58 @@
+{
+ "mode": "zoom",
+ "card": [
+  "SPACE QUIZ",
+  "40 REAL SPACE PHOTOS"
+ ],
+ "tiers": [
+  "0-10  Stargazer",
+  "11-20  Cadet",
+  "21-30  Astronaut",
+  "31-39  Astronomer",
+  "40  Space Legend"
+ ],
+ "thumb": {
+  "ids": [
+   0,
+   22,
+   3,
+   32
+  ],
+  "l1": [
+   "SPACE",
+   "QUIZ"
+  ],
+  "l2": "40"
+ },
+ "title": "Space Quiz: Guess 40 Planets, Moons and Galaxies (Easy to Genius)",
+ "desc_intro": "How well do you know space? 40 real photos of planets, moons, nebulae, galaxies and spacecraft, from Easy to Genius. You have 10 seconds for each one. Keep your score and tell us in the comments!",
+ "tags": "#quiz #space #planets #astronomy #trivia",
+ "noun": "planet",
+ "shorts": [
+  {
+   "ids": [
+    0,
+    3,
+    4,
+    10,
+    11
+   ],
+   "hook": "NAME ALL 5 PLANETS",
+   "title": "Can You Name All 5 Planets? #quiz #space #planets",
+   "caption": "Can you name these 5 planets? 🪐 #quiz #space #planets #astronomy"
+  },
+  {
+   "ids": [
+    20,
+    21,
+    23,
+    26,
+    32
+   ],
+   "hook": "ONLY ASTRONOMERS GET 5/5",
+   "title": "Only Astronomers Get 5/5! #quiz #space #astronomy",
+   "caption": "Moons, nebulae and galaxies: only astronomers get all 5! 🔭 #quiz #space #astronomy #planets"
+  }
+ ],
+ "sub": "Easy > Medium > Hard > Genius  |  10 seconds each"
+}

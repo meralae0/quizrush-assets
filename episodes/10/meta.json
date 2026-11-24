@@ -1,0 +1,58 @@
+{
+ "mode": "none",
+ "card": [
+  "GENERAL KNOWLEDGE",
+  "40 PHOTO QUESTIONS"
+ ],
+ "tiers": [
+  "0-10  Beginner",
+  "11-20  Smart Cookie",
+  "21-30  Brainiac",
+  "31-39  Mastermind",
+  "40  Quiz Legend"
+ ],
+ "thumb": {
+  "ids": [
+   0,
+   13,
+   9,
+   37
+  ],
+  "l1": [
+   "GENERAL",
+   "KNOWLEDGE"
+  ],
+  "l2": "40"
+ },
+ "title": "General Knowledge Quiz: 40 Photo Questions (Easy to Genius)",
+ "desc_intro": "How good is your general knowledge? 40 photo questions about animals, places, science and the world, from Easy to Genius. You have 10 seconds for each one. Keep your score and tell us in the comments!",
+ "tags": "#quiz #generalknowledge #trivia #brainteaser #knowledge",
+ "noun": "question",
+ "shorts": [
+  {
+   "ids": [
+    1,
+    3,
+    7,
+    10,
+    14
+   ],
+   "hook": "ONLY 2% GET ALL 5 RIGHT",
+   "title": "Only 2% Get All 5 Right! #quiz #trivia #generalknowledge",
+   "caption": "General knowledge quiz: can you get all 5? 🧠 #quiz #trivia #generalknowledge #brainteaser"
+  },
+  {
+   "ids": [
+    22,
+    25,
+    26,
+    36,
+    38
+   ],
+   "hook": "GENIUS LEVEL: 5 QUESTIONS",
+   "title": "Genius Level Trivia: Can You Get 5/5? #quiz #trivia #knowledge",
+   "caption": "Only geniuses get all 5 of these! 🤯 #quiz #trivia #generalknowledge #knowledge"
+  }
+ ],
+ "sub": "Easy > Medium > Hard > Genius  |  10 seconds each"
+}

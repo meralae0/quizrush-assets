@@ -1,0 +1,522 @@
+[
+ {
+  "lvl": "EASY",
+  "q": "What is this animal?",
+  "o": [
+   "Zebra",
+   "Horse",
+   "Donkey",
+   "Okapi"
+  ],
+  "a": 0,
+  "f": "No two zebras have exactly the same stripe pattern.",
+  "wiki": "Zebra"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which planet is known as the Red Planet?",
+  "o": [
+   "Mars",
+   "Jupiter",
+   "Venus",
+   "Mercury"
+  ],
+  "a": 0,
+  "f": "Its red colour comes from iron oxide, or rust, in the soil.",
+  "wiki": "Mars"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which city is famous for these canals?",
+  "o": [
+   "Copenhagen",
+   "Bruges",
+   "Venice",
+   "Amsterdam"
+  ],
+  "a": 3,
+  "f": "Amsterdam has more than 160 canals.",
+  "wiki": "Canals of Amsterdam"
+ },
+ {
+  "lvl": "EASY",
+  "q": "What is the largest animal on Earth?",
+  "o": [
+   "Giraffe",
+   "Elephant",
+   "Sperm whale",
+   "Blue whale"
+  ],
+  "a": 3,
+  "f": "It can grow to about 30 metres long.",
+  "wiki": "Blue whale"
+ },
+ {
+  "lvl": "EASY",
+  "q": "How many legs does a spider have?",
+  "o": [
+   "12",
+   "6",
+   "8",
+   "10"
+  ],
+  "a": 2,
+  "f": "Insects have six legs, so spiders are not insects.",
+  "wiki": "Spider"
+ },
+ {
+  "lvl": "EASY",
+  "q": "At what temperature does water boil at sea level?",
+  "o": [
+   "120 °C",
+   "80 °C",
+   "100 °C",
+   "90 °C"
+  ],
+  "a": 2,
+  "f": "That's 212 degrees Fahrenheit.",
+  "wiki": "Boiling"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which instrument is this?",
+  "o": [
+   "Harp",
+   "Violin",
+   "Guitar",
+   "Cello"
+  ],
+  "a": 1,
+  "f": "A violin usually has four strings.",
+  "wiki": "Violin"
+ },
+ {
+  "lvl": "EASY",
+  "q": "What is the tallest animal in the world?",
+  "o": [
+   "Camel",
+   "Ostrich",
+   "Giraffe",
+   "Elephant"
+  ],
+  "a": 2,
+  "f": "A giraffe's neck has seven bones, the same as a human's.",
+  "wiki": "Giraffe"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which fruit is this?",
+  "o": [
+   "Pineapple",
+   "Papaya",
+   "Mango",
+   "Coconut"
+  ],
+  "a": 0,
+  "f": "A pineapple takes about two years to grow.",
+  "wiki": "Pineapple"
+ },
+ {
+  "lvl": "EASY",
+  "q": "Which bird is this?",
+  "o": [
+   "Pelican",
+   "Flamingo",
+   "Heron",
+   "Stork"
+  ],
+  "a": 1,
+  "f": "Flamingos get their pink colour from the food they eat.",
+  "wiki": "Flamingo"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "What is the highest mountain on Earth?",
+  "o": [
+   "K2",
+   "Kangchenjunga",
+   "Mont Blanc",
+   "Mount Everest"
+  ],
+  "a": 3,
+  "f": "Its summit is about 8,849 metres above sea level.",
+  "wiki": "Mount Everest"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "What is the capital of Turkey?",
+  "o": [
+   "Antalya",
+   "Ankara",
+   "Izmir",
+   "Istanbul"
+  ],
+  "a": 1,
+  "f": "Ankara became the capital of Turkey in 1923.",
+  "wiki": "Anıtkabir"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which gas makes up most of Earth's air?",
+  "o": [
+   "Nitrogen",
+   "Carbon dioxide",
+   "Argon",
+   "Oxygen"
+  ],
+  "a": 0,
+  "f": "Nitrogen makes up about 78 percent of the air.",
+  "wiki": "Atmosphere of Earth"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "In which country is this temple?",
+  "o": [
+   "Indonesia",
+   "Malaysia",
+   "Thailand",
+   "Cambodia"
+  ],
+  "a": 0,
+  "f": "Borobudur is the largest Buddhist temple in the world.",
+  "wiki": "Borobudur"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which mammal lays eggs?",
+  "o": [
+   "Kangaroo",
+   "Platypus",
+   "Wombat",
+   "Koala"
+  ],
+  "a": 1,
+  "f": "Platypuses and echidnas are the only mammals that lay eggs.",
+  "wiki": "Platypus"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "How many strings does a standard guitar have?",
+  "o": [
+   "4",
+   "5",
+   "6",
+   "8"
+  ],
+  "a": 2,
+  "f": "Bass guitars usually have four.",
+  "wiki": "Acoustic guitar"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "What is the largest country in the world by area?",
+  "o": [
+   "Canada",
+   "Russia",
+   "China",
+   "USA"
+  ],
+  "a": 1,
+  "f": "Russia spans eleven time zones.",
+  "wiki": "Moscow Kremlin"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "Which metal is liquid at room temperature?",
+  "o": [
+   "Tin",
+   "Aluminium",
+   "Mercury",
+   "Lead"
+  ],
+  "a": 2,
+  "f": "Mercury was once used in most thermometers.",
+  "wiki": "Mercury (element)"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "What is the longest river in South America?",
+  "o": [
+   "Paraná",
+   "Orinoco",
+   "Magdalena",
+   "Amazon"
+  ],
+  "a": 3,
+  "f": "The Amazon carries more water than any other river.",
+  "wiki": "Amazon rainforest"
+ },
+ {
+  "lvl": "MEDIUM",
+  "q": "How many teeth does an adult usually have?",
+  "o": [
+   "30",
+   "28",
+   "36",
+   "32"
+  ],
+  "a": 3,
+  "f": "That includes the four wisdom teeth.",
+  "wiki": "Toothbrush"
+ },
+ {
+  "lvl": "HARD",
+  "q": "In which country is this waterfall?",
+  "o": [
+   "Colombia",
+   "Venezuela",
+   "Brazil",
+   "Peru"
+  ],
+  "a": 1,
+  "f": "Angel Falls is the highest uninterrupted waterfall in the world.",
+  "wiki": "Angel Falls"
+ },
+ {
+  "lvl": "HARD",
+  "q": "What is the capital of Brazil?",
+  "o": [
+   "Rio de Janeiro",
+   "Salvador",
+   "São Paulo",
+   "Brasília"
+  ],
+  "a": 3,
+  "f": "Brasília was built from scratch and opened in 1960.",
+  "wiki": "Cathedral of Brasília"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which bird can fly backwards?",
+  "o": [
+   "Hummingbird",
+   "Kingfisher",
+   "Swift",
+   "Sparrow"
+  ],
+  "a": 0,
+  "f": "Some hummingbirds beat their wings more than 50 times a second.",
+  "wiki": "Hummingbird"
+ },
+ {
+  "lvl": "HARD",
+  "q": "What is the chemical symbol for sodium?",
+  "o": [
+   "Na",
+   "Sd",
+   "Sn",
+   "So"
+  ],
+  "a": 0,
+  "f": "Na comes from natrium, its Latin name.",
+  "wiki": "Sodium"
+ },
+ {
+  "lvl": "HARD",
+  "q": "In which country is this ancient monument?",
+  "o": [
+   "France",
+   "Ireland",
+   "Denmark",
+   "United Kingdom"
+  ],
+  "a": 3,
+  "f": "Stonehenge was built around 5,000 years ago.",
+  "wiki": "Stonehenge"
+ },
+ {
+  "lvl": "HARD",
+  "q": "How many hearts does an octopus have?",
+  "o": [
+   "3",
+   "8",
+   "2",
+   "1"
+  ],
+  "a": 0,
+  "f": "Its blood is blue because it is rich in copper.",
+  "wiki": "Octopus"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which country is home to this bird, the kiwi?",
+  "o": [
+   "Papua New Guinea",
+   "Australia",
+   "New Zealand",
+   "Fiji"
+  ],
+  "a": 2,
+  "f": "The kiwi is a flightless bird about the size of a chicken.",
+  "wiki": "Kiwi (bird)"
+ },
+ {
+  "lvl": "HARD",
+  "q": "What is the largest island in the world?",
+  "o": [
+   "Madagascar",
+   "New Guinea",
+   "Greenland",
+   "Borneo"
+  ],
+  "a": 2,
+  "f": "About 80 percent of Greenland is covered by ice.",
+  "wiki": "Ilulissat Icefjord"
+ },
+ {
+  "lvl": "HARD",
+  "q": "Which element are both diamonds and graphite made of?",
+  "o": [
+   "Iron",
+   "Sulfur",
+   "Carbon",
+   "Silicon"
+  ],
+  "a": 2,
+  "f": "Pencil lead is actually graphite.",
+  "wiki": "Graphite"
+ },
+ {
+  "lvl": "HARD",
+  "q": "In which country did the ancient Olympic Games begin?",
+  "o": [
+   "Turkey",
+   "Greece",
+   "Italy",
+   "Egypt"
+  ],
+  "a": 1,
+  "f": "The ancient Games began in Olympia in 776 BC.",
+  "wiki": "Olympia, Greece"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "What is the capital of Kazakhstan?",
+  "o": [
+   "Tashkent",
+   "Almaty",
+   "Astana",
+   "Bishkek"
+  ],
+  "a": 2,
+  "f": "Astana has been the capital since 1997.",
+  "wiki": "Bayterek (tower)"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which mammal can live the longest?",
+  "o": [
+   "Blue whale",
+   "Orca",
+   "Bowhead whale",
+   "African elephant"
+  ],
+  "a": 2,
+  "f": "Some bowhead whales are thought to live over 200 years.",
+  "wiki": "Bowhead whale"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "What is the capital of Bhutan?",
+  "o": [
+   "Thimphu",
+   "Punakha",
+   "Paro",
+   "Kathmandu"
+  ],
+  "a": 0,
+  "f": "Thimphu is one of the few capitals with no traffic lights.",
+  "wiki": "Tashichho Dzong"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which tree species grows the tallest?",
+  "o": [
+   "Mountain ash",
+   "Coast redwood",
+   "Giant sequoia",
+   "Douglas fir"
+  ],
+  "a": 1,
+  "f": "The tallest known redwood is over 115 metres high.",
+  "wiki": "Sequoia sempervirens"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which gemstone is this?",
+  "o": [
+   "Peridot",
+   "Jade",
+   "Malachite",
+   "Emerald"
+  ],
+  "a": 3,
+  "f": "Emerald is a green variety of the mineral beryl.",
+  "wiki": "Emerald"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "What is the capital of Myanmar?",
+  "o": [
+   "Yangon",
+   "Mandalay",
+   "Bagan",
+   "Naypyidaw"
+  ],
+  "a": 3,
+  "f": "Naypyidaw replaced Yangon as the capital in 2006.",
+  "wiki": "Uppatasanti Pagoda"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which mammal is covered in scales?",
+  "o": [
+   "Armadillo",
+   "Pangolin",
+   "Anteater",
+   "Hedgehog"
+  ],
+  "a": 1,
+  "f": "When threatened, a pangolin rolls up into a tight ball.",
+  "wiki": "Pangolin"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which city was Japan's capital for over 1,000 years?",
+  "o": [
+   "Nara",
+   "Osaka",
+   "Kamakura",
+   "Kyoto"
+  ],
+  "a": 3,
+  "f": "Kyoto was the imperial capital from 794 to 1869.",
+  "wiki": "Kiyomizu-dera"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "What is the largest lizard in the world?",
+  "o": [
+   "Komodo dragon",
+   "Green iguana",
+   "Gila monster",
+   "Water monitor"
+  ],
+  "a": 0,
+  "f": "Komodo dragons can grow up to 3 metres long.",
+  "wiki": "Komodo dragon"
+ },
+ {
+  "lvl": "GENIUS",
+  "q": "Which country produces the most coffee?",
+  "o": [
+   "Ethiopia",
+   "Brazil",
+   "Colombia",
+   "Vietnam"
+  ],
+  "a": 1,
+  "f": "Brazil has been the top coffee producer for over 150 years.",
+  "wiki": "Coffea arabica"
+ }
+]
