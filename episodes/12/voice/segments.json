@@ -1,0 +1,440 @@
+[
+ {
+  "file": "voice/voice0.wav",
+  "segs": [
+   [
+    0.0,
+    13.32
+   ],
+   [
+    13.32,
+    18.77
+   ],
+   [
+    18.77,
+    26.060000000000002
+   ],
+   [
+    26.060000000000002,
+    29.54
+   ],
+   [
+    29.54,
+    35.16
+   ],
+   [
+    35.16,
+    39.97
+   ],
+   [
+    39.97,
+    44.36
+   ],
+   [
+    44.36,
+    49.3
+   ],
+   [
+    49.3,
+    55.480000000000004
+   ],
+   [
+    55.480000000000004,
+    58.980000000000004
+   ],
+   [
+    58.980000000000004,
+    64.7
+   ],
+   [
+    64.7,
+    67.25999999999999
+   ],
+   [
+    67.25999999999999,
+    73.13
+   ],
+   [
+    73.13,
+    76.64000000000001
+   ],
+   [
+    76.64000000000001,
+    82.53
+   ],
+   [
+    82.53,
+    85.94999999999999
+   ],
+   [
+    85.94999999999999,
+    92.78999999999999
+   ],
+   [
+    92.78999999999999,
+    96.53999999999999
+   ],
+   [
+    96.53999999999999,
+    102.71000000000001
+   ],
+   [
+    102.71000000000001,
+    106.78999999999999
+   ],
+   [
+    106.78999999999999,
+    112.53675
+   ]
+  ],
+  "texts": [
+   "Welcome to Quiz Rush! Today it's all about castles! Forty famous castles are hiding behind a puzzle, and the pieces flip one by one. You have ten seconds each. Ready? Let's play!",
+   "Kick-off! Here's your first castle. Any idea?",
+   "Yes! It's Windsor Castle. It's the oldest and largest occupied castle in the world.",
+   "Take a good look. Which castle is this?",
+   "That's Edinburgh Castle. It stands on Castle Rock, an extinct volcano.",
+   "Easy one... or is it? Name this castle!",
+   "It's Himeji Castle. It's nicknamed the White Heron Castle.",
+   "Eyes on the screen. What castle do we have here?",
+   "Correct answer: Ch\u00e2teau de Chambord. Chambord has a famous double-spiral staircase.",
+   "You've seen this one before. Which castle?",
+   "Of course, it's the Tower of London. The Crown Jewels are kept inside.",
+   "Quick! Which castle is this?",
+   "Boom! It's the Alhambra. It was built mainly by the Nasrid rulers of Granada.",
+   "Trust your instinct. Name it!",
+   "Here it is: Prague Castle. It's one of the largest castle complexes in the world.",
+   "Don't overthink it. Which castle is this?",
+   "You got it, it's Eilean Donan. It sits on a small tidal island in the Scottish Highlands.",
+   "This one is a classic. Which castle?",
+   "Spot on! It's Hohenzollern Castle. It stands on top of a mountain in southern Germany.",
+   "Last easy one! Which castle is this?",
+   "The answer is Castel Sant'Angelo. It was first built as a tomb for Emperor Hadrian."
+  ]
+ },
+ {
+  "file": "voice/voice1.wav",
+  "segs": [
+   [
+    0.0,
+    4.75
+   ],
+   [
+    4.75,
+    10.5
+   ],
+   [
+    10.5,
+    14.200000000000001
+   ],
+   [
+    14.200000000000001,
+    19.3
+   ],
+   [
+    19.3,
+    23.080000000000002
+   ],
+   [
+    23.080000000000002,
+    27.830000000000002
+   ],
+   [
+    27.830000000000002,
+    31.17
+   ],
+   [
+    31.17,
+    37.620000000000005
+   ],
+   [
+    37.620000000000005,
+    40.04
+   ],
+   [
+    40.04,
+    45.57
+   ],
+   [
+    45.57,
+    48.17
+   ],
+   [
+    48.17,
+    53.47
+   ],
+   [
+    53.47,
+    55.879999999999995
+   ],
+   [
+    55.879999999999995,
+    60.42
+   ],
+   [
+    60.42,
+    63.27
+   ],
+   [
+    63.27,
+    69.05000000000001
+   ],
+   [
+    69.05000000000001,
+    71.69
+   ],
+   [
+    71.69,
+    76.64000000000001
+   ],
+   [
+    76.64000000000001,
+    79.65
+   ],
+   [
+    79.65,
+    84.53675
+   ]
+  ],
+  "texts": [
+   "Medium round! Things get trickier. Which castle is this?",
+   "Yes! It's Malbork Castle. It's the largest castle in the world by land area.",
+   "Look closely at the details. Which castle?",
+   "That's Bodiam Castle. This 14th-century castle is surrounded by a wide moat.",
+   "Ten seconds on the clock. Name this castle!",
+   "It's Conwy Castle. It was built for King Edward the First in the 1280s.",
+   "This one fools a lot of people. Which castle is it?",
+   "Correct answer: Warwick Castle. It began as a wooden fort built by William the Conqueror in 1068.",
+   "Can you get this one right? Which castle?",
+   "Of course, it's Pele\u0219 Castle. It was one of the first castles in Europe with electricity.",
+   "Think carefully. What castle is this?",
+   "Boom! It's Ch\u00e2teau de Chenonceau. It's built across the River Cher.",
+   "Here's a tricky one. Name it!",
+   "Here it is: Pena Palace. It sits on a hilltop above Sintra, in Portugal.",
+   "Got it already? Which castle is this?",
+   "You got it, it's Osaka Castle. Its main tower was rebuilt in concrete in 1931.",
+   "Keep that streak going! Which castle?",
+   "Spot on! It's Kronborg. Shakespeare set Hamlet here, under the name Elsinore.",
+   "Last medium question! Which castle is this?",
+   "The answer is Lichtenstein Castle. It sits on a cliff edge in the Swabian Alps."
+  ]
+ },
+ {
+  "file": "voice/voice2.wav",
+  "segs": [
+   [
+    0.0,
+    4.970000000000001
+   ],
+   [
+    4.970000000000001,
+    11.2
+   ],
+   [
+    11.2,
+    14.7
+   ],
+   [
+    14.7,
+    21.5
+   ],
+   [
+    21.5,
+    25.19
+   ],
+   [
+    25.19,
+    31.25
+   ],
+   [
+    31.25,
+    35.21
+   ],
+   [
+    35.21,
+    41.07
+   ],
+   [
+    41.07,
+    45.22
+   ],
+   [
+    45.22,
+    51.91
+   ],
+   [
+    51.91,
+    55.260000000000005
+   ],
+   [
+    55.260000000000005,
+    61.19
+   ],
+   [
+    61.19,
+    63.78
+   ],
+   [
+    63.78,
+    70.41
+   ],
+   [
+    70.41,
+    73.39
+   ],
+   [
+    73.39,
+    81.11000000000001
+   ],
+   [
+    81.11000000000001,
+    84.09
+   ],
+   [
+    84.09,
+    89.9
+   ],
+   [
+    89.9,
+    92.87
+   ],
+   [
+    92.87,
+    97.99675
+   ]
+  ],
+  "texts": [
+   "Hard round! Only the experts from here. Which castle is this?",
+   "Yes! It's the Alc\u00e1zar of Segovia. Its shape is said to look like the bow of a ship.",
+   "Not so easy now. Which castle?",
+   "That's Bled Castle. It's the oldest castle in Slovenia, first mentioned in 1011.",
+   "Here's one for the experts. Name this castle!",
+   "It's Trakai Island Castle. It stands on an island in Lake Galv\u0117, in Lithuania.",
+   "Take your time... but not too much. Which castle?",
+   "Correct answer: Spi\u0161 Castle. It's one of the largest castle sites in Central Europe.",
+   "This one is a real head-scratcher. Which castle is it?",
+   "Of course, it's Matsumoto Castle. Its black walls earned it the nickname Crow Castle.",
+   "Big brain time! What castle is this?",
+   "Boom! It's Burg Eltz. The same family has owned it for over 800 years.",
+   "Lock in your answer! Which castle?",
+   "Here it is: Orava Castle. It was a filming location for the 1922 film Nosferatu.",
+   "Few people get this one. Do you?",
+   "You got it, it's Ch\u00e2teau de Pierrefonds. It was rebuilt by the architect Viollet-le-Duc in the 1800s.",
+   "Are you still with me? Which castle is this?",
+   "Spot on! It's Vianden Castle. This hilltop castle is the most famous in Luxembourg.",
+   "Last hard one! Which castle?",
+   "The answer is Caernarfon Castle. Its walls were inspired by the walls of Constantinople."
+  ]
+ },
+ {
+  "file": "voice/voice3.wav",
+  "segs": [
+   [
+    0.0,
+    6.48
+   ],
+   [
+    6.48,
+    13.11
+   ],
+   [
+    13.11,
+    17.3
+   ],
+   [
+    17.3,
+    22.990000000000002
+   ],
+   [
+    22.990000000000002,
+    27.61
+   ],
+   [
+    27.61,
+    33.79
+   ],
+   [
+    33.79,
+    36.97
+   ],
+   [
+    36.97,
+    42.07
+   ],
+   [
+    42.07,
+    44.85
+   ],
+   [
+    44.85,
+    50.3
+   ],
+   [
+    50.3,
+    53.120000000000005
+   ],
+   [
+    53.120000000000005,
+    58.56
+   ],
+   [
+    58.56,
+    62.0
+   ],
+   [
+    62.0,
+    67.97
+   ],
+   [
+    67.97,
+    71.89
+   ],
+   [
+    71.89,
+    77.72
+   ],
+   [
+    77.72,
+    80.99000000000001
+   ],
+   [
+    80.99000000000001,
+    87.77000000000001
+   ],
+   [
+    87.77000000000001,
+    92.44
+   ],
+   [
+    92.44,
+    98.2
+   ],
+   [
+    98.2,
+    106.95675
+   ]
+  ],
+  "texts": [
+   "Genius round! Only true masters get these. Which castle is this?",
+   "Yes! It's Krak des Chevaliers. It's one of the best-preserved Crusader castles in the world.",
+   "Seriously tough now. Name this castle!",
+   "That's Corvin Castle. It's in Romania, and is also known as Hunyad Castle.",
+   "If you know this one, you're a legend. Which castle?",
+   "It's Bojnice Castle. It hosts an International Festival of Ghosts every spring.",
+   "Deep cut! Which castle is this?",
+   "Correct answer: Predjama Castle. It's built inside the mouth of a cave.",
+   "Here's a rare one. What is it?",
+   "Of course, it's Mir Castle. It's a UNESCO World Heritage site in Belarus.",
+   "No hints this time. Which castle?",
+   "Boom! It's Castel del Monte. Its floor plan is a perfect octagon.",
+   "Almost there! Which castle is this?",
+   "Here it is: Haut-K\u0153nigsbourg. It overlooks the Alsace plain in eastern France.",
+   "Only a handful of people will get this. Which castle?",
+   "You got it, it's Kumamoto Castle. It was badly damaged by an earthquake in 2016.",
+   "Second to last! Name this castle!",
+   "Spot on! It's Mehrangarh Fort. It towers about 120 metres above the city of Jodhpur.",
+   "Final question! Make it count. Which castle is this?",
+   "The answer is Rumeli Hisar\u0131. It was built in just four months, in 1452.",
+   "That's the end of our castle tour! How many did you recognise? Drop your score in the comments, and come back tomorrow, there's a brand new quiz every day on Quiz Rush!"
+  ]
+ }
+]
