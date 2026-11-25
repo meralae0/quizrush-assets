@@ -1,0 +1,440 @@
+[
+ {
+  "file": "voice/voice0.wav",
+  "segs": [
+   [
+    0.0,
+    11.350000000000001
+   ],
+   [
+    11.350000000000001,
+    15.02
+   ],
+   [
+    15.02,
+    22.009999999999998
+   ],
+   [
+    22.009999999999998,
+    26.380000000000003
+   ],
+   [
+    26.380000000000003,
+    31.95
+   ],
+   [
+    31.95,
+    36.230000000000004
+   ],
+   [
+    36.230000000000004,
+    41.78
+   ],
+   [
+    41.78,
+    45.52
+   ],
+   [
+    45.52,
+    50.8
+   ],
+   [
+    50.8,
+    53.67
+   ],
+   [
+    53.67,
+    59.85
+   ],
+   [
+    59.85,
+    62.910000000000004
+   ],
+   [
+    62.910000000000004,
+    68.73
+   ],
+   [
+    68.73,
+    71.56
+   ],
+   [
+    71.56,
+    77.65
+   ],
+   [
+    77.65,
+    81.96000000000001
+   ],
+   [
+    81.96000000000001,
+    87.3
+   ],
+   [
+    87.3,
+    91.21000000000001
+   ],
+   [
+    91.21000000000001,
+    95.82
+   ],
+   [
+    95.82,
+    99.44
+   ],
+   [
+    99.44,
+    105.93675
+   ]
+  ],
+  "texts": [
+   "Welcome to Quiz Rush! Today we're going to space! Forty real photos of planets, moons, galaxies and more. You have ten seconds each. Ready for lift-off? Let's play!",
+   "Kick-off! Which planet is this?",
+   "Yes! It's Saturn. Saturn is so light it could float in water, in a big enough bathtub.",
+   "Take a good look. Which planet is this?",
+   "That's Earth. This famous photo was taken by the Apollo 17 crew in 1972.",
+   "Easy one... or is it? What is this?",
+   "It's the Moon. The Moon drifts about 3.8 centimetres further from Earth every year.",
+   "Eyes on the screen. Which planet is this?",
+   "Correct answer: Jupiter. Its Great Red Spot is a storm bigger than Earth.",
+   "Quick! Which planet is this?",
+   "Of course, it's Mars. Mars has the tallest volcano in the solar system, Olympus Mons.",
+   "Trust your instinct. What is this?",
+   "Boom! It's the Sun. The Sun holds over 99 percent of the mass of the solar system.",
+   "Don't overthink it. What is this?",
+   "Here it is: the International Space Station. The ISS circles Earth about every 90 minutes.",
+   "This one is a classic. Which is the closest planet to the Sun?",
+   "You got it, it's Mercury. A year on Mercury lasts only 88 Earth days.",
+   "Here we go. What do we call a space rock that lands on Earth?",
+   "Spot on! It's a meteorite. Most meteorites come from the asteroid belt.",
+   "Last easy one! What is the name of our galaxy?",
+   "The answer is the Milky Way. Our galaxy contains between 100 and 400 billion stars."
+  ]
+ },
+ {
+  "file": "voice/voice1.wav",
+  "segs": [
+   [
+    0.0,
+    4.970000000000001
+   ],
+   [
+    4.970000000000001,
+    10.879999999999999
+   ],
+   [
+    10.879999999999999,
+    14.66
+   ],
+   [
+    14.66,
+    20.79
+   ],
+   [
+    20.79,
+    25.299999999999997
+   ],
+   [
+    25.299999999999997,
+    30.64
+   ],
+   [
+    30.64,
+    35.96
+   ],
+   [
+    35.96,
+    41.97
+   ],
+   [
+    41.97,
+    46.2
+   ],
+   [
+    46.2,
+    52.59
+   ],
+   [
+    52.59,
+    56.769999999999996
+   ],
+   [
+    56.769999999999996,
+    62.28
+   ],
+   [
+    62.28,
+    66.32000000000001
+   ],
+   [
+    66.32000000000001,
+    73.7
+   ],
+   [
+    73.7,
+    78.41
+   ],
+   [
+    78.41,
+    83.77000000000001
+   ],
+   [
+    83.77000000000001,
+    87.78
+   ],
+   [
+    87.78,
+    96.33
+   ],
+   [
+    96.33,
+    100.86000000000001
+   ],
+   [
+    100.86000000000001,
+    106.79675
+   ]
+  ],
+  "texts": [
+   "Medium round! Things get trickier. Which planet is this?",
+   "Yes! It's Neptune. Neptune has the fastest winds in the solar system.",
+   "Look closely. Which planet is this?",
+   "That's Uranus. Uranus was the first planet discovered with a telescope, in 1781.",
+   "Ten seconds on the clock. Which planet is this?",
+   "It's Venus. Venus is the hottest planet, even hotter than Mercury.",
+   "This one fools a lot of people. What kind of object is this?",
+   "Correct answer: a comet. A comet's tail always points away from the Sun.",
+   "Can you get this one right? What is this light show called?",
+   "Of course, it's an aurora. Auroras happen when particles from the Sun hit our atmosphere.",
+   "Think carefully. Which telescope is this?",
+   "Boom! It's the Hubble Space Telescope. Hubble was launched in 1990.",
+   "Here's a tricky one. What is this event called?",
+   "Here it is: a total solar eclipse. A total solar eclipse can last up to about seven and a half minutes.",
+   "Keep that streak going! What is Saturn's largest moon?",
+   "You got it, it's Titan. Titan is the only moon with a thick atmosphere.",
+   "Next up. What kind of space rock is this?",
+   "Spot on! It's an asteroid, called Eros. Eros was the first asteroid a spacecraft landed on, in 2001.",
+   "Last medium question! Which dwarf planet is this?",
+   "The answer is Pluto. Pluto has a heart-shaped glacier called Tombaugh Regio."
+  ]
+ },
+ {
+  "file": "voice/voice2.wav",
+  "segs": [
+   [
+    0.0,
+    6.050000000000001
+   ],
+   [
+    6.050000000000001,
+    12.2
+   ],
+   [
+    12.2,
+    15.940000000000001
+   ],
+   [
+    15.940000000000001,
+    21.38
+   ],
+   [
+    21.38,
+    25.59
+   ],
+   [
+    25.59,
+    31.41
+   ],
+   [
+    31.41,
+    36.370000000000005
+   ],
+   [
+    36.370000000000005,
+    43.8
+   ],
+   [
+    43.8,
+    49.16
+   ],
+   [
+    49.16,
+    54.06
+   ],
+   [
+    54.06,
+    57.870000000000005
+   ],
+   [
+    57.870000000000005,
+    63.13
+   ],
+   [
+    63.13,
+    67.0
+   ],
+   [
+    67.0,
+    72.73
+   ],
+   [
+    72.73,
+    77.08000000000001
+   ],
+   [
+    77.08000000000001,
+    82.59
+   ],
+   [
+    82.59,
+    86.0
+   ],
+   [
+    86.0,
+    92.54
+   ],
+   [
+    92.54,
+    96.22
+   ],
+   [
+    96.22,
+    101.31675
+   ]
+  ],
+  "texts": [
+   "Hard round! Only the experts from here. Which moon of Jupiter is this?",
+   "Yes! It's Io. Io is the most volcanically active world in the solar system.",
+   "Not so easy now. Which moon is this?",
+   "That's Europa. Scientists think a salty ocean lies under its icy crust.",
+   "Here's one for the experts. Which nebula is this?",
+   "It's the Crab Nebula. It's what remains of a star that exploded in 1054.",
+   "Take your time... but not too much. Which galaxy is this?",
+   "Correct answer: the Andromeda Galaxy. It will collide with the Milky Way in about 4.5 billion years.",
+   "This one is a real head-scratcher. Which Mars rover is this?",
+   "Of course, it's Curiosity. Curiosity landed on Mars in 2012.",
+   "Big brain time! Which moon is this?",
+   "Boom! It's Enceladus. Enceladus shoots jets of water ice into space.",
+   "Lock in your answer! Which nebula is this?",
+   "Here it is: the Orion Nebula. You can see it with the naked eye, just below Orion's Belt.",
+   "Few people get this one. Which moon of Saturn is this?",
+   "You got it, it's Mimas. Its giant Herschel crater is about a third of its width.",
+   "Are you still with me? Which space station is this?",
+   "Spot on! It's Mir. Mir orbited Earth for 15 years, from 1986 to 2001.",
+   "Last hard one! Which rocket is this?",
+   "The answer is the Saturn V. The Saturn V rocket carried astronauts to the Moon."
+  ]
+ },
+ {
+  "file": "voice/voice3.wav",
+  "segs": [
+   [
+    0.0,
+    6.51
+   ],
+   [
+    6.51,
+    11.61
+   ],
+   [
+    11.61,
+    16.200000000000003
+   ],
+   [
+    16.200000000000003,
+    22.1
+   ],
+   [
+    22.1,
+    26.82
+   ],
+   [
+    26.82,
+    32.55
+   ],
+   [
+    32.55,
+    35.96
+   ],
+   [
+    35.96,
+    42.15
+   ],
+   [
+    42.15,
+    46.08
+   ],
+   [
+    46.08,
+    52.410000000000004
+   ],
+   [
+    52.410000000000004,
+    56.28
+   ],
+   [
+    56.28,
+    62.239999999999995
+   ],
+   [
+    62.239999999999995,
+    66.27000000000001
+   ],
+   [
+    66.27000000000001,
+    71.24000000000001
+   ],
+   [
+    71.24000000000001,
+    75.75
+   ],
+   [
+    75.75,
+    81.63
+   ],
+   [
+    81.63,
+    85.13
+   ],
+   [
+    85.13,
+    90.38
+   ],
+   [
+    90.38,
+    95.61
+   ],
+   [
+    95.61,
+    100.46000000000001
+   ],
+   [
+    100.46000000000001,
+    109.25675
+   ]
+  ],
+  "texts": [
+   "Genius round! Only true masters get these. Which moon is this?",
+   "Yes! It's Triton. Triton orbits Neptune backwards.",
+   "Seriously tough now. Which galaxy is this?",
+   "That's the Whirlpool Galaxy. It's being pulled by a smaller companion galaxy.",
+   "If you know this one, you're a legend. Which nebula is this?",
+   "It's the Ring Nebula. It's a cloud of gas thrown off by a dying star.",
+   "Deep cut! Which dwarf planet is this?",
+   "Correct answer: Ceres. Ceres is the largest object in the asteroid belt.",
+   "Here's a rare one. Which comet is this?",
+   "Of course, it's comet 67P. The Rosetta mission landed a probe on it in 2014.",
+   "No hints this time. Which galaxy is this?",
+   "Boom! It's the Sombrero Galaxy. Its bright core is circled by a dark lane of dust.",
+   "Almost there! Which moon of Uranus is this?",
+   "Here it is: Miranda. Miranda has cliffs about 20 kilometres high.",
+   "Only a handful of people will get this. Which moon is this?",
+   "You got it, it's Callisto. Callisto is one of the most cratered worlds in the solar system.",
+   "Second to last! Which nebula is this?",
+   "Spot on! It's the Horsehead Nebula. It lies in the constellation of Orion.",
+   "Final question! Make it count. Which asteroid is this?",
+   "The answer is Vesta. Vesta is the brightest asteroid seen from Earth.",
+   "Mission complete! How many did you get right? Drop your score in the comments, and come back tomorrow, there's a brand new quiz every day on Quiz Rush!"
+  ]
+ }
+]
