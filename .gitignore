@@ -1,3 +1,4 @@
 episodes/*/build/
 build_fb/
 *.mp3
+live/config.js
