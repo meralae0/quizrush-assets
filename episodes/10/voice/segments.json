@@ -1,0 +1,440 @@
+[
+ {
+  "file": "voice/voice0.wav",
+  "segs": [
+   [
+    0.0,
+    10.27
+   ],
+   [
+    10.27,
+    13.620000000000001
+   ],
+   [
+    13.620000000000001,
+    19.09
+   ],
+   [
+    19.09,
+    23.58
+   ],
+   [
+    23.58,
+    29.28
+   ],
+   [
+    29.28,
+    34.33
+   ],
+   [
+    34.33,
+    39.85
+   ],
+   [
+    39.85,
+    44.17
+   ],
+   [
+    44.17,
+    50.08
+   ],
+   [
+    50.08,
+    53.18
+   ],
+   [
+    53.18,
+    58.46
+   ],
+   [
+    58.46,
+    63.27
+   ],
+   [
+    63.27,
+    68.51
+   ],
+   [
+    68.51,
+    71.99000000000001
+   ],
+   [
+    71.99000000000001,
+    77.19
+   ],
+   [
+    77.19,
+    82.28
+   ],
+   [
+    82.28,
+    88.44
+   ],
+   [
+    88.44,
+    91.49000000000001
+   ],
+   [
+    91.49000000000001,
+    97.0
+   ],
+   [
+    97.0,
+    100.34
+   ],
+   [
+    100.34,
+    105.97675
+   ]
+  ],
+  "texts": [
+   "Welcome to Quiz Rush! It's general knowledge day! Forty photo questions: animals, places, science and more. You have ten seconds each. Ready? Let's play!",
+   "Kick-off! What is this animal?",
+   "Yes! It's Zebra. No two zebras have exactly the same stripe pattern.",
+   "Take a good look. Which planet is known as the Red Planet?",
+   "That's Mars. Its red colour comes from iron oxide, or rust, in the soil.",
+   "Easy one... or is it? Which city is famous for these canals?",
+   "It's Amsterdam. Amsterdam has more than 160 canals.",
+   "Eyes on the screen. What is the largest animal on Earth?",
+   "Correct answer: Blue whale. It can grow to about 30 metres long.",
+   "Quick! How many legs does a spider have?",
+   "Of course, it's 8. Insects have six legs, so spiders are not insects.",
+   "Trust your instinct. At what temperature does water boil at sea level?",
+   "Boom! It's 100 degrees Celsius. That's 212 degrees Fahrenheit.",
+   "Don't overthink it. Which instrument is this?",
+   "Here it is: Violin. A violin usually has four strings.",
+   "This one is a classic. What is the tallest animal in the world?",
+   "You got it, it's Giraffe. A giraffe's neck has seven bones, the same as a human's.",
+   "Here we go. Which fruit is this?",
+   "Spot on! It's Pineapple. A pineapple takes about two years to grow.",
+   "Last easy one! Which bird is this?",
+   "The answer is Flamingo. Flamingos get their pink colour from the food they eat."
+  ]
+ },
+ {
+  "file": "voice/voice1.wav",
+  "segs": [
+   [
+    0.0,
+    5.640000000000001
+   ],
+   [
+    5.640000000000001,
+    12.51
+   ],
+   [
+    12.51,
+    16.59
+   ],
+   [
+    16.59,
+    21.910000000000004
+   ],
+   [
+    21.910000000000004,
+    27.42
+   ],
+   [
+    27.42,
+    32.2
+   ],
+   [
+    32.2,
+    37.599999999999994
+   ],
+   [
+    37.599999999999994,
+    43.27
+   ],
+   [
+    43.27,
+    47.18000000000001
+   ],
+   [
+    47.18000000000001,
+    53.040000000000006
+   ],
+   [
+    53.040000000000006,
+    57.760000000000005
+   ],
+   [
+    57.760000000000005,
+    61.68
+   ],
+   [
+    61.68,
+    66.61000000000001
+   ],
+   [
+    66.61000000000001,
+    71.33
+   ],
+   [
+    71.33,
+    75.74000000000001
+   ],
+   [
+    75.74000000000001,
+    80.43
+   ],
+   [
+    80.43,
+    84.69
+   ],
+   [
+    84.69,
+    89.83000000000001
+   ],
+   [
+    89.83000000000001,
+    94.78
+   ],
+   [
+    94.78,
+    99.13675
+   ]
+  ],
+  "texts": [
+   "Medium round! Things get trickier. What is the highest mountain on Earth?",
+   "Yes! It's Mount Everest. Its summit is about 8,849 metres above sea level.",
+   "Look closely. What is the capital of Turkey?",
+   "That's Ankara. Ankara became the capital of Turkey in 1923.",
+   "Ten seconds on the clock. Which gas makes up most of Earth's air?",
+   "It's Nitrogen. Nitrogen makes up about 78 percent of the air.",
+   "This one fools a lot of people. In which country is this temple?",
+   "Correct answer: Indonesia. Borobudur is the largest Buddhist temple in the world.",
+   "Can you get this one right? Which mammal lays eggs?",
+   "Of course, it's Platypus. Platypuses and echidnas are the only mammals that lay eggs.",
+   "Think carefully. How many strings does a standard guitar have?",
+   "Boom! It's 6. Bass guitars usually have four.",
+   "Here's a tricky one. What is the largest country in the world by area?",
+   "Here it is: Russia. Russia spans eleven time zones.",
+   "Keep that streak going! Which metal is liquid at room temperature?",
+   "You got it, it's Mercury. Mercury was once used in most thermometers.",
+   "Next up. What is the longest river in South America?",
+   "Spot on! It's the Amazon. The Amazon carries more water than any other river.",
+   "Last medium question! How many teeth does an adult usually have?",
+   "The answer is 32. That includes the four wisdom teeth."
+  ]
+ },
+ {
+  "file": "voice/voice2.wav",
+  "segs": [
+   [
+    0.0,
+    5.63
+   ],
+   [
+    5.63,
+    12.55
+   ],
+   [
+    12.55,
+    16.84
+   ],
+   [
+    16.84,
+    22.69
+   ],
+   [
+    22.69,
+    27.43
+   ],
+   [
+    27.43,
+    33.32
+   ],
+   [
+    33.32,
+    38.760000000000005
+   ],
+   [
+    38.760000000000005,
+    44.36
+   ],
+   [
+    44.36,
+    50.239999999999995
+   ],
+   [
+    50.239999999999995,
+    55.96
+   ],
+   [
+    55.96,
+    60.49
+   ],
+   [
+    60.49,
+    65.73
+   ],
+   [
+    65.73,
+    70.78
+   ],
+   [
+    70.78,
+    76.67
+   ],
+   [
+    76.67,
+    81.72
+   ],
+   [
+    81.72,
+    87.19
+   ],
+   [
+    87.19,
+    92.28
+   ],
+   [
+    92.28,
+    96.74000000000001
+   ],
+   [
+    96.74000000000001,
+    101.71000000000001
+   ],
+   [
+    101.71000000000001,
+    107.81675
+   ]
+  ],
+  "texts": [
+   "Hard round! Only the experts from here. In which country is this waterfall?",
+   "Yes! It's Venezuela. Angel Falls is the highest uninterrupted waterfall in the world.",
+   "Not so easy now. What is the capital of Brazil?",
+   "That's Bras\u00edlia. Bras\u00edlia was built from scratch and opened in 1960.",
+   "Here's one for the experts. Which bird can fly backwards?",
+   "It's Hummingbird. Some hummingbirds beat their wings more than 50 times a second.",
+   "Take your time... but not too much. What is the chemical symbol for sodium?",
+   "Correct answer: Na. Na comes from natrium, its Latin name.",
+   "This one is a real head-scratcher. In which country is this ancient monument?",
+   "Of course, it's the United Kingdom. Stonehenge was built around 5,000 years ago.",
+   "Big brain time! How many hearts does an octopus have?",
+   "Boom! It's 3. Its blood is blue because it is rich in copper.",
+   "Lock in your answer! Which country is home to this bird, the kiwi?",
+   "Here it is: New Zealand. The kiwi is a flightless bird about the size of a chicken.",
+   "Few people get this one. What is the largest island in the world?",
+   "You got it, it's Greenland. About 80 percent of Greenland is covered by ice.",
+   "Are you still with me? Which element are both diamonds and graphite made of?",
+   "Spot on! It's Carbon. Pencil lead is actually graphite.",
+   "Last hard one! In which country did the ancient Olympic Games begin?",
+   "The answer is Greece. The ancient Games began in Olympia in 776 BC."
+  ]
+ },
+ {
+  "file": "voice/voice3.wav",
+  "segs": [
+   [
+    0.0,
+    6.23
+   ],
+   [
+    6.23,
+    11.49
+   ],
+   [
+    11.49,
+    16.48
+   ],
+   [
+    16.48,
+    21.8
+   ],
+   [
+    21.8,
+    27.62
+   ],
+   [
+    27.62,
+    32.8
+   ],
+   [
+    32.8,
+    37.120000000000005
+   ],
+   [
+    37.120000000000005,
+    43.25
+   ],
+   [
+    43.25,
+    47.3
+   ],
+   [
+    47.3,
+    52.65
+   ],
+   [
+    52.65,
+    56.629999999999995
+   ],
+   [
+    56.629999999999995,
+    62.74
+   ],
+   [
+    62.74,
+    66.71000000000001
+   ],
+   [
+    66.71000000000001,
+    72.15
+   ],
+   [
+    72.15,
+    78.57
+   ],
+   [
+    78.57,
+    84.8
+   ],
+   [
+    84.8,
+    88.86000000000001
+   ],
+   [
+    88.86000000000001,
+    94.64
+   ],
+   [
+    94.64,
+    99.69
+   ],
+   [
+    99.69,
+    105.72
+   ],
+   [
+    105.72,
+    114.11675
+   ]
+  ],
+  "texts": [
+   "Genius round! Only true masters get these. What is the capital of Kazakhstan?",
+   "Yes! It's Astana. Astana has been the capital since 1997.",
+   "Seriously tough now. Which mammal can live the longest?",
+   "That's Bowhead whale. Some bowhead whales are thought to live over 200 years.",
+   "If you know this one, you're a legend. What is the capital of Bhutan?",
+   "It's Thimphu. Thimphu is one of the few capitals with no traffic lights.",
+   "Deep cut! Which tree species grows the tallest?",
+   "Correct answer: the coast redwood. The tallest known redwood is over 115 metres high.",
+   "Here's a rare one. Which gemstone is this?",
+   "Of course, it's Emerald. Emerald is a green variety of the mineral beryl.",
+   "No hints this time. What is the capital of Myanmar?",
+   "Boom! It's Naypyidaw. Naypyidaw replaced Yangon as the capital in 2006.",
+   "Almost there! Which mammal is covered in scales?",
+   "Here it is: Pangolin. When threatened, a pangolin rolls up into a tight ball.",
+   "Only a handful of people will get this. Which city was Japan's capital for over 1,000 years?",
+   "You got it, it's Kyoto. Kyoto was the imperial capital from 794 to 1869.",
+   "Second to last! What is the largest lizard in the world?",
+   "Spot on! It's Komodo dragon. Komodo dragons can grow up to 3 metres long.",
+   "Final question! Make it count. Which country produces the most coffee?",
+   "The answer is Brazil. Brazil has been the top coffee producer for over 150 years.",
+   "That's the end! How many did you get right? Drop your score in the comments, and come back tomorrow, there's a brand new quiz every day on Quiz Rush!"
+  ]
+ }
+]
