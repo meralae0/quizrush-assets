@@ -39,13 +39,14 @@ body{background:radial-gradient(circle at 20% 10%,#1d2660 0,transparent 45%),rad
 .o.ok{background:#11402a;border-color:var(--g)}.o.ok b{background:var(--g);color:#05210f}
 .o.no{opacity:.35}
 .o .pct{margin-left:auto;font-size:26px;color:#c9d0ff;font-weight:500}
-#board{position:absolute;left:1210px;right:60px;top:690px;height:300px;border-radius:22px;background:#10163a;border:3px solid var(--line);padding:16px 22px}
+#board{position:absolute;left:1210px;right:60px;top:676px;height:340px;border-radius:22px;background:#10163a;border:3px solid var(--line);padding:16px 22px}
 #board h3{font-family:Mont;font-weight:900;font-size:26px;color:var(--y);margin-bottom:8px;display:flex}
 #board h3 small{margin-left:auto;font-family:Pop;font-weight:500;font-size:20px;color:#c9d0ff}
 .r{display:flex;align-items:center;font-size:26px;height:40px}
 .r i{font-style:normal;width:42px;font-family:Mont;font-weight:900;color:var(--y)}
 .r span{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .r em{font-style:normal;font-family:Mont;font-weight:900;color:var(--g)}
+#lead{font-size:21px;color:#FFD23F;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 #last{font-size:21px;color:#c9d0ff;margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 #bar{position:absolute;left:60px;width:1100px;top:906px;height:22px;border-radius:12px;background:#1b2350;overflow:hidden}
 #fill{height:100%;width:100%;background:linear-gradient(90deg,var(--g),var(--y),var(--p));transform-origin:left}
@@ -53,12 +54,12 @@ body{background:radial-gradient(circle at 20% 10%,#1d2660 0,transparent 45%),rad
 #hint .k{font-family:Mont;font-weight:900;background:var(--y);color:#111;padding:4px 14px;border-radius:10px}
 #secs{margin-left:auto;font-family:Mont;font-weight:900;font-size:44px;color:var(--y)}
 #fact{position:absolute;left:60px;width:1100px;top:780px;min-height:100px;padding:18px 24px;border-radius:0 0 26px 26px;background:linear-gradient(0deg,#000c,#0000);font-size:30px;font-weight:500;opacity:0;transition:opacity .4s}
-#cover{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px;background:var(--bg);z-index:5;text-align:center}
+#cover{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;background:var(--bg);z-index:5;text-align:center}
 #cover h1{font-family:Mont;font-weight:900;font-size:120px}#cover h1 span{color:var(--y)}
 #cover p{font-size:40px;color:#c9d0ff}
 #cover .big{font-family:Mont;font-weight:900;font-size:64px;color:var(--y)}
 #pod{display:flex;gap:40px;align-items:flex-end}
-.pd{width:360px;border-radius:24px;background:var(--card);border:3px solid var(--line);padding:24px}
+.pd{width:340px;border-radius:20px;background:var(--card);border:3px solid var(--line);padding:14px 20px}
 .pd .n{font-size:36px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.pd .s{font-family:Mont;font-weight:900;font-size:56px;color:var(--g)}
 #status{position:absolute;right:8px;bottom:4px;font-size:14px;color:#ffffff40}
 </style>
@@ -69,7 +70,7 @@ body{background:radial-gradient(circle at 20% 10%,#1d2660 0,transparent 45%),rad
 <div id="photo"><img id="img" alt=""></div>
 <div id="fact"></div>
 <div id="opts"></div>
-<div id="board"><h3>LEADERBOARD · POINTS<small id="players"></small></h3><div id="rows"></div><div id="last"></div></div>
+<div id="board"><h3><span id="bt">ROUND SCORE</span><small id="players"></small></h3><div id="rows"></div><div id="last"></div><div id="lead"></div></div>
 <div id="bar"><div id="fill"></div></div>
 <div id="hint">Type <span class="k">A</span><span class="k">B</span><span class="k">C</span><span class="k">D</span> in the chat to score! <div id="secs"></div></div>
 <div id="cover"></div>
@@ -136,9 +137,10 @@ function score(q,t0,t1,tStart){
   return {win,cnt,total:Object.keys(got).length}
 }
 function board(last){
-  const top=Object.entries(scores).sort((a,b)=>b[1]-a[1]).slice(0,5);
+  const top=Object.entries(rs).sort((a,b)=>b[1]-a[1]).slice(0,5);
   $('rows').innerHTML=top.length?top.map(([u,s],i)=>`<div class="r"><i>${i+1}</i><span>${esc(names[u])}${streak[u]>=3?' 🔥':''}</span><em>${s}</em></div>`).join(''):'<div class="r"><span style="color:#c9d0ff">Answer in the chat to get on the board!</span></div>';
   $('players').textContent=Object.keys(scores).length?Object.keys(scores).length+' players':'';
+  const tl=Object.entries(scores).sort((a,b)=>b[1]-a[1])[0];$('bt').textContent='ROUND '+(window.__rnd||1)+' SCORE';$('lead').textContent=tl?'🏆 Total leader: '+names[tl[0]]+' · '+tl[1]+' pts':'';
   if(last!==undefined)$('last').textContent=last;
 }
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -186,23 +188,23 @@ async function main(){
   startAt=Date.now();const end=startAt+MIN*60000;let n=1,rnd=0;
   const eps=shuffle([...new Set(bank.map(q=>q.ep))]);
   const lvO={EASY:0,MEDIUM:1,HARD:2,GENIUS:3};
-  const pod=(sc)=>{const t=Object.entries(sc).sort((a,b)=>b[1]-a[1]).slice(0,3);return t.length?`<div id="pod">${t.map(([u,s],i)=>`<div class="pd"><div style="font-size:60px">${['🥇','🥈','🥉'][i]}</div><div class="n">${esc(names[u])}</div><div class="s">${s}</div></div>`).join('')}</div>`:'<p>No answers this round!</p>'};
+  const pod=(sc)=>{const t=Object.entries(sc).sort((a,b)=>b[1]-a[1]).slice(0,3);return t.length?`<div id="pod">${t.map(([u,s],i)=>`<div class="pd"><div style="font-size:40px">${['🥇','🥈','🥉'][i]}</div><div class="n">${esc(names[u])}</div><div class="s">${s}</div></div>`).join('')}</div>`:'<p>No answers this round!</p>'};
   const ROUNDS=ROUNDS_||Math.max(1,Math.round(MIN/15));
   while(rnd<ROUNDS){
-    const ep=eps[rnd%eps.length];rnd++;rs={};
-    const qs=bank.filter(q=>q.ep==ep).sort((a,b)=>lvO[a.lvl]-lvO[b.lvl]);
+    const ep=eps[rnd%eps.length];rnd++;rs={};window.__rnd=rnd;board('');
+    const qs=bank.filter(q=>q.ep==ep).sort((a,b)=>lvO[a.lvl]-lvO[b.lvl]).slice(0,+(C.qpr||40));
     cover(`<p>ROUND ${rnd}</p><h1>${THEMES[ep]||'QUIZ'}</h1><p>40 questions · Easy → Genius</p>`);ding();await W(6000);cover('');
     for(let i=0;i<qs.length;i++){
       if(qs[i+1])pre(qs[i+1]);
       await round(qs[i],n++,`Round ${rnd} · ${THEMES[ep]||''} · ${i+1}/${qs.length}`);
     }
     if(rnd<ROUNDS){
-      cover(`<p>ROUND ${rnd} RESULTS · ${THEMES[ep]||''}</p>${pod(rs)}<p>OVERALL LEADER: <b style="color:#FFD23F">${(()=>{const t=Object.entries(scores).sort((a,b)=>b[1]-a[1])[0];return t?esc(names[t[0]])+' · '+t[1]+' pts':'—'})()}</b></p><p>Next round in a few seconds…</p>`);
-      await W(15000);cover('');
+      cover(`<p>ROUND ${rnd} RESULTS · ${THEMES[ep]||''}</p>${pod(rs)}<p style="margin-top:10px">TOTAL SCORE</p>${pod(scores)}<p>Next round in a few seconds…</p>`);
+      await W(18000);cover('');
     }
   }
   const top=Object.entries(scores).sort((a,b)=>b[1]-a[1]).slice(0,3);
-  cover(`<h1>FINAL <span>RESULTS</span></h1><p>Round ${rnd} · ${THEMES[eps[(rnd-1)%eps.length]]||''} — overall scores</p><div id="pod">${top.map(([u,s],i)=>`<div class="pd"><div style="font-size:70px">${['🥇','🥈','🥉'][i]}</div><div class="n">${esc(names[u])}</div><div class="s">${s}</div></div>`).join('')||'<p>Thanks for watching!</p>'}</div><p>Thanks for playing! A new quiz every day on Quiz Rush Show.</p>`);
+  cover(`<h1>FINAL <span>RESULTS</span></h1><p>LAST ROUND · ${THEMES[eps[(rnd-1)%eps.length]]||''}</p>${pod(rs)}<p>TOTAL SCORE</p><div id="pod">${top.map(([u,s],i)=>`<div class="pd"><div style="font-size:70px">${['🥇','🥈','🥉'][i]}</div><div class="n">${esc(names[u])}</div><div class="s">${s}</div></div>`).join('')||'<p>Thanks for watching!</p>'}</div><p>Thanks for playing! A new quiz every day on Quiz Rush Show.</p>`);
   window.QR_FINAL={scores,names};
 }
 main();
