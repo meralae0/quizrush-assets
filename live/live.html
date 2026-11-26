@@ -31,7 +31,7 @@ body{background:radial-gradient(circle at 20% 10%,#1d2660 0,transparent 45%),rad
 #count{margin-left:auto;font-size:26px;color:#c9d0ff}
 #q{position:absolute;left:60px;width:1100px;top:118px;height:96px;display:flex;align-items:center;font-family:Mont;font-weight:800;font-size:42px;line-height:1.12}
 #photo{position:absolute;left:60px;top:228px;width:1100px;height:660px;border-radius:26px;overflow:hidden;background:#000;box-shadow:0 18px 50px #0008}
-#photo img{width:100%;height:100%;object-fit:cover;transition:filter .4s}
+#photo img{width:100%;height:100%;object-fit:cover;transform-origin:50% 50%}
 #photo.contain img{object-fit:contain;background:#0d1330}
 #opts{position:absolute;left:1210px;right:60px;top:228px;display:flex;flex-direction:column;gap:16px}
 .o{height:98px;border-radius:20px;background:var(--card);border:3px solid var(--line);display:flex;align-items:center;gap:20px;padding:0 22px;font-size:34px;font-weight:700;transition:all .35s}
@@ -69,7 +69,7 @@ body{background:radial-gradient(circle at 20% 10%,#1d2660 0,transparent 45%),rad
 <div id="photo"><img id="img" alt=""></div>
 <div id="fact"></div>
 <div id="opts"></div>
-<div id="board"><h3>LEADERBOARD<small id="players"></small></h3><div id="rows"></div><div id="last"></div></div>
+<div id="board"><h3>LEADERBOARD · POINTS<small id="players"></small></h3><div id="rows"></div><div id="last"></div></div>
 <div id="bar"><div id="fill"></div></div>
 <div id="hint">Type <span class="k">A</span><span class="k">B</span><span class="k">C</span><span class="k">D</span> in the chat to score! <div id="secs"></div></div>
 <div id="cover"></div>
@@ -126,12 +126,12 @@ function demoAnswers(q,t0){
   const bots=['Alex','Maya','Noah','Lina','Sam','Zoe','Omar','Ivy','Leo','Ana'];
   for(const b of bots){if(Math.random()<.75){const right=Math.random()<.6;const c=right?q.a:(q.a+1+(Math.random()*3|0))%4;answers.push({u:'demo_'+b,n:b,t:'ABCD'[c],ts:t0+1000+Math.random()*9000})}}
 }
-function score(q,t0,t1){
-  const got={},cnt=[0,0,0,0];
-  for(const a of answers){if(a.ts<t0||a.ts>t1||got[a.u]!==undefined)continue;const k=parseAns(a.t,q);if(k<0||k>3)continue;got[a.u]=k;names[a.u]=a.n;cnt[k]++}
+function score(q,t0,t1,tStart){
+  const got={},tsOf={},cnt=[0,0,0,0];
+  for(const a of answers){if(a.ts<t0||a.ts>t1||got[a.u]!==undefined)continue;const k=parseAns(a.t,q);if(k<0||k>3)continue;got[a.u]=k;tsOf[a.u]=a.ts;names[a.u]=a.n;cnt[k]++}
   answers=answers.filter(a=>a.ts>t1);
   const win=[];
-  for(const u in got){if(got[u]==q.a){scores[u]=(scores[u]||0)+1;streak[u]=(streak[u]||0)+1;win.push(names[u])}else streak[u]=0}
+  for(const u in got){if(got[u]==q.a){const dt=(tsOf[u]-tStart)/1000;let pts=dt<=3?3:dt<=6?2:1;streak[u]=(streak[u]||0)+1;if(streak[u]%5==0)pts+=1;scores[u]=(scores[u]||0)+pts;win.push(names[u]+' +'+pts)}else streak[u]=0}
   return {win,cnt,total:Object.keys(got).length}
 }
 function board(last){
@@ -152,8 +152,12 @@ async function round(q,n){
   $('opts').innerHTML=q.o.map((o,i)=>`<div class="o"><b>${'ABCD'[i]}</b>${esc(o)}<span class="pct"></span></div>`).join('');
   $('fill').style.transition='none';$('fill').style.transform='scaleX(1)';$('secs').textContent='';
   const t0=Date.now();
+  const img=$('img'),z0=q.contain?1.6:2.4,zd=(q.dq||3)+T_ANSWER;
+  img.style.transition='none';img.style.transform=`scale(${z0})`;img.offsetWidth;
+  img.style.transition=`transform ${zd}s cubic-bezier(.25,.1,.25,1)`;img.style.transform='scale(1)';
   if(DEMO)demoAnswers(q,t0);
   await play(BASE+'live/'+q.clip.q);
+  const tStart=Date.now()+LAT*1000;
   $('fill').offsetWidth;$('fill').style.transition=`transform ${T_ANSWER}s linear`;$('fill').style.transform='scaleX(0)';
   for(let s=T_ANSWER;s>0;s--){$('secs').textContent=s;if(s<=5)tick();await W(1000)}
   $('secs').textContent='0';
@@ -162,9 +166,9 @@ async function round(q,n){
   [...$('opts').children].forEach((e,i)=>e.classList.add(i==q.a?'ok':'no'));
   $('fact').textContent=q.f;$('fact').style.opacity=1;
   const ans=play(BASE+'live/'+q.clip.a);
-  setTimeout(()=>{const r=score(q,t0,t1);
+  setTimeout(()=>{img.style.transition='transform .4s';img.style.transform='scale(1)';const r=score(q,t0,t1,DEMO?t0+4000:tStart);
     if(r.total){[...$('opts').children].forEach((e,i)=>e.querySelector('.pct').textContent=Math.round(100*r.cnt[i]/r.total)+'%')}
-    board(r.win.length?`✅ Q${n}: ${r.win.length} correct — ${r.win.slice(0,6).join(', ')}${r.win.length>6?'…':''}`:(r.total?`Q${n}: nobody got it!`:''));
+    board(r.win.length?`✅ Q${n}: ${r.win.length} correct — ${r.win.slice(0,5).join(', ')}${r.win.length>5?'…':''}`:(r.total?`Q${n}: nobody got it!`:''));
   },DEMO?1500:LAT*1000);
   await ans;await W(Math.max(2500,DEMO?1700:LAT*1000-1500));
 }
@@ -175,7 +179,7 @@ async function main(){
   order=shuffle(bank.slice());
   board();
   if(KEY)findChat();else status(DEMO?'demo mode':'no API key: chat off');
-  cover(`<h1>QUIZ <span>RUSH</span> LIVE</h1><p>Type <b style="color:#FFD23F">A, B, C or D</b> in the chat to answer.<br>1 point per correct answer · the top players win the leaderboard!</p><div class="big" id="cd">Starting in 20</div>`);
+  cover(`<h1>QUIZ <span>RUSH</span> LIVE</h1><p>Type <b style="color:#FFD23F">A, B, C or D</b> in the chat to answer.<br>Fast answers score more: 3 pts in the first 3 s, 2 pts before 6 s, 1 pt after.<br>Answer 5 in a row for a 🔥 bonus point!</p><div class="big" id="cd">Starting in 20</div>`);
   for(let s=20;s>0;s--){const e=$('cd');if(e)e.textContent='Starting in '+s;await W(1000)}
   cover('');
   startAt=Date.now();const end=startAt+MIN*60000;let n=1;
