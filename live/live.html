@@ -78,11 +78,12 @@ body{background:radial-gradient(circle at 20% 10%,#1d2660 0,transparent 45%),rad
 const P=new URLSearchParams(location.search),C=Object.assign({},window.QR_CONFIG||{});
 for(const [k,v] of P)C[k]=v;
 const BASE=C.base||'https://raw.githubusercontent.com/meralae0/quizrush-assets/main/';
-const KEY=C.key||'',CHANNEL=C.channel||'UCP6-GDdtcST5FCQnVwRN_LQ',MIN=+(C.min||15),LAT=+(C.lat||6),DEMO=C.demo=='1';
+const ROUNDS_=+(C.rounds||0);const KEY=C.key||'',CHANNEL=C.channel||'UCP6-GDdtcST5FCQnVwRN_LQ',MIN=+(C.min||15),LAT=+(C.lat||6),DEMO=C.demo=='1';
 const T_ANSWER=10;
 const $=id=>document.getElementById(id),W=ms=>new Promise(r=>setTimeout(r,ms));
 const status=t=>$('status').textContent=t;
-let bank=[],order=[],qi=0,scores={},names={},streak={},answers=[],liveChatId=null,nextTok=null,startAt=0;
+const THEMES={"01": "GENERAL KNOWLEDGE", "02": "GUESS THE COUNTRY", "03": "GUESS THE STADIUM", "04": "GUESS THE FLAG", "05": "GUESS THE DOG BREED", "06": "GUESS THE FRUIT", "07": "GUESS THE DISH", "08": "GUESS THE ANIMAL", "09": "GUESS THE CITY", "10": "GENERAL KNOWLEDGE", "11": "SPACE QUIZ", "12": "GUESS THE CASTLE"};
+let bank=[],order=[],qi=0,rs={},scores={},names={},streak={},answers=[],liveChatId=null,nextTok=null,startAt=0;
 const AC=new (window.AudioContext||window.webkitAudioContext)();
 function beep(f,d,v=.12,type='sine'){const o=AC.createOscillator(),g=AC.createGain();o.type=type;o.frequency.value=f;g.gain.value=v;g.gain.exponentialRampToValueAtTime(.0001,AC.currentTime+d);o.connect(g).connect(AC.destination);o.start();o.stop(AC.currentTime+d)}
 const tick=()=>beep(880,.06,.06,'square'),ding=()=>{beep(988,.35,.15);setTimeout(()=>beep(1319,.5,.15),120)};
@@ -131,7 +132,7 @@ function score(q,t0,t1,tStart){
   for(const a of answers){if(a.ts<t0||a.ts>t1||got[a.u]!==undefined)continue;const k=parseAns(a.t,q);if(k<0||k>3)continue;got[a.u]=k;tsOf[a.u]=a.ts;names[a.u]=a.n;cnt[k]++}
   answers=answers.filter(a=>a.ts>t1);
   const win=[];
-  for(const u in got){if(got[u]==q.a){const dt=(tsOf[u]-tStart)/1000;let pts=dt<=3?3:dt<=6?2:1;streak[u]=(streak[u]||0)+1;if(streak[u]%5==0)pts+=1;scores[u]=(scores[u]||0)+pts;win.push(names[u]+' +'+pts)}else streak[u]=0}
+  for(const u in got){if(got[u]==q.a){const dt=(tsOf[u]-tStart)/1000;let pts=dt<=3?3:dt<=6?2:1;streak[u]=(streak[u]||0)+1;if(streak[u]%5==0)pts+=1;scores[u]=(scores[u]||0)+pts;rs[u]=(rs[u]||0)+pts;win.push(names[u]+' +'+pts)}else streak[u]=0}
   return {win,cnt,total:Object.keys(got).length}
 }
 function board(last){
@@ -144,9 +145,9 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 
 /* ---------- show ---------- */
 function pre(q){const i=new Image();i.src=BASE+q.img;new Audio(BASE+'live/'+q.clip.q).preload='auto'}
-async function round(q,n){
+async function round(q,n,lbl){
   $('lvl').textContent=q.lvl;$('lvl').style.background={EASY:'#2BD96B',MEDIUM:'#5A8CFF',HARD:'#FF8A3D',GENIUS:'#FF3D7F'}[q.lvl]||'#5A8CFF';
-  $('count').textContent='Question '+n;
+  $('count').textContent=lbl||('Question '+n);
   $('q').textContent=q.q;$('fact').style.opacity=0;
   $('photo').className=q.contain?'contain':'';$('img').src=BASE+q.img;
   $('opts').innerHTML=q.o.map((o,i)=>`<div class="o"><b>${'ABCD'[i]}</b>${esc(o)}<span class="pct"></span></div>`).join('');
@@ -182,16 +183,26 @@ async function main(){
   cover(`<h1>QUIZ <span>RUSH</span> LIVE</h1><p>Type <b style="color:#FFD23F">A, B, C or D</b> in the chat to answer.<br>Fast answers score more: 3 pts in the first 3 s, 2 pts before 6 s, 1 pt after.<br>Answer 5 in a row for a 🔥 bonus point!</p><div class="big" id="cd">Starting in 20</div>`);
   for(let s=20;s>0;s--){const e=$('cd');if(e)e.textContent='Starting in '+s;await W(1000)}
   cover('');
-  startAt=Date.now();const end=startAt+MIN*60000;let n=1;
-  while(Date.now()<end){
-    if(qi>=order.length){order=shuffle(bank.slice());qi=0}
-    const q=order[qi++];if(order[qi])pre(order[qi]);
-    await round(q,n++);
-    if((n-1)%15==0&&Date.now()<end){const top=Object.entries(scores).sort((a,b)=>b[1]-a[1]).slice(0,3);
-      cover(`<p>LEADERBOARD</p><div id="pod">${top.map(([u,s],i)=>`<div class="pd"><div style="font-size:60px">${['🥇','🥈','🥉'][i]}</div><div class="n">${esc(names[u])}</div><div class="s">${s}</div></div>`).join('')||'<p>Answer in the chat to get on the board!</p>'}</div><p>Keep playing — next question in a few seconds!</p>`);await W(8000);cover('')}
+  startAt=Date.now();const end=startAt+MIN*60000;let n=1,rnd=0;
+  const eps=shuffle([...new Set(bank.map(q=>q.ep))]);
+  const lvO={EASY:0,MEDIUM:1,HARD:2,GENIUS:3};
+  const pod=(sc)=>{const t=Object.entries(sc).sort((a,b)=>b[1]-a[1]).slice(0,3);return t.length?`<div id="pod">${t.map(([u,s],i)=>`<div class="pd"><div style="font-size:60px">${['🥇','🥈','🥉'][i]}</div><div class="n">${esc(names[u])}</div><div class="s">${s}</div></div>`).join('')}</div>`:'<p>No answers this round!</p>'};
+  const ROUNDS=ROUNDS_||Math.max(1,Math.round(MIN/15));
+  while(rnd<ROUNDS){
+    const ep=eps[rnd%eps.length];rnd++;rs={};
+    const qs=bank.filter(q=>q.ep==ep).sort((a,b)=>lvO[a.lvl]-lvO[b.lvl]);
+    cover(`<p>ROUND ${rnd}</p><h1>${THEMES[ep]||'QUIZ'}</h1><p>40 questions · Easy → Genius</p>`);ding();await W(6000);cover('');
+    for(let i=0;i<qs.length;i++){
+      if(qs[i+1])pre(qs[i+1]);
+      await round(qs[i],n++,`Round ${rnd} · ${THEMES[ep]||''} · ${i+1}/${qs.length}`);
+    }
+    if(rnd<ROUNDS){
+      cover(`<p>ROUND ${rnd} RESULTS · ${THEMES[ep]||''}</p>${pod(rs)}<p>OVERALL LEADER: <b style="color:#FFD23F">${(()=>{const t=Object.entries(scores).sort((a,b)=>b[1]-a[1])[0];return t?esc(names[t[0]])+' · '+t[1]+' pts':'—'})()}</b></p><p>Next round in a few seconds…</p>`);
+      await W(15000);cover('');
+    }
   }
   const top=Object.entries(scores).sort((a,b)=>b[1]-a[1]).slice(0,3);
-  cover(`<h1>FINAL <span>RESULTS</span></h1><div id="pod">${top.map(([u,s],i)=>`<div class="pd"><div style="font-size:70px">${['🥇','🥈','🥉'][i]}</div><div class="n">${esc(names[u])}</div><div class="s">${s}</div></div>`).join('')||'<p>Thanks for watching!</p>'}</div><p>Thanks for playing! A new quiz every day on Quiz Rush Show.</p>`);
+  cover(`<h1>FINAL <span>RESULTS</span></h1><p>Round ${rnd} · ${THEMES[eps[(rnd-1)%eps.length]]||''} — overall scores</p><div id="pod">${top.map(([u,s],i)=>`<div class="pd"><div style="font-size:70px">${['🥇','🥈','🥉'][i]}</div><div class="n">${esc(names[u])}</div><div class="s">${s}</div></div>`).join('')||'<p>Thanks for watching!</p>'}</div><p>Thanks for playing! A new quiz every day on Quiz Rush Show.</p>`);
   window.QR_FINAL={scores,names};
 }
 main();
